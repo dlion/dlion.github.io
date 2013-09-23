@@ -4,7 +4,6 @@
 
 html, body {
 	height: 100% !important;
-	display: block;
 }
 
 body {
@@ -44,7 +43,6 @@ li {
 }
 
 .navbar {
-	background: none repeat scroll 0 0 #26292E;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	height: 60px;
 	z-index: 1001;
@@ -64,7 +62,7 @@ li {
 	z-index: 99;
 }
 
-#home, #about {
+#home, #about, #skills {
     height: auto;
     width: auto;
 }

@@ -9,7 +9,7 @@ var o = {
         var r = Raphael('diagram', 600, 600),
             rad = 73,
             defaultText = 'Skills',
-            speed = 250;
+            speed = 350;
 
         r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
 
@@ -43,8 +43,8 @@ var o = {
 
             z.mouseover(function(){
                 this.animate({ 'stroke-width': 50, opacity: .75 }, 1000, 'elastic');
-                if(Raphael.type != 'VML') //solves IE problem
-            this.toFront();
+                if(Raphael.type != 'VML')
+                    this.toFront();
 
                 title.stop().animate({ opacity: 0 }, speed, '>', function(){
                     this.attr({ text: text + '\n' + value + '%' }).animate({ opacity: 1 }, speed, '<');
@@ -56,7 +56,6 @@ var o = {
                 });
             });
         });
-
     }
 }
 $(function(){ o.init(); });

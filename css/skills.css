@@ -1,3 +1,7 @@
+#skills {
+    padding: 100px 0;
+}
+
 .legend {
     float:left;
     width:250px;
@@ -53,10 +57,4 @@
 
 .get {
     display:none;
-}
-
-#diagram {
-    float:left;
-    width:600px;
-    height:600px;
 }
