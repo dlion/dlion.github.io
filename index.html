@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- http://themes.alessioatzeni.com/html/chakra/dark/index.html --!>
 <html>
     <head>
         <title>Domenico Luciani - Portfolio</title>
@@ -74,13 +73,15 @@
                         <div class="title-page">
                             <h2 class="title">About me</h2>
                             <h3 class="title-description">Who I am</h3>
-                            <p>Appassionate student, web developer and Linux maniac.</p>
-                            <p>I live in Palermo, Sicily and I currently work as Web Developer and SysAdmin.</p>
-                            <p>I am an appassionate of many technologies and I develop in many languages like C, PHP, bash, node.js and sometimes Java and C# too.</p>
-                            <p>Currently I'm studying Computer Science.</p>
-                            <p>I like to discovery new thing about everything.</p>
-                            <p>I have a Raspberry Pi, I like Computer Vision and use OpenCV Libraries.</p>
-                            <p>Right now, I'm studying Node.js and MongoDB to wrote webapplications using javascript and NoSQL databases.</p>
+                            <div id="who">
+                                <p>Appassionate student, web developer and Linux maniac.</p>
+                                <p>I live in Palermo, Sicily and I currently work as Web Developer and SysAdmin.</p>
+                                <p>I am an appassionate of many technologies and I develop in many languages like C, PHP, bash, node.js and sometimes Java and C# too.</p>
+                                <p>Currently I'm studying Computer Science.</p>
+                                <p>I like to discovery new thing about everything.</p>
+                                <p>I have a Raspberry Pi, I like Computer Vision and use OpenCV Libraries.</p>
+                                <p>Right now, I'm studying Node.js and MongoDB to wrote webapplications using javascript and NoSQL databases.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,43 +95,48 @@
                             <h2 class="title">Skills</h2>
                             <h3 class="title-description">What I can do</h3>
                            <div class="legend">
-                               <h1>Legend:</h1>
                                 <div class="skills">
                                     <ul>
-                                        <li class="jq">JavaScript</li>
-                                        <li class="css">CSS3</li>
-                                        <li class="html">HTML5</li>
                                         <li class="php">PHP</li>
-                                        <li class="sql">MySQL</li>
+                                        <li class="sql">SQL</li>
+                                        <li class="nodejs">Node.js</li>
+                                        <li class="bash">Bash</li>
+                                        <li class="c">C</li>
+                                        <li class="java">Java</li>
                                     </ul>
                                 </div>
                             </div>
                             <div id="diagram"></div>
                             <div class="get">
                                 <div class="arc">
-                                    <span class="text">JavaScript</span>
-                                    <input type="hidden" class="percent" value="95" />
-                                    <input type="hidden" class="color" value="#97BE0D" />
-                                </div>
-                                <div class="arc">
-                                    <span class="text">CSS3</span>
-                                    <input type="hidden" class="percent" value="90" />
-                                    <input type="hidden" class="color" value="#D84F5F" />
-                                </div>
-                                <div class="arc">
-                                    <span class="text">HTML5</span>
-                                    <input type="hidden" class="percent" value="80" />
-                                    <input type="hidden" class="color" value="#88B8E6" />
-                                </div>
-                                <div class="arc">
                                     <span class="text">PHP</span>
-                                    <input type="hidden" class="percent" value="53" />
-                                    <input type="hidden" class="color" value="#BEDBE9" />
+                                    <input type="hidden" class="percent" value="95" />
+                                    <input type="hidden" class="color" value="#1abc9c" />
                                 </div>
                                 <div class="arc">
-                                    <span class="text">MySQL</span>
+                                    <span class="text">SQL</span>
+                                    <input type="hidden" class="percent" value="88" />
+                                    <input type="hidden" class="color" value="#2ecc71" />
+                                </div>
+                                <div class="arc">
+                                    <span class="text">Node.js</span>
+                                    <input type="hidden" class="percent" value="70" />
+                                    <input type="hidden" class="color" value="#f1c40f" />
+                                </div>
+                                <div class="arc">
+                                    <span class="text">Bash</span>
+                                    <input type="hidden" class="percent" value="75" />
+                                    <input type="hidden" class="color" value="#9b59b6" />
+                                </div>
+                                <div class="arc">
+                                    <span class="text">C</span>
+                                    <input type="hidden" class="percent" value="90" />
+                                    <input type="hidden" class="color" value="#e74c3c" />
+                                </div>
+                                <div class="arc">
+                                    <span class="text">Java</span>
                                     <input type="hidden" class="percent" value="45" />
-                                    <input type="hidden" class="color" value="#EDEBEE" />
+                                    <input type="hidden" class="color" value="#2980b9" />
                                 </div>
                             </div>
                         </div>
@@ -139,11 +145,14 @@
             </div>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="http://tympanus.net/Tutorials/AnimatedSkillsDiagram/js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/raphael-min.js"></script>
-        <!-- My Magic file !-->
-        <script src="js/magic.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- Skill Javascript Library !-->
+        <script src="js/raphael-min.js" type="text/javascript"></script>
+        <!-- My Skills Options file !-->
+        <script src="js/skills.js" type="text/javascript"></script>
+        <!-- Maim javascript Function !-->
+        <script src="js/main.js" type"text/javascript"></script>
     </body>
 </html>

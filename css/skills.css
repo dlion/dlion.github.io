@@ -1,16 +1,6 @@
-#container {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin:-340px 0 0 -450px;
-    width:900px;
-    height:600px;
-}
-
 .legend {
     float:left;
     width:250px;
-    margin-top:140px;
 }
 
 .skills {
@@ -34,29 +24,32 @@
     line-height:35px;
     color:#fff;
     margin-bottom:1px;
-    font-size:18px;
-}
-
-.skills .jq {
-    background:#97BE0D;
-}
-
-.skills .css {
-    background:#D84F5F;
-}
-
-.skills .html {
-    background:#88B8E6;
+    font-size:20px;
 }
 
 .skills .php {
-    background:#BEDBE9;
+    background:#1abc9c;
 }
 
 .skills .sql {
-    background:#EDEBEE;
+    background:#2ecc71;
 }
 
+.skills .nodejs {
+    background: #f1c40f;
+}
+
+.skills .bash {
+    background: #9b59b6;
+}
+
+.skills .c {
+    background: #e74c3c;
+}
+
+.skills .java {
+    background: #2980b9;
+}
 
 .get {
     display:none;
