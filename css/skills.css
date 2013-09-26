@@ -67,3 +67,11 @@
 .get {
     display:none;
 }
+
+#plinux {
+    width: 80%;
+}
+
+#pwindows {
+    width: 60%;
+}
