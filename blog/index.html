@@ -1,18 +1,17 @@
 ---
-title: Domenico Luciani | DLion ~ Blog
+title: DLion ~ Blog
 ---
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
+      <title>{{site.name}} | {{ page.title }}</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
         <link href="{{ site.url }}/public/css/page.css" rel="stylesheet" media="screen">
-        <link href="{{ site.url }}/public/css/home.css" rel="stylesheet" media="screen">
-        <link href="{{ site.url }}/public/css/about.css" rel="stylesheet" media="screen">
-        <link href="{{ site.url }}/public/css/skills.css" rel="stylesheet" media="screen">
+        <link href="{{ site.url }}/public/css/blog.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <header>
@@ -25,28 +24,38 @@ title: Domenico Luciani | DLion ~ Blog
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">{{ page.title }}</a>
+            <a class="navbar-brand" href="#">{{site.name}} | <strong>{{ page.title }}</strong></a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#social">Social</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li class="active"><a href="#blog">Blog</a></li>
+                <li><a href="{{ site.url }}/">About me</a></li>
             </ul>
         </div>
         </nav>
         </header>
-        <div id="bloghome" class="page">
-          <div class="container">
-            <div class="row">
-              ...
+        <div id="blog-testata" class="page">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 class="text-center"><span class="site-name">{{site.name}}</span> | <strong>{{ page.title }}</strong></h1>
             </div>
           </div>
         </div>
-
+        <div id="blog-corpo" class="page-alternate">
+          <div class="container">
+            {% for post in site.posts %}
+            <div class="row articolo">
+              <div class="col-lg-7 col-lg-offset-2">
+                <p class="data">{{ post.date | date_to_string }}</p>
+              </div>
+              <div class="col-lg-7 col-lg-offset-2">
+                <h2 class="title-post"><a class="url-post" href="{{ post.url }}">{{ post.title }}</a></h2>
+              </div>
+              <div class="col-lg-7 col-lg-offset-2 preview-articolo">{{ post.excerpt }}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{site.url}}/public/js/jquery.min.js" type="text/javascript"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->

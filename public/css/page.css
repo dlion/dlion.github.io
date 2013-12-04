@@ -62,7 +62,7 @@ li {
 	z-index: 99;
 }
 
-#home, #about, #skills {
+#home, #about, #skills, #social, #blog {
     height: auto;
     width: auto;
 }

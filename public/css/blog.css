@@ -1,0 +1,32 @@
+.site-name{
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.title-post {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.preview-articolo {
+  color: rgb(127, 130, 137);
+  font-size: 18px;
+}
+
+.articolo {
+  padding-bottom: 100px;
+}
+
+.data {
+  color: rgb(191, 191, 191);
+  border-top: 1px solid #2F3238;
+}
+
+.url-post {
+  text-decoration: none !important;
+  color: #ecf0f1;
+}
+
+.url-post:active {
+  color: rgb(80, 88, 93) !important;
+}

@@ -1,11 +1,12 @@
 ---
-title: Domenico Luciani | DLion ~ About Me
+title: DLion ~ About Me
 ---
 
 <!DOCTYPE html>
 <html>
     <head>
-      <title>{{ page.title }}</title>
+    <title>{{site.name}} | {{ page.title }}</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -28,7 +29,7 @@ title: Domenico Luciani | DLion ~ About Me
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">{{ page.title }}</a>
+            <a class="navbar-brand" href="#">{{site.name}} | <strong>{{ page.title }}</strong></a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -36,7 +37,7 @@ title: Domenico Luciani | DLion ~ About Me
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#social">Social</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="{{site.url}}/blog">Blog</a></li>
             </ul>
         </div>
         </nav>
