@@ -30,3 +30,7 @@
 .url-post:active {
   color: rgb(80, 88, 93) !important;
 }
+
+.content {
+  padding-top: 30px;
+}
