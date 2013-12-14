@@ -1,18 +1,17 @@
+---
+title: DLion ~ Blog
+---
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Domenico Luciani | DLion ~ About Me</title>
+      <title>Domenico Luciani | DLion ~ Blog</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
-        <link href="/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-        <link href="/public/css/page.css" rel="stylesheet" media="screen">
-        <link href="/public/css/home.css" rel="stylesheet" media="screen">
-        <link href="/public/css/about.css" rel="stylesheet" media="screen">
-        <link href="/public/css/skills.css" rel="stylesheet" media="screen">
-        <link href="/public/css/social.css" rel="stylesheet" media="screen">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ site.url }}/public/css/page.css" rel="stylesheet" media="screen">
+        <link href="{{ site.url }}/public/css/blog.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <header>
@@ -25,221 +24,47 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Domenico Luciani | <strong>DLion ~ About Me</strong></a>
+            <a class="navbar-brand" href="{{site.url}}/">Domenico Luciani | <strong>DLion ~ Blog</strong></a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li class="active"><a href="#">Blog</a></li>
+                <li><a href="{{ site.url }}/about">About</a></li>
             </ul>
         </div>
         </nav>
         </header>
-        <div id="home" class="page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                      <img id="pic-me" class="img-responsive img-img-rounded" alt="me" src="/public/img/pic.jpg"/>
-                    </div>
-                    <div class="col-md-6 ">
-                        <div id="hi">
-                            <h1 class="title">Hello there!</h1>
-                            <h2 class="title-description">I'm <strong>Domenico Luciani</strong></h2>
-                            <h3 class="title-description"> but you can call me <strong>DLion</strong></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <div id="riassunto">
-                            <p class="lead text-center">Geek, developer,compulsive coder and curious coffee addicted.</p>
-                            <p class="lead text-center">I have some knowledge of many languages and I am a Linux fanatic.</p>
-                        </div>
-                    </div>
-                </div>
+        <div id="blog-testata" class="page">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 class="text-center"><span class="site-name">Domenico Luciani</span> | <strong>DLion ~ Blog</strong></h1>
             </div>
+          </div>
         </div>
-        <div id="about" class="page-alternate" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-page">
-                            <h2 class="title">About me</h2>
-                            <h3 class="title-description">Who am I</h3>
-                            <div id="who">
-                                <p>Enthusiastic student, web developer and Linux maniac.</p>
-                                <p>I live in Palermo, Sicily, and I currently work as Web Developer and SysAdmin.</p>
-                                <p>Technologies aficionado, I develop in many languages like C, PHP, bash, node.js and sometimes Java and C# as well.</p>
-                                <p>I'm currently studying Computer Science.</p>
-                                <p>I like to discover new things about everything.</p>
-                                <p>I have a Raspberry Pi, I like Computer Vision and I use OpenCV Libraries.</p>
-                                <p>Right now, I'm studying Node.js and MongoDB to write Webapplications using javascript and NoSQL databases.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div id="blog-corpo" class="page-alternate-blog">
+          <div class="container">
+            {% for post in site.posts %}
+            <div class="row articolo">
+              <div class="col-lg-7 col-lg-offset-2">
+                <p class="data">{{ post.date | date_to_string }}</p>
+              </div>
+              <div class="col-lg-7 col-lg-offset-2">
+                <h3 class="title-post"><a class="url-post" href="{{ post.url }}">{{ post.title }}</a></h3>
+              </div>
+              <div class="col-lg-7 col-lg-offset-2 preview-articolo">{{ post.excerpt }}</div>
             </div>
+            {% endfor %}
+          </div>
         </div>
-        <div id="skills" class="page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-page">
-                            <h2 class="title">Skills</h2>
-                            <h3 class="title-description">What I can do</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                	<div class="col-md-12">
-                		<h3>Languages</h3>
-                        <div class="legend">
-                            <div class="skills">
-                                <ul>
-                                    <li class="php">PHP</li>
-                                    <li class="sql">SQL</li>
-                                    <li class="c">C</li>
-                                    <li class="bash">Bash</li>
-                                    <li class="nodejs">Node.js</li>
-                                    <li class="java">Java</li>
-                                    <li class="csh">C#</li>
-                                    <li class="assembly">Assembly</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="diagram"></div>
-                        <div class="get">
-                        	<div class="arc">
-                                <span class="text">PHP</span>
-                                <input type="hidden" class="percent" value="95" />
-                                <input type="hidden" class="color" value="#1abc9c" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">C</span>
-                                <input type="hidden" class="percent" value="90" />
-                                <input type="hidden" class="color" value="#e74c3c" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">SQL</span>
-                                <input type="hidden" class="percent" value="88" />
-                                <input type="hidden" class="color" value="#2ecc71" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">Bash</span>
-                                <input type="hidden" class="percent" value="75" />
-                                <input type="hidden" class="color" value="#9b59b6" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">Node.js</span>
-                                <input type="hidden" class="percent" value="70" />
-                                <input type="hidden" class="color" value="#f1c40f" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">Java</span>
-                                <input type="hidden" class="percent" value="45" />
-                                <input type="hidden" class="color" value="#2980b9" />
-                            </div>
-                        	<div class="arc">
-                                <span class="text">C#</span>
-                                <input type="hidden" class="percent" value="20" />
-                                <input type="hidden" class="color" value="#bdc3c7" />
-                            </div>
-                            <div class="arc">
-                                <span class="text">Assembly</span>
-                                <input type="hidden" class="percent" value="15" />
-                                <input type="hidden" class="color" value="#e67e22" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    	<h3>Operating Systems</h3>
-                        <h4>Linux</h4>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" id="plinux" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h4>Windows</h4>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-info" id="pwindows" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3>Tools</h3>
-                        <span class="label label-danger">vim</span>
-                        <span class="label label-danger">git</span>
-                        <span class="label label-danger">nmap</span>
-                        <span class="label label-danger">ssh</span>
-                        <span class="label label-danger">GNU/screen</span>
-                        <span class="label label-danger">gcc</span>
-                        <span class="label label-danger">npm</span>
-                        <span class="label label-danger">tmux</span>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Libraries/Frameworks</h3>
-                        <span class="label label-danger">opencv</span>
-                        <span class="label label-danger">pdo</span>
-                        <span class="label label-danger">mongoose.js</span>
-                        <span class="label label-danger">express.js</span>
-                        <span class="label label-danger">CodeIgniter</span>
-                        <span class="label label-danger">jquery</span>
-                    </div>
-                    <div class="col-md-4">
-                    	<h3>Others</h3>
-                    	<span class="label label-danger">mongodb</span>
-                    	<span class="label label-danger">mysql</span>
-                    	<span class="label label-danger">unit</span>
-                    	<span class="label label-danger">pentest</span>
-                    	<span class="label label-danger">mitm</span>
-                    	<span class="label label-danger">bug hunting</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="social" class="page-alternate">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-page">
-                            <h2 class="title">Social</h2>
-                            <h3 class="title-description">Where you can find me</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-2">
-                    <a href="https://github.com/DLion"><i class="fa fa-github-alt fa-5x"></i></a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="https://twitter.com/dlion92"><i class="fa fa-twitter fa-5x"></i></a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="http://www.linkedin.com/in/dlion"><i class="fa fa-linkedin fa-5x"></i></a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="skype:dlion92"><i class="fa fa-skype fa-5x"></i></a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="https://plus.google.com/u/0/+DomenicoLeoneLuciani"><i class="fa fa-google-plus fa-5x"></i></a>
-                  </div>
-                  <div class="col-md-2">
-                    <a href="https://www.facebook.com/dlion.smagen"><i class="fa fa-facebook fa-5x"></i></a>
-                  </div>
-                </div>
-            </div>
-        </div>
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+        <script src="{{site.url}}/public/js/jquery.min.js" type="text/javascript"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/public/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="{{site.url}}/public/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- Skill Javascript Library !-->
-        <script src="/public/js/raphael-min.js" type="text/javascript"></script>
+        <script src="{{site.url}}/public/js/raphael-min.js" type="text/javascript"></script>
         <!-- My Skills Options file !-->
-        <script src="/public/js/skills.js" type="text/javascript"></script>
+        <script src="{{site.url}}/public/js/skills.js" type="text/javascript"></script>
         <!-- Maim javascript Function !-->
-        <script src="/public/js/main.js" type="text/javascript"></script>
+        <script src="{{site.url}}/public/js/main.js" type="text/javascript"></script>
     </body>
 </html>

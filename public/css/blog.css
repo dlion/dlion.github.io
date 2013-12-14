@@ -5,12 +5,12 @@
 
 .title-post {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 28px;
 }
 
 .preview-articolo {
   color: rgb(127, 130, 137);
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .articolo {
@@ -33,4 +33,10 @@
 
 .content {
   padding-top: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
