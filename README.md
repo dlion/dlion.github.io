@@ -1,8 +1,2 @@
-Me
-==
-
-My Portfolio, nothing else.
-
-[http://me.dlion.it](http://me.dlion.it)
-
+My Blog and About me
 #### Status: Work in Progress
