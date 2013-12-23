@@ -20,6 +20,8 @@
 .data {
   color: rgb(191, 191, 191);
   border-top: 1px solid #2F3238;
+  padding-top: 50px;
+  margin-bottom: -20px;
 }
 
 .url-post {
@@ -33,6 +35,9 @@
 
 .content {
   padding-top: 30px;
+  line-height: 1.600;
+  word-spacing: 3px;
+  padding-bottom: 50px;
 }
 
 img {
@@ -43,4 +48,8 @@ img {
 
 code {
   background-color: rgb(34, 34, 34);
+}
+
+.date-post {
+  margin-top: -15px;
 }

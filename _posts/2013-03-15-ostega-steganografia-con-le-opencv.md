@@ -34,6 +34,7 @@ char *imgDestega(IplImage*);
 {% endhighlight %}
 
 Come potete vedere le funzioni sono 2:
+
 * la prima serve per inserire la parola all'interno di una immagine fornendo come primo parametro una immagine e come secondo parametro la parola da inserire. Ritornerà un semplice intero per avvisarvi se tutto è andato per il verso giusto.
 * La seconda funzione accetta come parametro l'immagine contenete la parola criptografata e ritornerà lo stesso decriptato.
 
