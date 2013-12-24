@@ -3,9 +3,13 @@
   font-size: 48px;
 }
 
-.title-post {
+.title-post-out,.title-post-in {
   font-weight: 700;
   font-size: 28px;
+}
+
+.title-post-in {
+  padding-left: 50px;
 }
 
 .preview-articolo {
@@ -38,6 +42,9 @@
   line-height: 1.600;
   word-spacing: 3px;
   padding-bottom: 50px;
+  max-width: 1600px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 img {
@@ -52,4 +59,5 @@ code {
 
 .date-post {
   margin-top: -15px;
+  padding-left: 50px;
 }
