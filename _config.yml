@@ -1,3 +1,4 @@
 markdown: redcarpet
 pygments: true
 permalink: /:title/
+production_url: http://github.dlion.it
