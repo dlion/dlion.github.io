@@ -28,4 +28,3 @@ Intanto come è di giusto vi raccomando di **fare un backup** dei vostri dati im
 Una volta finito questo procedimento (verifichiate che sia stato fatto tutto in modo corretto e senza errori) riavviate pure e godetevi la vostra raspberry pi aggiornata.
 
 Saluti, DLion
-
