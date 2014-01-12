@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Edge Detector
 ---
 Parliamo ancora delle OpenCV, uno strumento utile ed immenso che ci permette di fare cose impressionanti.   
 Oggi vedremo come **rilevare i contorni** degli oggetti all'interno di una determinata immagine.   

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Aggiornare la Raspberry Pi
 ---
 Ok un post sulla raspberry pi ci voleva dopo tutto 'sto tempo.   
 Dato che lo sto facendo in questo preciso istante voglio descrivervi la procedura per aggiornare la vostra raspberry pi che effettuo io.

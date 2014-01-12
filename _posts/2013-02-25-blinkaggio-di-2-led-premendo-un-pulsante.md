@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Blinkaggio di 2 led premendo un pulsante
 ---
 Come vi avevo accennato dato che possiedo una Raspi passo quel poco tempo libero a farci cavolate per incrementare la mia conoscenza di elettronica e della raspi stessa.  
 Ieri mi annoiavo ed ho provato a fare qualcosa di semplice, cioè, ho collegato alla raspi un pushbutton e 2 led; quando premo il pulsantino la raspi fa accendere i led.

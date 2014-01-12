@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Vedere video con la Raspberry pi dalla riga di comando
 ---
 Stasera mi piacerebbe vedere un bel film in tv, uhm, non fanno nulla d’interessante.   
 Be' allora opterò per un film, ma ho da fare al computer e il televisore è troppo lontano per attaccare il pc...   

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Muovere il puntatore con il joystick
 ---
 Cercando un po’ in rete ho trovato una libreria piuttosto cool che mi permetteva di interfacciare un qualsiasi joystick usb che avevo in casa con il pc ricevendo tutti i segnali inviati da esso; quindi se premevo un pulsante, se ruotavo l’analogico, se andavo su o giù e così via.   
 Allora mi son chiesto se era possibile spostare il puntatore del mouse semplicemente muovendo l’analogico del joystick,  mi sono messo all’opera…

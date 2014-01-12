@@ -1,5 +1,6 @@
 ---
 layout: post
+title: La mia Raspberry Pi mi parla
 ---
 Avete presente la feature figa di Google Translate che permette di pronunciare le parole che vogliamo tradurre ?   
 Ecco, ho fatto un piccolo script in bash che data una frase viene mandata a google translate per poi riprodurre automaticamente ciò che abbiamo scritto in forma vocale.

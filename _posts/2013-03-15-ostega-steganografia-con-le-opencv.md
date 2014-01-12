@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Ostega, steganografia con le OpenCV
 ---
 Dopo il lavoro avevo 10 minuti liberi e volero riprendere a far roba idiota con il C e le OpenCV.   
 Anni fa lessi alcuni articoli ed "affrontai" in molti *Hacker Game* la tecnica della [Steganografia](http://it.wikipedia.org/wiki/Steganografia)…
