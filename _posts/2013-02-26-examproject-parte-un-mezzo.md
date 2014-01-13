@@ -168,7 +168,7 @@ Infatti dentro la libreria troviamo una struttura HSV che ho usato nei sorgenti 
 
 Vediamo di parlare un po' di più del modello HSV.   
 Il modello HSV è orientato per *emulare il più possibile la visione umana essendo basato sulla percezione che si ha di un colore basandosi in termini di tinta, sfumatura e tono*.   
-![HSV](http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/HSV_cylinder.png/200px-HSV_cylinder.png)   
+![HSV]({{site.image_url}}/examproject-parte-un-mezzo.png)   
 Il sistema di coordinate è cilindrico ed è definito come un cono distorto.   
 H = Angolo intorno all'asse verticale.   
 S = La saturazione va da 0, sull'asse del cono, a uno sulla superficie del cono.   
@@ -205,7 +205,7 @@ Dopo di che settiamo un **ROI** nell'immagine grande di dimensioni contenute in 
 
 ## Vediamo cosa è il ROI.
 Chiamato anche Region of interest, cioè un'area di un'immagine che ci interessa.   
-![ROI](http://i.imgur.com/TM2tg7C.gif)   
+![ROI]({{site.image_url}}/examproject-parte-un-mezzo-1.gif)   
 Una volta definito il ROI molte funzioni di OpenCV andranno a lavorare **SOLO** in quella locazione tralasciando tutto il resto. (come vediamo in *cvCopy* che copierà la piccola immagine SOLO nel ROI grande quanto se stessa lasciando stare tutto il resto)   
 _Una volta resettato il ROI tutto torna normale_   
 Il ROI è utilissimo soprattutto per concentrarci su porzioni dell'immagine senza processare su tutta l'immagine, il che non solo ci permetterà di alleggerire i calcoli ma anche d'incentrarci maggiormente su dettagli che altrimenti verrebbe scomodo analizzare.

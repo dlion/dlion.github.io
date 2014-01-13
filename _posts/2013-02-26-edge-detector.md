@@ -80,7 +80,7 @@ Vediamo il procedimento esatto:
 15. Dopo di ciò libero tutte le risorse allocate precedentemente terminando il programma.
 
 Questo è il risultato:
-![Canny](http://i.imgur.com/7Xf9yHN.jpg)
+![Canny]({{site.image_url}}/edge-detector.jpg)
 
 Cambiando i valori di threshold potrete decidere voi se far vedere più contorni o farne vedere meno, io ho scelto di filtrare quasi tutto lasciando solo quello che mi interessava, provateci!
 

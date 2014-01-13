@@ -77,7 +77,7 @@ Come vedete il sorgente è scritto in C ed uso l’abbastanza famosa libreria [w
 Il codice è commentato quindi non credo ci vogliano molte spiegazioni, in caso vi basta dare una occhiata alla documentazione della libreria sopra citata per eventuali dubbi.   
 Detto ciò vediamo come realizzare il tutto.     
 Da questa immagine vediamo come sono i pin della RaspBerry Pi e come sono visti dalla libreria WiringPi   
-![GPIO](http://i.imgur.com/ZrIPtUV.jpg)
+![GPIO]({{site.image_url}}/blinkaggio-di-2-led-premendo-un-pulsante.jpg)
 
 Come potete vedere abbiamo 3 sezioni per pin.     
 La prima sezione è come viene visto il tutto dalle librerie WiringPi, la seconda per ora lasciamola stare e la terza è il nome dei pin.
@@ -110,7 +110,7 @@ Dopo di ciò non ci resta che collegare i led:
 * pin 12 -> 330Ohm -> +LED -> -LED -> 0V
 
 Una immagine a cazzo tanto per farvi vedere quanto sono impedito   
-![Immagine a cazzo](http://i.imgur.com/hjTHpLo.jpg)
+![Immagine a cazzo]({{site.image_url}}/blinkaggio-di-2-led-premendo-un-pulsante-1.jpg)
 
 Come avete potuto notare dal sorgente prima postato all’interno di esso non definisco i pin come 11,12,3,etc.   
 Ma devo usare lo standard di wiringPi quindi 8 per la lettura, 0 ed 1 per la scrittura.

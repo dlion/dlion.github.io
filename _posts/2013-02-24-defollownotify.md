@@ -307,7 +307,7 @@ exit 0
 {% endhighlight %}
 
 Ecco uno screenshot   
-![Screenshot](http://i.imgur.com/jIVEcwo.jpg)
+![Screenshot]({{site.image_url}}/defollownotify.jpg)
 
 Ovviamente se avete idee su come migliorarlo vi basterà andare su [GitHub](https://github.com/DLion) e dirmelo o magari scrivetelo qui.   
 Se volete migliorarlo potete benissimo forkarlo e fare il vostro dovere.   

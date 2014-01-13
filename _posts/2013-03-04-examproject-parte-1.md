@@ -192,7 +192,7 @@ Così da vedere nel frame della webcam il nostro rettangolo come se fosse presen
 * In caso di uscita **deallochiamo il tutto**.
 
 Ecco uno screenshot: (scusate la faccia di cazzo ma non ero in me, capitemi.)   
-![calibra](http://i.imgur.com/UhPdseZ.jpg)
+![calibra]({{site.image_url}}/examproject-parte-1.jpg)
 
 Come si può vedere abbiamo le trackbar e abbiamo il nostro rettangolino rosso solo ed esclusivamente intorno all'area interessata, cioè quella di colore fucsia.   
 Nella gui con l'immagine binaria possiamo vedere come venga preso solo il colore da noi impostato precedentemente segnando i pixel di bianco e mettendo di nero tutto il resto.   

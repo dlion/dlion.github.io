@@ -13,7 +13,7 @@ Intanto voglio dire che ho pubblicato solo oggi l'articolo perché tale iniziati
 Un'app di facebook non è altro che un collegamento fra il sito che mette a disposizione l'app e l’utente registrato al social network.   
 Quindi l'app può sfruttare delle API che le permettono di interagire con l'utente iscritto a facebook quindi capire se mette mi piace, se è loggato, etc.   
 Una volta effettuata tutta la pratica in questione mi veniva restituita una immagine con sopra un codice a barre e sotto di esso un codice alfanumerico simile a questo:
-![alphanumerico](http://i.imgur.com/hIA0FCL.jpg)
+![alphanumerico]({{site.image_url}}/coupon-kiko-illimitati.jpg)
 
 Noto che l'immagine in questione ha un indirizzo del genere: `http://www.fbappdev.com/kikoform/data/coupon/p_njkdndfjskf.jpg` quindi vado ad indagare sul sito in questione e...bingo!   
 Trovo una pagina web con l'immagine principale dell'app, null'altro.   
