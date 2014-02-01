@@ -8,7 +8,7 @@ Che poteva prenderne **solo uno**.
 Tutto ciò mi incuriosì... cioè, io metto "mi piace", accedo all'app, inserisco i miei dati, rispondo a qualche domanda e ricevo in cambio un coupon con un codice alfanumerico che dovrò portare in negozio per scambiare gli smalti in questione ?    
 Ebbene sì, funzionava proprio così; a quel punto mi balenò in mente una malsana domanda: **Potevo avere più di un coupon ?**
 
-Intanto voglio dire che ho pubblicato solo oggi l'articolo perché tale iniziativa scade proprio oggi, **la mia era una sfida d'intelligenza più che una vera e propria voglia di prendere smalti**. *(Anche perché li avrei comunque dati alla mia ragazza dato che io non sono interessato a certe cose <3)*
+Intanto voglio dire che ho pubblicato solo oggi l'articolo perché tale iniziativa scade proprio oggi, **la mia era una sfida d'intelligenza più che una vera e propria voglia di prendere smalti**. *(Anche perché li avrei comunque dati alla mia ragazza dato che io non sono interessato a certe cose `<3` )*
 
 Un'app di facebook non è altro che un collegamento fra il sito che mette a disposizione l'app e l’utente registrato al social network.   
 Quindi l'app può sfruttare delle API che le permettono di interagire con l'utente iscritto a facebook quindi capire se mette mi piace, se è loggato, etc.   
