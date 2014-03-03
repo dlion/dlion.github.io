@@ -1,10 +1,10 @@
 markdown: redcarpet
 pygments: true
 permalink: /:title/
-production_url: http://github.dlion.it
+production_url: http://dlion.it
 name: DLion ~ Blog
 description: Domenico Luciani | DLion ~ Blog
-url: http://github.dlion.it
+url: http://dlion.it
 image_url: /public/img/posts
 paginate: 10
 paginate_path: "/page/:num"
