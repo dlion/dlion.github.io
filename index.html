@@ -43,7 +43,7 @@ title: DLion ~ Blog
         </div>
         <div id="blog-corpo" class="page-alternate-blog">
           <div class="container">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             <div class="row articolo">
               <div class="col-lg-7 col-lg-offset-2">
                 <p class="data">{{ post.date | date_to_string }}</p>
@@ -54,6 +54,22 @@ title: DLion ~ Blog
               <div class="col-lg-7 col-lg-offset-2 preview-articolo">{{ post.excerpt }}</div>
             </div>
             {% endfor %}
+            {% if paginator.total_pages > 1 %}
+            <div class="row">
+            <ul class="pagination">
+            {% if paginator.previous_page %}
+              <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
+            {% else %}
+             <li class="disabled"><a href="#">Prev</a></li>
+            {% endif %}
+            {% if paginator.next_page %}
+              <li><a href="/page/{{ paginator.next_page }}">Next</a></li>
+            {% else %}
+              <li class="disabled"><a href="#">Next</a></li>
+            {% endif %}
+          </ul>
+        </div>
+          {% endif %}
           </div>
         </div>
     </body>

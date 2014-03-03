@@ -61,3 +61,8 @@ code {
   margin-top: -15px;
   padding-left: 50px;
 }
+
+.paginator {
+  padding-left: 50px;
+  padding-right: 50px;
+}
