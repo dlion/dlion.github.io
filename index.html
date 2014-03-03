@@ -54,22 +54,21 @@ title: DLion ~ Blog
               <div class="col-lg-7 col-lg-offset-2 preview-articolo">{{ post.excerpt }}</div>
             </div>
             {% endfor %}
-            {% if paginator.total_pages > 1 %}
             <div class="row">
-            <ul class="pagination">
-            {% if paginator.previous_page %}
-              <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a></li>
-            {% else %}
-             <li class="disabled"><a href="#">Prev</a></li>
-            {% endif %}
-            {% if paginator.next_page %}
-              <li><a href="/page/{{ paginator.next_page }}">Next</a></li>
-            {% else %}
-              <li class="disabled"><a href="#">Next</a></li>
-            {% endif %}
-          </ul>
-        </div>
-          {% endif %}
+              <div class="col-lg-7 col-lg-offset-2 text-center">
+                <p class="text-center">
+                {% if paginator.total_pages > 1 %}
+                  {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">← Newer Posts </a>
+                  {% endif %}
+                  |
+                  {% if paginator.next_page %}
+                    <a href="/page/{{ paginator.next_page }}"> Older Posts →</a>
+                  {% endif %}
+                {% endif %}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
     </body>

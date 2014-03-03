@@ -17,10 +17,6 @@
   font-size: 15px;
 }
 
-.articolo {
-  padding-bottom: 100px;
-}
-
 .data {
   color: rgb(191, 191, 191);
   border-top: 1px solid #2F3238;
@@ -41,7 +37,7 @@
   padding-top: 30px;
   line-height: 1.600;
   word-spacing: 3px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   max-width: 1600px;
   padding-left: 50px;
   padding-right: 50px;
