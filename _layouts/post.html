@@ -7,9 +7,16 @@
         <!-- Bootstrap -->
         <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+        <link href="/public/css/font-awesome.min.css" rel="stylesheet">
         <link href="{{ site.url }}/public/css/page.css" rel="stylesheet" media="screen">
         <link href="{{ site.url }}/public/css/blog.css" rel="stylesheet" media="screen">
         <link href="{{ site.url }}/public/css/syntax3.css" rel="stylesheet" media="screen">
+        <meta property="og:title" content="{{page.title}}" />
+        <meta property="description" content="{{page.excerpt}}" />
+        <meta property="og:description" content="{{page.excerpt}}" />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="{{page.date}}" />
+        <meta property="article:author" content="{{site.url}}/">
     </head>
     <body>
         <header>
@@ -47,6 +54,18 @@
             </div>
             <div class="content">
               {{content}}
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-8"></div>
+              <div class="col-xs-6 col-md-4">
+                <h3><strong>Share this post</strong></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-8"></div>
+              <div class="col-xs-6 col-md-4 sharing">
+                <a id="share" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;" href="http://twitter.com/share?text={{page.title}}&url={{site.url}}{{page.url}}"><i class="fa fa-twitter fa-2x"></i></a><a id="share" onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"><i class="fa fa-facebook-square fa-2x"></i></a><a id="share" onclick="window.open(this.href, 'google-plus-share', 'width=490, height=530'); return false;" href="https://plus.google.com/share?url={{site.url}}{{page.url}}"><i class="fa fa-google-plus-square fa-2x"></i></a>
+              </div>
             </div>
             <div id="disqus_thread"></div>
             <script type="text/javascript">

@@ -80,3 +80,8 @@ p {
   margin: 0 0 1.2em;
   line-height: 1.4em;
 }
+
+.fa {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
