@@ -9,3 +9,5 @@ image_url: /public/img/posts
 paginate: 10
 paginate_path: "/page/:num"
 future: false
+safe: true
+timezone: Europe/Rome
