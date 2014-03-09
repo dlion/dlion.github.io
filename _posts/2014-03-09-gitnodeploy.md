@@ -1,6 +1,7 @@
 ---
 title: GitNoDeploy
 layout: post
+date: 2014-03-09 11:00:00
 ---
 Dovendo lavorare molto in locale uno delle parti più noiose è il dover caricare i file aggiornati su ogni server su cui dovrà girare quella determinata applicazione.    
 Pensai subito ad una soluzione rapida ed efficiente per il deploying dei miei progetti all'interno dei server a mia disposizione in modo del tutto automatico.
