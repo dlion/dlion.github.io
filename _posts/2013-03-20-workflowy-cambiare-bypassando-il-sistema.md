@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Workflowy, cambiare bypassando il sistema
+description: Diario di un bypassamento
 ---
 Mi è stato consigliato da poco un servizio davvero niente male, si tratta di [WorkFlowy](https://workflowy.com/).   
 Tale servizio permette di stilare una fantastica todo list in grado di "seguire" il vostro pensiero stilando gerarchicamente tutti i contenuti.

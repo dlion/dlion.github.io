@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ExamProject Parte 0
+description: Il mio progetto d'esame sulla visione artificiale
 ---
 Oggi vi voglio descrivere il mio progetto d’esame per la maturità che ho sostenuto lo scorso anno sulla visione artificiale.   
 Mi ha fruttato un bel 30. (il massimo)   

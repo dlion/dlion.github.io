@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DefollowNotify
+description: Chi non ti segue, sulla tua shell
 ---
 Come primo articolo ho pensato di non fare cose abnormi (anche perché vista l’ora non ne sarei in grado) quindi vi mostrerò qualcosa che a mio dire è utile ed interessante.   
 Sono un utilizzatore del noto social Twitter; ho follower, followo gente interessante e si twitta fra un codice ed un caffè.   

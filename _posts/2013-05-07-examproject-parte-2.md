@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ExamProject parte 2
+description: Il mio progetto d'esame sulla visione artificiale.
 ---
 Alcuni articoli fa vi descrissi la parte 1 del mio progetto d'esame, oggi volevo continuare illustrandovi in modo più o meno dettagliato la seconda parte di tale progetto.   
 Il programma che analizzeremo ora non è altro che un giochino che permette tramite la tecnica del color tracking di poter "toccare" le bolle su schermo facendole scoppiare.   
