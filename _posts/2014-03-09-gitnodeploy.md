@@ -31,7 +31,7 @@ Tutto ciò può essere fatto su tutti i server che volete, gli caricate lo scrip
 
 Per ottimizzare le cose io uso anche [forever.js](https://github.com/nodejitsu/forever) che mi permette di demonizzare un qualsiasi script in node.js e quindi di metterlo in background consentendomi di salvare log di ogni genere.
 
-Il codice ovviamente è reperibile su Github al seguente indirizzo: (https://github.com/dlion/GitNoDeploy)
+Il codice ovviamente è reperibile su Github al seguente indirizzo: [GitNoDeploy](https://github.com/dlion/GitNoDeploy)
 
 Come al solito, se avete suggerimenti, critiche, dubbi, bug da segnalare ed altro fate un fischio.
 
