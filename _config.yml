@@ -11,4 +11,6 @@ paginate_path: "/page/:num"
 future: false
 safe: true
 timezone: Europe/Rome
-gems: [jekyll-mentions, jemoji]
+gems:
+  - jekyll-mentions
+  - jemoji
