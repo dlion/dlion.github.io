@@ -18,11 +18,11 @@ La risposta è arrivata dopo un paio di _ricerche_.
 Se avete una raspbian e volete vedere video con la raspberry pi dalla riga di comando, comodamente dal vostro pc vi basterà usare il software: **omxplayer**   
 Questo software già presente sulla raspbian vi permette di farlo.
 
-Collegate all'uscita hdmi il vostro televisore, entrate via ssh e scegliete il video da vedere e digitate: `omxplayer -o hdmi <video>`
+Collegate all'uscita hdmi il vostro televisore, entrate via ssh e scegliete il video da vedere e digitate: `omxplayer -r -o hdmi <video>`
 
 Vedrete spuntare l'immagine sul vostro schermo, anche se non c'è X attivo, se non avete configurato il DE/WM o qualsiasi altra cosa che riguardi la parte grafica.   
 _Io per sicurezza tramite rpi-config ho dato alla gpu più memoria rispetto ai 64 di default così da non esserci problemi in caso di film esosi._
 
-Nulla di complicato, l'opzione `-o` dice al software di redigere l'audio verso l'hdmi e in caso vi servissero maggiori info l'opzione `-h` arriva in vostro soccorso. Così potrete godervi i vostri film senza usare roba troppo complicata come [XBMC](http://xbmc.org/) o altri gestori multimediali.
+Nulla di complicato, l'opzione `-o` dice al software di redigere l'audio verso l'hdmi, l'opzione `-r` dice al software di adattare il video alla risoluzione dello schermo e in caso vi servissero maggiori info l'opzione `-h` arriva in vostro soccorso. Così potrete godervi i vostri film senza usare roba troppo complicata come [XBMC](http://xbmc.org/) o altri gestori multimediali.
 
 Saluti, Dlion
