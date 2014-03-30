@@ -186,7 +186,7 @@ I valori vanno da 0 a 255 e le trackbar appariranno nella gui **NORMAL**.
 Così da vedere nel frame della webcam il nostro rettangolo come se fosse presente all'interno della stanza.
 * Con la funzione *cvCircle* disegniamo il baricentro del nostro rettangolo di blu.
 * Dopo mostriamo le gui con il nostro frame (su cui abbiamo disegnato) e l'immagine binaria trovata.
-* La funzione *cvWaitKey* aspetta _15 millisecondi_ e ci permette di controllare se abbiamo premuto un tasto, infatti con lo switch controlliamo:
+* La funzione *cvWaitKey* aspetta _15 ms_ e ci permette di controllare se abbiamo premuto un tasto, infatti con lo switch controlliamo:
 * Se premiamo il tasto 'q' il nostro programma **termina**.
 * Se premiamo il tasto 's' scriviamo i dati presi sul file di configurazione in modo che tutti i software che leggano da quel file usino esclusivamente i valori prelevati.
 * Alla fine prendiamo un altro frame e torniamo all'inizio del ciclo.
