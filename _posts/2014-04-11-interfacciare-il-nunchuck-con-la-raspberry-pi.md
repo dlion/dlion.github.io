@@ -3,7 +3,7 @@ layout: post
 title: Interfacciare il nunchuck con la raspberry pi
 description: Come interfacciare il nunchuck della wii con la raspberry pi attraverso le porte GPIO
 ---
-Ho trovato in un supermercato della mia città un nunchuck ad un prezzo abbastanza basso e l'ho interfacciato alla mia raspberry pi attraverso i pin della porta GPIO.
+Girovagando per la città sono incappato in un nunchuck a basso costo, una volta portato a casa l'ho connesso alla mia raspberry interfacciandomi con esso attraverso le porte GPIO della stessa.
 
 # Di cosa abbiamo bisogno
 
@@ -14,7 +14,7 @@ Ho trovato in un supermercato della mia città un nunchuck ad un prezzo abbastan
 
 # Modello di nunchuck
 
-Il modello da me acquistato non è quello originale Nintendo ma bensì una "copia" chiamata funchuck.   
+Il modello da me acquistato non è quello originale Nintendo ma bensì una "copia" chiamata funchuck che viene a costare anche meno di 5€ ormai.   
 ![funchuck]({{site.image_url}}/nunchuck-chinese.jpg)
 
 ## Qual è la differenza fra i due ?
@@ -44,7 +44,7 @@ Quello originale ne avrà uno in più chiamato `PRESENZA` che è pressocchè inu
 
 ![schema]({{site.image_url}}/nunchuck-sketch-raspberry.jpg)
 
-Come potete notare il tutto è collegato direttamente:
+Come potete notare il tutto è collegato direttamente quindi non avrete bisogno di connettori particolari, saldare fili o altre cose più "pratiche".
 
 1. PIN 3.3v --(red)--> IN
 2. PIN 2 (0 SDA) --(blue)--> DATA
@@ -205,10 +205,14 @@ int comunica(char *buffer, int ndati, int mod)
 
 **Attenzione, se avete una raspberry rev1 anziché di una rev2 dovrete cambiare `/dev/i2c-1` con `/dev/i2c-0`**
 
-Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C), un protocollo master/slave, per poter usarlo dobbiamo fornire l'address ricavato prima (`0x52`) e per poter `comunicare` con il nostro nunchuck bisogna innanzitutto inviare una sequenza di byte di init. Questa sequenza nei device originali è `0x40 0x00` mentre negli altri (come nel mio) è `0xF0 0x55`  e a quel punto dire al nostro dispositivo che vogliamo leggere e non cirimarrà che salvare e decodificare i 6 byte che il device ci "sputerà" fuori per poi inviare uno stop `0x00` ad ogni ciclo.    
+Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C) un protocollo master/slave e comunica a 400KHz; per poter usarlo dobbiamo fornire l'address ricavato prima (`0x52`) e per poter `comunicare` con il nostro nunchuck bisogna innanzitutto inviare una sequenza di byte di init. Questa sequenza nei device originali è `0x40 0x00` mentre negli altri (come nel mio) è `0xF0 0x55`  e a quel punto dire al nostro dispositivo che vogliamo leggere e non cirimarrà che salvare e decodificare i 6 byte che il device ci "sputerà" fuori per poi inviare uno stop `0x00` ad ogni ciclo.    
 
 In output riceveremo le informazioni che ci servivano qui: Posizione X/Y dell'analogico; se abbiamo premuto i pulsanti C/Z e le coordinate degli assi X/Y/Z dell'accelerometro.
 
 <script type="text/javascript" src="https://asciinema.org/a/8812.js" id="asciicast-8812" async ></script>
+
+Questa potrebbe essere solo la punta dell'iceberg, pensate alle enormi possibilità che offre tale device su un qualcosa come la raspi; poter comandare droni, macchinine o qualsiasi altra cosa con il solo movimento del polso o del pollice; le possibilità sono davvero tante.
+
+Spero di avere presto il tempo necessario per continuare la cosa e realizzare qualcosa di simpatico.
 
 Saluti, DLion
