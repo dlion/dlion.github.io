@@ -26,7 +26,7 @@ I pin principali sono 4:
 3. CLOCK
 4. GND
 
-Quello originale ne avrà uno in più chiamato `PRESENZA` che è pressocchè inutile quindi non sarà un problema.
+Quello originale ne avrà uno in più chiamato `PRESENZA` che è pressocché inutile quindi non sarà un problema.
 
 # Schema
 ```sh
@@ -205,7 +205,7 @@ int comunica(char *buffer, int ndati, int mod)
 
 **Attenzione, se avete una raspberry rev1 anziché di una rev2 dovrete cambiare `/dev/i2c-1` con `/dev/i2c-0`**
 
-Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C) un protocollo master/slave e comunica a 400KHz; per poter usarlo dobbiamo fornire l'address ricavato prima (`0x52`) e per poter `comunicare` con il nostro nunchuck bisogna innanzitutto inviare una sequenza di byte di init. Questa sequenza nei device originali è `0x40 0x00` mentre negli altri (come nel mio) è `0xF0 0x55`  e a quel punto dire al nostro dispositivo che vogliamo leggere e non cirimarrà che salvare e decodificare i 6 byte che il device ci "sputerà" fuori per poi inviare uno stop `0x00` ad ogni ciclo.    
+Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C) un protocollo master/slave e comunica a 400KHz; per poter usarlo dobbiamo fornire l'address ricavato prima (`0x52`) e per poter `comunicare` con il nostro nunchuck bisogna innanzitutto inviare una sequenza di byte di init. Questa sequenza nei device originali è `0x40 0x00` mentre negli altri (come nel mio) è `0xF0 0x55`  e a quel punto dire al nostro dispositivo che vogliamo leggere e non ci rimarrà che salvare e decodificare i 6 byte che il device ci "sputerà" fuori per poi inviare uno stop `0x00` ad ogni ciclo.    
 
 In output riceveremo le informazioni che ci servivano qui: Posizione X/Y dell'analogico; se abbiamo premuto i pulsanti C/Z e le coordinate degli assi X/Y/Z dell'accelerometro.
 
