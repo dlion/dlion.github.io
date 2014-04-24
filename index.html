@@ -11,7 +11,7 @@ title: DLion ~ Blog
         <!-- SEO -->
         <link rel="canonical" href="http://www.dlion.it/" />
         {% if paginator.next_page %}
-        <link rel="next" href="/page/{{ paginator.next_page }}" />
+            <link rel="next" href="{{site.url}}/page/{{ paginator.next_page }}" />
         {% endif %}
         <meta property="og:locale" content="it_IT" />
         <meta property="og:type" content="website" />
