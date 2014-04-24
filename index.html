@@ -2,11 +2,27 @@
 title: DLion ~ Blog
 ---
 <!DOCTYPE html>
-<html>
+<html lang="it-IT" prefix="og: http://ogp.me/ns#">
     <head>
       <title>Domenico Luciani | DLion ~ Blog</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
+        <!-- SEO -->
+        <link rel="canonical" href="http://www.dlion.it/" />
+        {% if paginator.next_page %}
+        <link rel="next" href="/page/{{ paginator.next_page }}" />
+        {% endif %}
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Domenico Luciani | DLion ~ Blog" />
+        <meta property="og:description" content="Il Blog di Domenico Luciani aka DLion" />
+        <meta property="og:url" content="{{site.url}}/" />
+        <meta property="og:site_name" content="Domenico Luciani | DLion ~ Blog" />
+        <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
+        <meta name="twitter:url" content="{{site.url}}{{page.url}}">
+        <!-- FINE SEO -->
+
         <!-- Bootstrap -->
         <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
