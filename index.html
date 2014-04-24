@@ -9,10 +9,20 @@ title: DLion ~ Blog
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
         <!-- SEO -->
-        <link rel="canonical" href="http://www.dlion.it/" />
+        {% if paginator.page > 1 %}
+            <link rel="canonical" href="{{site.url}}/page/{{paginator.page}}" />
+            <meta name="twitter:url" content="{{site.url}}/page/{{paginator.page}}">
+        {% else %}
+            <link rel="canonical" href="{{site.url}}/" />
+        {% endif %}
         {% if paginator.next_page %}
             <link rel="next" href="{{site.url}}/page/{{ paginator.next_page }}" />
         {% endif %}
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Domenico Luciani | DLion ~ Blog">
+        <meta itemprop="description" content="Il Blog di Domenico Luciani aka DLion">
+        <meta itemprop="image" content="{{site.url}}/public/img/pic.jpg">
+        <!-- Open Graph data -->
         <meta property="og:locale" content="it_IT" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Domenico Luciani | DLion ~ Blog" />
@@ -20,7 +30,15 @@ title: DLion ~ Blog
         <meta property="og:url" content="{{site.url}}/" />
         <meta property="og:site_name" content="Domenico Luciani | DLion ~ Blog" />
         <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
-        <meta name="twitter:url" content="{{site.url}}{{page.url}}">
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" value="summary">
+        <meta name="twitter:site" content="Domenico Luciani | DLion ~ Blog">
+        <meta name="twitter:title" content="Domenico Luciani | DLion ~ Blog">
+        <meta name="twitter:description" content="Il Blog di Domenico Luciani aka DLion">
+        <meta name="twitter:creator" content="Domenico Luciani aka DLion">
+        <meta name="twitter:creator:id" content="dlion92">
+        <meta name="twitter:image:src" content="{{site.url}}/public/img/pic.jpg">
+        <meta name="twitter:domain" content="{{site.url}}">
         <!-- FINE SEO -->
 
         <!-- Bootstrap -->
