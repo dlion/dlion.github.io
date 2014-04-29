@@ -23,7 +23,7 @@ Intanto come è di giusto vi raccomando di **fare un backup** dei vostri dati im
 * una volta completato premo su "finish"
 * riavvio.
 * Se è andato tutto bene diamo il comando `sudo -s` per avere i privilegi adatti
-* digitiamo `wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update` per scaricare la versione aggiornata di [rpi-update](https://raw.github.com/Hexxeh/rpi-update/master/rpi-update) che permette di aggiornare il firmware.
+* digitiamo `wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update` per scaricare la versione aggiornata di [rpi-update](https://raw.github.com/Hexxeh/rpi-update/master/rpi-update) che permette di aggiornare il firmware. - AGGIORNAMENTO: Ora rpi-update è presente nel repo di debian quindi per installarlo non dovrete far altro che digitare `sudo apt-get install rpi-update`
 * digitiamo `chmod +x /usr/bin/rpi-update` per renderlo eseguibile.
 * Poi sempre da root digitate `rpi-update`
 
