@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: /:title/
 production_url: http://dlion.it
@@ -14,3 +14,4 @@ timezone: Europe/Rome
 gems:
   - jekyll-mentions
   - jemoji
+  - jekyll-sitemap
