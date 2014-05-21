@@ -1,0 +1,17 @@
+/* Large, XLarge */
+@media only screen and (min-width: 64.063em) and (max-width: 120em) {
+    /* titolo large*/
+    #titoloNome {
+        border-right: 2px solid #000;
+        margin-top: 29px;
+    }
+    /*Descrizione large*/
+    #titoloDescr {
+        margin-top: 30px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+
+}

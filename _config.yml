@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:title/
 production_url: http://dlion.it
 name: DLion ~ Blog
@@ -14,3 +14,9 @@ timezone: Europe/Rome
 gems:
   - jekyll-mentions
   - jemoji
+defaults:
+    -
+        scope:
+            path: "_posts/"
+        values:
+            layout: "post"
