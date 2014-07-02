@@ -50,7 +50,7 @@ title: DLion ~ Blog
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
-            <h1><a href="#">{{site.description}}</a></h1>
+                <h1><a href="#">{{site.description}}</a></h1>
             </li>
              <li class="toggle-topbar menu-icon"><a href="#"></a></li>
         </ul>
@@ -64,7 +64,7 @@ title: DLion ~ Blog
             </ul>
         </section>
     </nav>
-    <div class="row text-center">
+    <div class="row text-center titolone">
         <div class="large-5 large-offset-1 columns" >
             <h1 id="titoloNome"><a href="{{site.url}}/">Domenico Luciani</a></h1>
         </div>
@@ -72,8 +72,19 @@ title: DLion ~ Blog
             <h1 id="titoloDescr" class="large-text-left">DLion ~ Blog</h1>
         </div>
     </div>
+    <div class="row text-center primoPiano">
+        <div class="large-1 columns dataPrimoPiano">
+            <h6>11 Apr 2014</h6>
+        </div>
+        <div class="large-6 large-centered columns">
+            <h3>Interfacciare il nunchuck con la raspberry pi</h3>
+        </div>
+    </div>
 
     <script src="public/js/vendor/jquery.js"></script>
     <script src="public/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 </html>

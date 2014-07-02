@@ -9,9 +9,19 @@
     #titoloDescr {
         margin-top: 30px;
     }
+
+    .primoPiano {
+        margin-top: 60px;
+    }
 }
 
 /* Mobile */
 @media only screen and (max-width: 40em) {
+    .top-bar .name h1 a {
+        width: 88%;
+    }
 
+    .primoPiano {
+        margin-top: 24px;
+    }
 }
