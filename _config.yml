@@ -3,10 +3,10 @@ highlighter: pygments
 permalink: /:title/
 production_url: http://dlion.it
 name: DLion ~ Blog
-description: Domenico Luciani | DLion ~ Blog
+description_name: Domenico Luciani
+description_blog: DLion ~ Blog
 url: http://dlion.it
 image_url: /public/img/posts
-paginate: 15
 paginate_path: "/page/:num"
 future: false
 safe: true

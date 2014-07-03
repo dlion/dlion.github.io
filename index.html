@@ -19,21 +19,21 @@ title: DLion ~ Blog
         <link rel="next" href="{{site.url}}/page/{{ paginator.next_page }}" />
     {% endif %}
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Domenico Luciani | DLion ~ Blog">
+    <meta itemprop="name" content="{{site.description_name}} | {{site.description_blog}}">
     <meta itemprop="description" content="Il Blog di Domenico Luciani aka DLion">
     <meta itemprop="image" content="{{site.url}}/public/img/pic.jpg">
     <!-- Open Graph data -->
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Domenico Luciani | DLion ~ Blog" />
+    <meta property="og:title" content="{{site.description_name}} | {{site.description_blog}}" />
     <meta property="og:description" content="Il Blog di Domenico Luciani aka DLion" />
     <meta property="og:url" content="{{site.url}}/" />
-    <meta property="og:site_name" content="Domenico Luciani | DLion ~ Blog" />
+    <meta property="og:site_name" content="{{site.description_name}} | {{site.description_blog}}" />
     <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
     <meta name="twitter:site" content="dlion92">
-    <meta name="twitter:title" content="Domenico Luciani | DLion ~ Blog">
+    <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}}">
     <meta name="twitter:description" content="Il Blog di Domenico Luciani aka DLion">
     <meta name="twitter:creator" content="dlion92">
     <meta name="twitter:creator:id" content="dlion92">
@@ -51,7 +51,7 @@ title: DLion ~ Blog
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
-                <h1><a href="#">{{site.description}}</a></h1>
+                <h1><a href="#"><span>{{site.description_name}}</span> | <span id="titolettoNavbar">{{site.description_blog}}</span></a></h1>
             </li>
              <li class="toggle-topbar menu-icon"><a href="#"></a></li>
         </ul>
@@ -65,15 +65,17 @@ title: DLion ~ Blog
             </ul>
         </section>
     </nav>
-    <div class="row text-center titolone">
-        <div class="large-5 large-offset-1 columns" >
-            <h1 id="titoloNome"><a href="{{site.url}}/">Domenico Luciani</a></h1>
-        </div>
-        <div class="large-6 large-centered columns" >
-            <h1 id="titoloDescr" class="large-text-left">DLion ~ Blog</h1>
+    <div class="container">
+        <div class="row text-center titolone">
+            <div class="large-5 large-offset-1 columns" >
+                <h1 id="titoloNome"><a href="{{site.url}}/">{{site.description_name}}</a></h1>
+            </div>
+            <div class="large-6 large-centered columns" >
+                <h1 id="titoloDescr" class="large-text-left">{{site.description_blog}}</h1>
+            </div>
         </div>
     </div>
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     <div class="row text-center primoPiano">
         <div class="large-2 columns dataPrimoPiano">
             <h6>{{post.date | date_to_string}}</h6>

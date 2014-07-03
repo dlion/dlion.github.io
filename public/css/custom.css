@@ -1,12 +1,52 @@
-html,body {
+html, body {
+    background: none repeat scroll 0 0 #26292E;
+}
+
+.container {
+    background: none repeat scroll 0 0 #2F3238;
+}
+
+p, h1, h2, h3, h4, h5, h6, a{
     font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+h4, h5, h6 {
     font-weight: 400;
+}
+
+#titoloDescr {
+    color: #C0392B;
+}
+
+#titolettoNavbar {
+    color: #C0392B;
+}
+
+span {
+    color: #999;
+}
+
+.dataPrimoPiano >h6 {
+    color: #999;
+}
+
+a {
+    font-style: none;
+    color: #FFFFFF;
+}
+
+#titoloNome a {
+    color: #ECF0F1;
 }
 
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
     
-    html {
+    html, body {
         font-size: 18px;
     }
     
@@ -14,6 +54,7 @@ html,body {
     #titoloNome {
         border-right: 2px solid #000;
         margin-top: 29px;
+        padding-right: 29px;
     }
     /*Descrizione large*/
     #titoloDescr {
@@ -24,20 +65,26 @@ html,body {
      * Spazio fra il titolo e il contenuto
      */
     .titolone {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
     /*
      * La data
     */
     .dataPrimoPiano {
-        margin-top: 8px;
+        margin-top: 10px;
     }
+    
+    .container {
+        padding: 20px 15px 20px 15px;
+        margin-bottom: 50px
+    }
+    
 }
 
 /* Mobile */
 @media only screen and (max-width: 40em) {
     
-    html {
+   html, body {
         font-size: 16px;
     }
     
@@ -51,14 +98,15 @@ html,body {
     /*
      * Spazio fra il titolo e il contenuto
      */
-    .titolone {
+    .container {
         margin-bottom: 24px;
+        padding-bottom: 15px
     }
     
     /*
      * La data
      */
     .dataPrimoPiano {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 }
