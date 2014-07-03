@@ -43,6 +43,7 @@ title: DLion ~ Blog
 
     <!-- FOUNDATION -->
     <link rel="stylesheet" href="public/css/foundation.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="public/css/custom.css" />
     <script src="public/js/vendor/modernizr.js"></script>
 </head>
@@ -72,14 +73,16 @@ title: DLion ~ Blog
             <h1 id="titoloDescr" class="large-text-left">DLion ~ Blog</h1>
         </div>
     </div>
+{% for post in paginator.posts %}
     <div class="row text-center primoPiano">
-        <div class="large-1 columns dataPrimoPiano">
-            <h6>11 Apr 2014</h6>
+        <div class="large-2 columns dataPrimoPiano">
+            <h6>{{post.date | date_to_string}}</h6>
         </div>
-        <div class="large-6 large-centered columns">
-            <h3>Interfacciare il nunchuck con la raspberry pi</h3>
+        <div class="large-10 large-text-left columns testoPrimoPiano">
+            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
         </div>
     </div>
+{% endfor %}
 
     <script src="public/js/vendor/jquery.js"></script>
     <script src="public/js/foundation.min.js"></script>

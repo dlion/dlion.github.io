@@ -1,5 +1,15 @@
+html,body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
+    
+    html {
+        font-size: 18px;
+    }
+    
     /* titolo large*/
     #titoloNome {
         border-right: 2px solid #000;
@@ -10,18 +20,45 @@
         margin-top: 30px;
     }
 
-    .primoPiano {
-        margin-top: 60px;
+    /*
+     * Spazio fra il titolo e il contenuto
+     */
+    .titolone {
+        margin-bottom: 60px;
+    }
+    /*
+     * La data
+    */
+    .dataPrimoPiano {
+        margin-top: 8px;
     }
 }
 
 /* Mobile */
 @media only screen and (max-width: 40em) {
+    
+    html {
+        font-size: 16px;
+    }
+    
+    /*
+     * Nella navbar la larghezza del titolo
+     */
     .top-bar .name h1 a {
         width: 88%;
     }
 
-    .primoPiano {
-        margin-top: 24px;
+    /*
+     * Spazio fra il titolo e il contenuto
+     */
+    .titolone {
+        margin-bottom: 24px;
+    }
+    
+    /*
+     * La data
+     */
+    .dataPrimoPiano {
+        margin-top: 25px;
     }
 }
