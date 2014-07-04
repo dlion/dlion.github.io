@@ -43,6 +43,23 @@ a {
     color: #ECF0F1;
 }
 
+.contentTitoloPost h1 {
+    color: #FFFFFF;
+}
+
+
+.contentContentPost h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+}
+    
+.contentContentPost {
+    color: #BBB;
+}
+
+pre code {
+    background-color: rgb(34, 34, 34);
+}
+
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
     
@@ -56,6 +73,7 @@ a {
         margin-top: 29px;
         padding-right: 29px;
     }
+    
     /*Descrizione large*/
     #titoloDescr {
         margin-top: 30px;
@@ -71,14 +89,25 @@ a {
      * La data
     */
     .dataPrimoPiano {
-        margin-top: 10px;
+        margin-top: 28px;
+    }
+    
+    .testoPrimoPiano {
+        margin-top: 18px;
     }
     
     .container {
-        padding: 20px 15px 20px 15px;
+        padding: 20px 0px 15px 93px;
         margin-bottom: 50px
     }
     
+    .contentTitoloPost h1 {
+        font-weight: 800;
+    }
+    
+    .contentContentPost {
+        margin-top: 50px;
+    }
 }
 
 /* Mobile */
@@ -108,5 +137,9 @@ a {
      */
     .dataPrimoPiano {
         margin-top: 20px;
+    }
+    
+    .contentTitoloPost h1 {
+        margin-top: 5px;
     }
 }

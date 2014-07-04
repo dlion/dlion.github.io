@@ -1,32 +1,21 @@
----
-title: DLion ~ Blog
----
 <!DOCTYPE html>
 <html class="no-js" lang="it">
 <head>
-    <title>{{site.description}}</title>
+    <title>{{site.description_name}} | {{site.description_blog}}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
     <!-- SEO -->
-    {% if paginator.page > 1 %}
-        <link rel="canonical" href="{{site.url}}/page/{{paginator.page}}" />
-        <meta name="twitter:url" content="{{site.url}}/page/{{paginator.page}}">
-    {% else %}
-        <link rel="canonical" href="{{site.url}}/" />
-    {% endif %}
-    {% if paginator.next_page %}
-        <link rel="next" href="{{site.url}}/page/{{ paginator.next_page }}" />
-    {% endif %}
+    <link rel="canonical" href="{{site.url}}/" />
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="{{site.description_name}} | {{site.description_blog}}">
-    <meta itemprop="description" content="Il Blog di Domenico Luciani aka DLion">
+    <meta itemprop="description" content="Domenico Luciani's Blog">
     <meta itemprop="image" content="{{site.url}}/public/img/pic.jpg">
     <!-- Open Graph data -->
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{site.description_name}} | {{site.description_blog}}" />
-    <meta property="og:description" content="Il Blog di Domenico Luciani aka DLion" />
+    <meta property="og:description" content="Domenico Luciani's Blog" />
     <meta property="og:url" content="{{site.url}}/" />
     <meta property="og:site_name" content="{{site.description_name}} | {{site.description_blog}}" />
     <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
@@ -34,7 +23,7 @@ title: DLion ~ Blog
     <meta name="twitter:card" value="summary">
     <meta name="twitter:site" content="dlion92">
     <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}}">
-    <meta name="twitter:description" content="Il Blog di Domenico Luciani aka DLion">
+    <meta name="twitter:description" content="Domenico Luciani's Blog">
     <meta name="twitter:creator" content="dlion92">
     <meta name="twitter:creator:id" content="dlion92">
     <meta name="twitter:image:src" content="{{site.url}}/public/img/pic.jpg">
@@ -77,7 +66,7 @@ title: DLion ~ Blog
     </div>
 {% for post in site.posts %}
     <div class="row text-center primoPiano">
-        <div class="large-2 columns dataPrimoPiano">
+        <div class="large-2 columns large-text-right dataPrimoPiano">
             <h6>{{post.date | date_to_string}}</h6>
         </div>
         <div class="large-10 large-text-left columns testoPrimoPiano">

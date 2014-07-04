@@ -1,5 +1,6 @@
-markdown: redcarpet
 highlighter: pygments
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink: /:title/
 production_url: http://dlion.it
 name: DLion ~ Blog
@@ -7,16 +8,13 @@ description_name: Domenico Luciani
 description_blog: DLion ~ Blog
 url: http://dlion.it
 image_url: /public/img/posts
-paginate_path: "/page/:num"
 future: false
 safe: true
 timezone: Europe/Rome
-gems:
-  - jekyll-mentions
-  - jemoji
 defaults:
-    -
-        scope:
-            path: "_posts/"
-        values:
-            layout: "post"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "post"
+    values:
+      layout: "post"
