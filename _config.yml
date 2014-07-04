@@ -1,6 +1,5 @@
 highlighter: pygments
 markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink: /:title/
 production_url: http://dlion.it
 name: DLion ~ Blog
@@ -9,12 +8,11 @@ description_blog: DLion ~ Blog
 url: http://dlion.it
 image_url: /public/img/posts
 future: false
-safe: true
 timezone: Europe/Rome
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_posts" # an empty string here means all files in the project
       type: "post"
     values:
       layout: "post"
