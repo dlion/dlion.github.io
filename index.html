@@ -33,10 +33,11 @@
     <!-- FINE SEO -->
 
     <!-- FOUNDATION -->
-    <link rel="stylesheet" href="public/css/foundation.min.css" />
+    <link rel="stylesheet" href="/public/css/foundation.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="public/css/custom.css" />
-    <script src="public/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="/public/css/custom.css" />
+    <link rel="stylesheet" href="/public/foundation-icons/foundation-icons.css" />
+    <script src="/public/js/vendor/modernizr.js"></script>
 </head>
 <body>
     <nav class="top-bar" data-topbar>
@@ -48,6 +49,16 @@
         </ul>
         <section class="top-bar-section">
             <ul class="right">
+                <li>
+                    <a href="https://github.com/DLion" target="_blank">
+                        <span class="title-menutopbar element">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/dlion92" target="_blank">
+                        <span class="title-menutopbar element">Twitter</span>
+                    </a>
+                </li>
                 <li>
                     <a href="{{site.url}}/about">
                         <span class="title-menutopbar element">About</span>
@@ -77,6 +88,40 @@
     </div>
 {% endfor %}
 
+<!--Footer TODO: Da rivedere  -->
+    <div class="footer">
+        <div class="row">
+            <div class="large-6 columns">
+                Prova
+            </div>
+            <div class="large-6 columns iconsFooter">
+                <a href="https://github.com/DLion" target="_blank">
+                    <i class="fi-social-github"></i>
+                </a>
+                <a href="https://twitter.com/dlion92" target="_blank">
+                    <i class="fi-social-twitter"></i>
+                </a>
+                <a href="https://linkedin.com/in/dlion/" target="_blank">
+                    <i class="fi-social-linkedin"></i>
+                </a>
+                <a href="https://facebook.com/dlion.smagen/" target="_blank">
+                    <i class="fi-social-facebook"></i>
+                </a>
+                <a href="https://plus.google.com/u/0/+DomenicoLeoneLuciani" target="_blank">
+                    <i class="fi-social-google-plus"></i>
+                </a>
+                <a href="skype:dlion92">
+                    <i class="fi-social-skype"></i>
+                </a>
+                <a href="http://stackoverflow.com/users/1633187/domenico-leone-luciani" target="_blank">
+                    <i class="fi-social-stack-overflow"></i>
+                </a>
+                <a href="mailto:domenicoleoneluciani@gmail.com">
+                    <i class="fi-mail"></i>
+                </a>
+            </div>
+        </div>
+    </div>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o)
