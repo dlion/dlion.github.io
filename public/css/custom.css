@@ -81,6 +81,14 @@ a {
     background: none repeat scroll 0px 0px #2F3238;
 }
 
+.aboutFooter {
+    color: #BBB;
+}
+
+.footer {
+     border-top: 1px solid #242424;
+}
+
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
     
@@ -138,11 +146,10 @@ a {
     .footer {
         margin-top: 80px;
         height: 125px;
-        border-top: 1px solid #242424;
     }
     
     .iconsFooter {
-        margin-top: 45px;
+        margin-top: 35px;
         margin-right: -110px;
     }
     
@@ -165,7 +172,6 @@ a {
     
     .aboutFooter {
         margin-top: 26px;
-        color: #BBB;
         margin-left: -30px;
         word-spacing: 1px;
     }
@@ -196,7 +202,12 @@ a {
      */
     .container {
         margin-bottom: 24px;
-        padding-bottom: 15px
+        padding-bottom: 15px;
+        border-bottom: 1px solid #242424;
+    }
+    
+    .primoPiano .dataPrimoPiano {
+        margin-bottom: -5px;
     }
     
     /*
@@ -212,5 +223,45 @@ a {
     
     .sharePost {
         margin: 30px 0 40px;
+    }
+    
+    .footer {
+        margin-top: 30px;
+    }
+    
+    .picFooter img {
+        margin-top: 30px;
+        width: 190px;
+        margin-left: 30px;
+    }
+    
+    .aboutFooter p {
+        font-size: 15px;
+        word-spacing: 0.02em;
+        margin-top: 18px;
+     }
+    
+    .iconsFooter .fi-social-github,
+    .iconsFooter .fi-social-twitter,
+    .iconsFooter .fi-social-linkedin,
+    .iconsFooter .fi-social-facebook,
+    .iconsFooter .fi-social-skype,
+    .iconsFooter .fi-social-stack-overflow,
+    .iconsFooter .fi-social-google-plus,
+    .iconsFooter .fi-mail,
+    .iconsFooter .fi-rss {
+        font-size: 137px;
+    }
+    
+    .iconsFooter a {
+        padding-left: 10px;
+    }
+    
+    .iconsFooter ul {
+        list-style-type: none;
+    }
+    
+    .iconsFooter ul li a {
+        padding-left: 80px;
     }
 }
