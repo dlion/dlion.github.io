@@ -232,7 +232,7 @@ a {
     .picFooter img {
         margin-top: 30px;
         width: 190px;
-        margin-left: 30px;
+        margin-left: 55px;
     }
     
     .aboutFooter p {
@@ -250,7 +250,7 @@ a {
     .iconsFooter .fi-social-google-plus,
     .iconsFooter .fi-mail,
     .iconsFooter .fi-rss {
-        font-size: 137px;
+        font-size: 117px;
     }
     
     .iconsFooter a {
@@ -259,6 +259,14 @@ a {
     
     .iconsFooter ul {
         list-style-type: none;
+    }
+    
+    .iconsFooter ul li:first-child {
+        margin-top: 5px;
+    }
+    
+    .iconsFooter ul li {
+        margin-top: -40px;
     }
     
     .iconsFooter ul li a {
