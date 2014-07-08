@@ -119,7 +119,8 @@ a {
     
     .container {
         padding: 20px 0px 15px 93px;
-        margin-bottom: 50px
+        margin-bottom: 50px;
+        border-bottom: 1px solid #242424;
     }
     
     .contentTitoloPost h1 {
@@ -136,11 +137,12 @@ a {
     
     .footer {
         margin-top: 80px;
-        height: 180px;
+        height: 125px;
+        border-top: 1px solid #242424;
     }
     
     .iconsFooter {
-        margin-top: 15px;
+        margin-top: 45px;
         margin-right: -110px;
     }
     
@@ -151,9 +153,27 @@ a {
     .iconsFooter .fi-social-twitter,
     .iconsFooter .fi-social-stack-overflow,
     .iconsFooter .fi-social-linkedin,
-    .iconsFooter .fi-social-skype {
+    .iconsFooter .fi-social-skype,
+    .iconsFooter .fi-rss{
         font-size: 35px;
         margin: 10px;
+    }
+    
+    .picFooter {
+        margin-top: 27px;
+    }
+    
+    .aboutFooter {
+        margin-top: 26px;
+        color: #BBB;
+        margin-left: -30px;
+        word-spacing: 1px;
+    }
+    
+    .aboutFooter p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
     }
 }
 
