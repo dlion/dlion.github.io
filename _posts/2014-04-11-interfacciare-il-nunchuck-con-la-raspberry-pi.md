@@ -208,7 +208,6 @@ Attenzione, se avete una raspberry rev1 anziché di una rev2 dovrete cambiare `/
 Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C) un protocollo master/slave e comunica a 400KHz; per poter usarlo dobbiamo fornire l'address ricavato prima (`0x52`) e per poter `comunicare` con il nostro nunchuck bisogna innanzitutto inviare una sequenza di byte di init. Questa sequenza nei device originali è `0x40 0x00` mentre negli altri (come nel mio) è `0xF0 0x55`  e a quel punto dire al nostro dispositivo che vogliamo leggere e non ci rimarrà che salvare e decodificare i 6 byte che il device ci "sputerà" fuori per poi inviare uno stop `0x00` ad ogni ciclo.    
 
 In output riceveremo le informazioni che ci servivano qui: Posizione X/Y dell'analogico; se abbiamo premuto i pulsanti C/Z e le coordinate degli assi X/Y/Z dell'accelerometro.
-<script type="text/javascript" src="https://asciinema.org/a/8812.js" id="asciicast-8812" async ></script>
 
 Questa potrebbe essere solo la punta dell'iceberg, pensate alle enormi possibilità che offre tale device su un qualcosa come la raspi; poter comandare droni, macchinine o qualsiasi altra cosa con il solo movimento del polso o del pollice; le possibilità sono davvero tante.
 
