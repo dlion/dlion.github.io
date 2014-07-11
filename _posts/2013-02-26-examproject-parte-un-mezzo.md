@@ -1,7 +1,7 @@
 ---
-layout: post
 title: ExamProject parte ½
 description: Il mio progetto d'esame sulla visione artificiale
+category: Programming
 ---
 Nell'articolo precedente vi ho introdotto il mio progetto d'esame sulla visione artificiale.   
 Inizialmente mi è d'obbligo parlarvi di una piccolissima libreria che ho scritto per facilitarmi alcune cose piuttosto ridondanti, vedremo nel dettaglio le sue caratteristiche introducendo alcuni concetti base come l'HSV o il ROI.

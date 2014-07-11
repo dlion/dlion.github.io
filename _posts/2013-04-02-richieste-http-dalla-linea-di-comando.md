@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Richieste HTTP dalla linea di comando
 description: introduzione alle cURL
+category: Programming
 ---
 Mi è capitato molte volte di dover creare delle richieste [HTTP](http://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol) ad-hoc da inviare a determinate pagine web e/o applicazioni, richieste che posso gestire in modo manuale (ma non troppo) così da avere il pieno controllo di ciò che invio; il tutto fatto dalla mia amata linea di comando...
 

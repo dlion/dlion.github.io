@@ -89,6 +89,30 @@ a {
      border-top: 1px solid #242424;
 }
 
+/*
+ * Categories
+ */
+
+#Programming {
+    border-top: 5px solid #FF6D00;
+}
+
+#Security {
+    border-top: 5px solid #C62828;
+}
+
+#Personal {
+    border-top: 5px solid #6399C6; 
+}
+
+#Raspberry {
+    border-top: 5px solid #F9CE1D;
+}
+
+#Linux {
+    border-top: 5px solid #388E3C;
+}
+
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
     
@@ -118,7 +142,7 @@ a {
      * La data
     */
     .dataPrimoPiano {
-        margin-top: 28px;
+        margin-top: 25px;
     }
     
     .testoPrimoPiano {
@@ -137,6 +161,10 @@ a {
     
     .contentContentPost {
         margin-top: 50px;
+    }
+    
+    .contentDataDesktop {
+        padding-top: 10px;
     }
     
     .sharePost {
