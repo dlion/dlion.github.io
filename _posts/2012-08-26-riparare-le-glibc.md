@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Riparare le glibc su Slackware
 description: Riparare in modo sicuro le glibc
+category: Linux
 ---
 Su Linux esistono tante librerie/pacchetti importanti che permettono il corretto funzionamento del sistema, alcune fra queste sono le glibc.   
 Può capitare malauguratamente che certe librerie durante un aggiornamento, una modifica o qualsiasi altra cosa vengano danneggiate.   

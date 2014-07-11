@@ -1,111 +1,163 @@
 <!DOCTYPE html>
-<html lang="it-IT" prefix="og: http://ogp.me/ns#">
-    <head>
-      <title>Domenico Luciani | DLion ~ Blog | {{ page.title }}</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
-        <!-- SEO -->
-        <link rel="canonical" href="{{site.url}}{{page.url}}" />
-        <!-- Schema.org markup for Google+ -->
-        <meta itemprop="name" content="Domenico Luciani | DLion ~ Blog | {{page.title}}">
-        <meta itemprop="description" content="{{page.description}}">
-        <meta itemprop="image" content="{{site.url}}/public/img/pic.jpg">
-        <!-- Open Graph data -->
-        <meta property="og:locale" content="it_IT" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Domenico Luciani | DLion ~ Blog | {{page.title}}" />
-        <meta property="og:description" content="{{page.description}}" />
-        <meta property="og:url" content="{{site.url}}{{page.url}}" />
-        <meta property="og:site_name" content="Domenico Luciani | DLion ~ Blog | {{page.title}}" />
-        <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
-        <!-- Twitter Card data -->
-        <meta name="twitter:card" value="summary">
-        <meta name="twitter:site" content="Domenico Luciani | DLion ~ Blog | {{page.title}}">
-        <meta name="twitter:title" content="Domenico Luciani | DLion ~ Blog | {{page.title}}">
-        <meta name="twitter:description" content="{{page.description}}">
-        <meta name="twitter:creator" content="Domenico Luciani aka DLion">
-        <meta name="twitter:creator:id" content="dlion92">
-        <meta name="twitter:image:src" content="{{site.url}}/public/img/pic.jpg">
-        <meta name="twitter:domain" content="{{site.url}}/">
-        <meta name="twitter:url" content="{{site.url}}{{page.url}}">
-        <!-- FINE SEO -->
+<html class="no-js" lang="it">
+<head>
+    <title>{{site.description_name}} | {{site.description_blog}} | {{page.title}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
+    <!-- SEO -->
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}">
+    <meta itemprop="description" content="{{page.description}}">
+    <meta itemprop="image" content="{{site.url}}/public/img/pic.jpg">
+    <!-- Open Graph data -->
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}" />
+    <meta property="og:description" content="{{page.description}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:site_name" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}" />
+    <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" content="dlion92">
+    <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}">
+    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="twitter:creator" content="dlion92">
+    <meta name="twitter:creator:id" content="dlion92">
+    <meta name="twitter:image:src" content="{{site.url}}/public/img/pic.jpg">
+    <meta name="twitter:domain" content="{{site.url}}{{page.url}}">
+    <!-- FINE SEO -->
 
-        <!-- Bootstrap -->
-        <link href="{{ site.url }}/public/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-        <link href="{{site.url}}/public/css/font-awesome.min.css" rel="stylesheet">
-        <link href="{{ site.url }}/public/css/page.css" rel="stylesheet" media="screen">
-        <link href="{{ site.url }}/public/css/blog.css" rel="stylesheet" media="screen">
-        <link href="{{ site.url }}/public/css/syntax3.css" rel="stylesheet" media="screen">
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-40851910-1', 'dlion.it');
-          ga('send', 'pageview');
-        </script>
-    </head>
-    <body>
-        <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Domenico Luciani | <strong>DLion ~ Blog</strong></a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="/">Blog</a></li>
-                <li><a href="{{ site.url }}/about">About</a></li>
+    <!-- FOUNDATION -->
+    <link rel="stylesheet" href="/public/css/foundation.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/public/css/custom.css" />
+    <link rel="stylesheet" href="/public/css/syntax.css" />
+    <link rel="stylesheet" href="/public/foundation-icons/foundation-icons.css" />
+    <script src="/public/js/vendor/modernizr.js"></script>
+</head>
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#"><span class="element">{{site.description_name}}</span> | <span id="titolettoNavbar">{{site.description_blog}}</span></a></h1>
+            </li>
+             <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li>
+                    <a href="https://github.com/DLion" target="_blank">
+                        <span class="title-menutopbar element">Github</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/dlion92" target="_blank">
+                        <span class="title-menutopbar element">Twitter</span>
+                    </a>
+                </li>
             </ul>
+        </section>
+    </nav>
+    <div class="container">
+        <div class="row text-center titolone">
+            <div class="large-5 large-offset-1 columns" >
+                <h1 id="titoloNome"><a href="{{site.url}}/">{{site.description_name}}</a></h1>
+            </div>
+            <div class="large-6 large-centered columns" >
+                <h1 id="titoloDescr" class="large-text-left">{{site.description_blog}}</h1>
+            </div>
         </div>
-        </nav>
-        </header>
-        <div id="blog-testata" class="page">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="text-center"><span class="site-name"><a class="url-post" href="/">Domenico Luciani</a></span> | <strong>DLion ~ Blog</strong></h1>
-            </div>
-          </div>
+    </div>
+    <!-- Content -->
+    <div class="row contentPost">
+        <div class="show-for-small-only small-6 columns contentDataMobile">
+            <span class="element">{{page.date | date_to_string}}</span>
         </div>
-        <div id="blog-corpo" class="page-alternate-blog">
-          <div class="container">
-            <div class="alto-post">
-              <h2 class="title-post-in">{{ page.title }}</h2>
-              <p class="date-post">{{ page.date | date_to_string }}</p>
+        <div class="large-11 small-12 small-text-center columns contentTitoloPost" id="{{page.category}}">
+            <h1>{{page.title}}</h1>
+        </div>
+        <div class="large-12 text-right columns contentDataDesktop show-for-medium-up" id="{{page.category}}">
+            <span class="element">{{page.date | date_to_string}}</span>
+        </div>
+        <div class="large-12 small-12 columns contentContentPost">
+            {{content}}
+        </div>
+    </div>
+    <div class="row sharePost">
+        <div class="large-4 large-text-left columns aboutMeFull">
+            <h4>Author</h4>
+            <div class="large-4 small-5 columns">
+                <img src="{{site.url}}/public/img/pic.jpg" width="90px"></img>
             </div>
-            <div class="content">
-              {{content}}
+            <div class="large-8 small-7 columns">
+                <ul class="large-block-grid-3 small-block-grid-3 contentAboutMePost">
+                    <li>
+                        <a href="https://github.com/DLion" target="_blank">
+                            <i class="fi-social-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/dlion92" target="_blank">
+                            <i class="fi-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/dlion" target="_blank">
+                            <i class="fi-social-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-md-8"></div>
-              <div class="col-xs-6 col-md-4">
-                <h3><strong>Share this post</strong></h3>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-md-8"></div>
-              <div class="col-xs-6 col-md-4 sharing">
-                  <a id="share" href="https://twitter.com/intent/tweet?url={{ site.url }}{{page.url}}&text={{page.title }}&via=dlion92" target="_blank"><i class="fa fa-twitter fa-2x"></i></a><a id="share" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a><a id="share" href="https://plus.google.com/share?url={{site.url}}{{page.url}}" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-              </div>
-            </div>
+        </div>
+        <div class="large-8 large-text-right columns shareThisPostLabel">
+            <h3>Share this post...</h3>
+        </div>
+        <div id="share" class="large-3 large-text-center small-text-center columns">
+            <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{page.url}}&text={{page.title }}&via=dlion92" target="_blank">
+                <i class="fi-social-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
+                <i class="fi-social-facebook"></i>
+            </a>
+            <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" target="_blank">
+                <i class="fi-social-google-plus"></i>
+            </a>
+        </div>
+    </div>
+    <div class="row commentPost">
+        <div class="large-12 small-12 columns">
             <div id="disqus_thread"></div>
-            <script type="text/javascript">
-              var disqus_shortname = 'dlion'; // required: replace example with your forum shortname
-              (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-            </script>
-          </div>
         </div>
+<<<<<<< HEAD
     </body>
+=======
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = 'dlion';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o)
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-40851910-1', 'dlion.it');
+        ga('send', 'pageview');
+    </script>
+
+    <script src="/public/js/vendor/jquery.js"></script>
+    <script src="/public/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+>>>>>>> nuovoLayout
 </html>

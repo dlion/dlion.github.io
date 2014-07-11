@@ -1,0 +1,358 @@
+html, body {
+    background: none repeat scroll 0 0 #26292E;
+}
+
+.container {
+    background: none repeat scroll 0 0 #2F3238;
+}
+
+p, h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-weight: 400;
+}
+
+#titoloDescr {
+    color: #C0392B;
+}
+
+#titolettoNavbar {
+    color: #C0392B;
+}
+
+.element {
+    color: #999;
+}
+
+.dataPrimoPiano >h6 {
+    color: #999;
+}
+
+a {
+    font-style: none;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+#titoloNome a {
+    color: #ECF0F1;
+}
+
+.contentTitoloPost h1 {
+    color: #FFFFFF;
+}
+
+
+.contentContentPost h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+}
+    
+.contentContentPost, .sharePost {
+    color: #BBB;
+}
+
+
+.highlight pre code * {
+  white-space: nowrap;
+}
+
+.highlight pre {
+  overflow-x: auto;
+}
+
+.highlight pre code {
+  white-space: pre;
+}
+
+.fi-social-facebook, 
+.fi-social-twitter, 
+.fi-social-google-plus {
+    font-size: 60px;
+    margin: 8px;
+}
+
+.footer {
+    background: none repeat scroll 0px 0px #2F3238;
+}
+
+.aboutFooter {
+    color: #BBB;
+}
+
+.footer {
+     border-top: 1px solid #242424;
+}
+
+
+.sharePost .large-4 h4 {
+        font-weight: 600;
+}
+
+.contentAboutMePost .fi-social-github,
+.contentAboutMePost .fi-social-linkedin,
+.contentAboutMePost .fi-social-twitter {
+    font-size: 40px;
+    margin: -10px;
+}
+
+/* Large, XLarge */
+@media only screen and (min-width: 64.063em) and (max-width: 120em) {
+    
+    html, body {
+        font-size: 18px;
+    }
+    
+    /* titolo large*/
+    #titoloNome {
+        border-right: 2px solid #000;
+        margin-top: 29px;
+        padding-right: 29px;
+    }
+    
+    /*Descrizione large*/
+    #titoloDescr {
+        margin-top: 30px;
+    }
+
+    /*
+     * Spazio fra il titolo e il contenuto
+     */
+    .titolone {
+        margin-bottom: 40px;
+    }
+    /*
+     * La data
+    */
+    .dataPrimoPiano {
+        margin-top: 25px;
+    }
+    
+    .testoPrimoPiano {
+        margin-top: 18px;
+    }
+    
+    .container {
+        padding: 20px 0px 15px 93px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #242424;
+    }
+    
+    .contentTitoloPost h1 {
+        font-weight: 800;
+    }
+    
+    .contentContentPost {
+        margin-top: 50px;
+    }
+    
+    .contentDataDesktop {
+        padding-top: 10px;
+    }
+    
+    .sharePost {
+        margin-bottom: 25px;
+    }
+    
+    .footer {
+        margin-top: 80px;
+        height: 125px;
+    }
+    
+    .iconsFooter {
+        margin-top: 35px;
+        margin-right: -110px;
+    }
+    
+    .iconsFooter .fi-mail,
+    .iconsFooter .fi-social-facebook,
+    .iconsFooter .fi-social-github,
+    .iconsFooter .fi-social-google-plus,
+    .iconsFooter .fi-social-twitter,
+    .iconsFooter .fi-social-stack-overflow,
+    .iconsFooter .fi-social-linkedin,
+    .iconsFooter .fi-social-skype,
+    .iconsFooter .fi-rss{
+        font-size: 35px;
+        margin: 10px;
+    }
+    
+    .picFooter {
+        margin-top: 27px;
+    }
+    
+    .aboutFooter {
+        margin-top: 26px;
+        margin-left: -30px;
+        word-spacing: 1px;
+    }
+    
+    .aboutFooter p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    
+    /*
+     * Categories
+     */
+
+     .contentDataDesktop#Programming {
+         border-top: 5px solid #FF6D00;
+     }
+    
+     .contentDataDesktop#Security {
+       border-top: 5px solid #C62828;
+    }
+
+    .contentDataDesktop#Personal {
+       border-top: 5px solid #6399C6; 
+    }
+
+    .contentDataDesktop#Raspberry {
+       border-top: 5px solid #F9CE1D;
+    }
+
+    .contentDataDesktop#Linux {
+       border-top: 5px solid #388E3C;
+    }
+    
+    .aboutMeArticle h4 {
+        font-weight: 500;    
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+    
+   html, body {
+        font-size: 16px;
+    }
+    
+    /*
+     * Nella navbar la larghezza del titolo
+     */
+    .top-bar .name h1 a {
+        width: 88%;
+    }
+
+    /*
+     * Spazio fra il titolo e il contenuto
+     */
+    .container {
+        margin-bottom: 24px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #242424;
+    }
+    
+    .primoPiano .dataPrimoPiano {
+        margin-bottom: -5px;
+    }
+    
+    /*
+     * La data
+     */
+    .dataPrimoPiano {
+        margin-top: 20px;
+    }
+    
+    .contentTitoloPost h1 {
+        margin-top: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .contentContentPost {
+        margin-top: 20px;
+    }
+    
+    .sharePost {
+        margin: 30px 0 40px;
+    }
+    
+    .footer {
+        margin-top: 30px;
+    }
+    
+    .picFooter img {
+        margin-top: 30px;
+        width: 190px;
+        margin-left: 55px;
+    }
+    
+    .aboutFooter p {
+        font-size: 15px;
+        word-spacing: 0.02em;
+        margin-top: 18px;
+     }
+    
+    .iconsFooter .fi-social-github,
+    .iconsFooter .fi-social-twitter,
+    .iconsFooter .fi-social-linkedin,
+    .iconsFooter .fi-social-facebook,
+    .iconsFooter .fi-social-skype,
+    .iconsFooter .fi-social-stack-overflow,
+    .iconsFooter .fi-social-google-plus,
+    .iconsFooter .fi-mail,
+    .iconsFooter .fi-rss {
+        font-size: 117px;
+    }
+    
+    .iconsFooter a {
+        padding-left: 10px;
+    }
+    
+    .iconsFooter ul {
+        list-style-type: none;
+    }
+    
+    .iconsFooter ul li:first-child {
+        margin-top: 5px;
+    }
+    
+    .iconsFooter ul li {
+        margin-top: -40px;
+    }
+    
+    .iconsFooter ul li a {
+        padding-left: 80px;
+    }
+    
+     /*
+     * Categories
+     */
+
+    .contentTitoloPost#Programming {
+         border-bottom: 5px solid #FF6D00;
+    }
+    
+    .contentTitoloPost#Security {
+       border-bottom: 5px solid #C62828;
+    }
+
+    .contentTitoloPost#Personal {
+       border-bottom: 5px solid #6399C6; 
+    }
+
+    .contentTitoloPost#Raspberry {
+       border-bottom: 5px solid #F9CE1D;
+    }
+
+    .contentTitoloPost#Linux {
+       border-bottom: 5px solid #388E3C;
+    }
+    
+    .aboutMeFull {
+        border-top: 2px solid #546e7a;
+        border-bottom: 2px solid #546e7a;
+    }
+    
+    .shareThisPostLabel {
+        margin-top: 10px;
+    }
+}
