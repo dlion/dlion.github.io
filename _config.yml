@@ -8,6 +8,7 @@ url: http://dlion.it
 image_url: /public/img/posts
 future: false
 safe: true
+lsi: false
 timezone: Europe/Rome
 defaults:
   -
