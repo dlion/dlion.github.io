@@ -58,7 +58,7 @@ Confido in una vostra precedente installazione delle librerie [wiringPi](http://
 
 1. Carichiamo il modulo i2c tramite wiringPi con il comando `sudo gpio load i2c`
 2. Verifichiamo che la nostra raspberry veda con successo il nostro device con il comando `sudo gpio i2cd`, come output avremo un risultato simile   
-{% highlight sh %}
+```sh
 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:         -- -- -- -- -- -- -- -- -- -- -- -- --
 10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -68,14 +68,14 @@ Confido in una vostra precedente installazione delle librerie [wiringPi](http://
 50: -- -- 52 -- -- -- -- -- -- -- -- -- -- -- -- --
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 70: -- -- -- -- -- -- -- --
-{% endhighlight %}
+```
 
 `UU` sta ad indicare che quella locazione è momentaneamente occupata, non ci interessa.   
 Il `52` in basso è l'elemento cruciale, sta ad indicare che il nostro device viene visto e che si trova all'indirizzo `0x52`, prendiamone nota.
 
 A quel punto ho realizzato un sorgente in C compilabile tranquillamente con `gcc <source.c> -o <binary>` per poi eseguirlo con `sudo ./<binary>`, lo trovate [qui](https://github.com/dlion/Raspi/blob/master/nunchuck.c)
 
-{% highlight c linenos %}
+```c
 /*
  * The MIT License (MIT)
  * Copyright (c) 2014 Domenico Luciani http://dlion.it domenicoleoneluciani@gmail.com
@@ -201,7 +201,7 @@ int comunica(char *buffer, int ndati, int mod)
 
     return 0;
 }
-{% endhighlight %}
+```
 
 **Attenzione, se avete una raspberry rev1 anziché di una rev2 dovrete cambiare `/dev/i2c-1` con `/dev/i2c-0`**
 
