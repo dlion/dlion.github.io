@@ -13,7 +13,7 @@ Si tratta di un progetto tutto italiano, un progetto in continua evoluzione ed e
 > GaPiL nasce dalla mia convinzione profonda che la "filosofia" che ispira il software libero si applichi anche ad altri campi che non siano necessariamente quelli della scrittura di programmi per computer. In particolare ritengo che possa assumere una grande rilevanza in ambiti come quelli dell'educazione e della formazione.   
 Ma se trovare della buona documentazione libera, specie per quanto riguarda i programmi che girano sul sistema GNU/Linux, è ormai relativamente facile, la produzione di buoni testi didattici che insegnino a programmare in questo sistema è ancora molto limitata, soprattutto se li si cercano in lingua italiana.   
 GaPiL è un tentativo di scrivere un manuale di programmazione di sistema in ambiente di tipo Unix, con una particolare attenzione alle caratteristiche specifiche delle interfacce fornite dal kernel Linux. Per questo motivo si parla di Linux e non di GNU/Linux.   
-Nonostante questa specificità, essendo la gran parte delle funzioni di sistema standardizzate, la guida dovrebbe risultare utile anche facendo riferimenti ad altri sistemi di tipo Unix come i vari *BSD; in ogni caso si sono sottolineate esplicitamente le caratteristiche specifiche di Linux.   
+Nonostante questa specificità, essendo la gran parte delle funzioni di sistema standardizzate, la guida dovrebbe risultare utile anche facendo riferimenti ad altri sistemi di tipo Unix come i vari BSD; in ogni caso si sono sottolineate esplicitamente le caratteristiche specifiche di Linux.   
 Benché buona parte della trattazione delle funzioni di libreria sia del tutto identica, facendo riferimento a standard generali come POSIX, si è comunque prestata particolare attenzione alle funzioni delle GNU libc, che sono la versione più usata delle librerie del C, senza dimenticare, ove note, di citare le differenze con possibili alternative come le libc5 o le uclibc.   
 L'obiettivo resta comunque quello di riuscire a produrre un testo, rilasciato sotto GNU FDL, che possa servire a chi si accosta per la prima volta alla programmazione avanzata e di sistema su un kernel Linux, con la speranza di poter un giorno raggiungere la qualità dei lavori del compianto R. W. Stevens.
 
@@ -28,11 +28,11 @@ Il link al progetto è il seguente: [GaPiL](http://gapil.gnulinux.it/)
 Per esempio, voglio usare in un mio programma la funzione kill per terminare un dato processo, ecco uno spezzone del capitolo dedicato a questa funzione:
 > quando si vuole inviare un segnale generico ad un processo occorre utilizzare la apposita system call, questa può essere chiamata attraverso la funzione kill, il cui prototipo è:   
 
-{% highlight c %}
+```c
 #include <sys/types.h>    
 #include <signal.h>   
 int kill(pid_t pid, int sig)
-{% endhighlight %}
+```
 
 > Invia il segnale sig al processo specificato con pid.   
 La funzione restituisce 0 in caso di successo e -1 in caso di errore nel qual caso errno assumerà uno dei valori:   
