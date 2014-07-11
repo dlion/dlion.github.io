@@ -2,6 +2,7 @@
 title: L'unione fa la forza
 description: Introduzione a Git
 category: Programming
+layout: post
 ---
 Mi ero ripromesso di non fare i soliti HowTo, le solite guide o le solite cose che si possono trovare praticamente ovunque ma oggi farò uno strappo a questa regola.   
 Nel *2013*, ancora c'è gente che è all'oscuro di cosa sia **git**, perché esiste **github** e come funzioni il mondo oltre il loro **IDE DevC++** datato 1900; avete capito bene, esistono sviluppatori, gente che studia informatica, gente più o meno pratica che non ha mai sentito parlare di git, **inammissibile**.   

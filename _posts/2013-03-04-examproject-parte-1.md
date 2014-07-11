@@ -2,6 +2,7 @@
 title: ExamProject parte 1
 description: Il mio progetto d'esame sulla visione artificiale
 category: Programming
+layout: post
 ---
 Torniamo a parlare del mio progetto d’esame per la maturità.   
 Nella parte precedente abbiamo visto una piccola libreria home-made per semplificarmi il lavoro.   

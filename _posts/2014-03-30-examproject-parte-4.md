@@ -2,6 +2,7 @@
 title: ExamProject - Parte 4
 description: Il mio progetto d'esame sulla visione artificiale
 category: Programming
+layout: post
 ---
 Continuano gli articoli sul mio progetto d'esame sulla visione artificiale.   
 Il software in questione è "Head", in grado per l'appunto di effettuare il tracking della testa di una persona posizionata davanti la webcam con la possibilità di trackare anche altre parti come gli occhi.

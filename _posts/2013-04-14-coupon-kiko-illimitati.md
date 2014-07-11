@@ -2,6 +2,7 @@
 title: Coupon Kiko illimitati
 description: Diario di un bypassaggio, ottenere infiniti coupon kiko.
 category: Security
+layout: post
 ---
 Tranquilli, questo articolo non tratterà né di make-up né di make-down.   
 Alcune settimane fa venni contattato dalla mia ragazza su Facebook la quale mi chiese di accedere ad un'app che le permetteva di ricevere un coupon che poteva scambiare con uno smalto, il tutto gratis; l'unico inconveniente ?   
