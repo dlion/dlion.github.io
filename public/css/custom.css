@@ -89,29 +89,6 @@ a {
      border-top: 1px solid #242424;
 }
 
-/*
- * Categories
- */
-
-#Programming {
-    border-top: 5px solid #FF6D00;
-}
-
-#Security {
-    border-top: 5px solid #C62828;
-}
-
-#Personal {
-    border-top: 5px solid #6399C6; 
-}
-
-#Raspberry {
-    border-top: 5px solid #F9CE1D;
-}
-
-#Linux {
-    border-top: 5px solid #388E3C;
-}
 
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
@@ -209,6 +186,31 @@ a {
         font-weight: 300;
         line-height: 20px;
     }
+    
+    /*
+     * Categories
+     */
+
+     .contentDataDesktop#Programming {
+         border-top: 5px solid #FF6D00;
+     }
+    
+     .contentDataDesktop#Security {
+       border-top: 5px solid #C62828;
+    }
+
+    .contentDataDesktop#Personal {
+       border-top: 5px solid #6399C6; 
+    }
+
+    .contentDataDesktop#Raspberry {
+       border-top: 5px solid #F9CE1D;
+    }
+
+    .contentDataDesktop#Linux {
+       border-top: 5px solid #388E3C;
+    }
+
 }
 
 /* Mobile */
@@ -247,6 +249,12 @@ a {
     
     .contentTitoloPost h1 {
         margin-top: 5px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .contentContentPost {
+        margin-top: 20px;
     }
     
     .sharePost {
@@ -299,5 +307,29 @@ a {
     
     .iconsFooter ul li a {
         padding-left: 80px;
+    }
+    
+     /*
+     * Categories
+     */
+
+    .contentTitoloPost#Programming {
+         border-bottom: 5px solid #FF6D00;
+    }
+    
+    .contentTitoloPost#Security {
+       border-bottom: 5px solid #C62828;
+    }
+
+    .contentTitoloPost#Personal {
+       border-bottom: 5px solid #6399C6; 
+    }
+
+    .contentTitoloPost#Raspberry {
+       border-bottom: 5px solid #F9CE1D;
+    }
+
+    .contentTitoloPost#Linux {
+       border-bottom: 5px solid #388E3C;
     }
 }
