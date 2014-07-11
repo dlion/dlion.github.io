@@ -53,7 +53,7 @@ a {
     color: #FFF;
 }
     
-.contentContentPost {
+.contentContentPost, .sharePost {
     color: #BBB;
 }
 
@@ -89,6 +89,17 @@ a {
      border-top: 1px solid #242424;
 }
 
+
+.sharePost .large-4 h4 {
+        font-weight: 600;
+}
+
+.contentAboutMePost .fi-social-github,
+.contentAboutMePost .fi-social-linkedin,
+.contentAboutMePost .fi-social-twitter {
+    font-size: 40px;
+    margin: -10px;
+}
 
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
@@ -210,7 +221,10 @@ a {
     .contentDataDesktop#Linux {
        border-top: 5px solid #388E3C;
     }
-
+    
+    .aboutMeArticle h4 {
+        font-weight: 500;    
+    }
 }
 
 /* Mobile */
@@ -331,5 +345,14 @@ a {
 
     .contentTitoloPost#Linux {
        border-bottom: 5px solid #388E3C;
+    }
+    
+    .aboutMeFull {
+        border-top: 2px solid #546e7a;
+        border-bottom: 2px solid #546e7a;
+    }
+    
+    .shareThisPostLabel {
+        margin-top: 10px;
     }
 }
