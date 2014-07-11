@@ -6,11 +6,12 @@ category: Programming
 Mi è capitato molte volte di dover creare delle richieste [HTTP](http://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol) ad-hoc da inviare a determinate pagine web e/o applicazioni, richieste che posso gestire in modo manuale (ma non troppo) così da avere il pieno controllo di ciò che invio; il tutto fatto dalla mia amata linea di comando...
 
 Ovviamente parlo delle famose [cURL](http://en.wikipedia.org/wiki/CURL).   
-Questo strumento davvero eccezionale è praticamente onnipresente in ogni sistema *unix e windows, permette come detto in precedenza di creare ed inviare delle richieste HTTP ad un destinatario.   
+Questo strumento davvero eccezionale è praticamente onnipresente in ogni sistema **unix e windows**, permette come detto in precedenza di creare ed inviare delle richieste HTTP ad un destinatario.   
 Cioè, permettono di ricreare in modo manuale ciò che il browser fa in modo del tutto automatico e nascosto all'utente.   
 Vediamo come effettuare una richiesta semplice semplice da console.
 
 `curl articoli.dlion.it/howtousecurl/uso1.php`
+
 ```json
 {
     "method":"GET",
@@ -30,6 +31,7 @@ Come potete vedere avete appena effettuato una vera e propria richiesta alla pag
 
 Per cambiare il metodo usato nella richiesta potete usare l’opzione -X in questo modo   
 `curl -X POST articoli.dlion.it/howtousecurl/uso1.php` ricevendo come responso
+
 ```json
 {
     "method":"POST",
@@ -48,10 +50,11 @@ Per cambiare il metodo usato nella richiesta potete usare l’opzione -X in ques
 Come potete notare abbiamo appena effettuato una richiesta POST alla stessa pagina.   
 Potete usare più metodi come PUT, GET, DELETE,etc.
 
-Ccurl articoli.dlion.it/howtousecurl/uso2.phpon le curl possiamo anche simulare le richieste che effettuiamo dai vari form che incontriamo nelle varie pagine web, ovviamente il tutto direttamente dalla nostra bellissima shell.   
+Con le curl possiamo anche simulare le richieste che effettuiamo dai vari form che incontriamo nelle varie pagine web, ovviamente il tutto direttamente dalla nostra bellissima shell.   
 Per esempio, abbiamo questo semplice form e vogliamo accedere senza avere il bisogno di aprire il browser, scrivere user e pass e loggarsi così da automatizzare il tutto.   
 Benissimo, dalla shell per "dire" quali sono i parametri basta usare l'opzione `-d` specificando il parametro da inviare.   
 `curl articoli.dlion.it/howtousecurl/uso2.php` Ricevendo come responso
+
 ```html
 <html>
     <head>
