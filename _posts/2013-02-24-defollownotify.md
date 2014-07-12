@@ -29,7 +29,7 @@ Semplice ed efficace!
 
 Vi posto anche il sorgente, così per fare brodo e farvi vedere direttamente ciò che davvero vi interessa ma **ricordate che per funzionare vi conviene andare a prendere tutto il repository su GitHub**.
 
-~~~ sh
+{% highlight sh linenos %}
 #!/bin/bash
  
 ###############################################################################
@@ -306,7 +306,7 @@ download_ids_list
 notify_me
  
 exit 0
-~~~
+{% endhighlight %}
 
 Ecco uno screenshot   
 ![Screenshot]({{site.image_url}}/defollownotify.jpg)
