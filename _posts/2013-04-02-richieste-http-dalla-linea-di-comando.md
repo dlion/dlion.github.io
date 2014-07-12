@@ -13,7 +13,7 @@ Vediamo come effettuare una richiesta semplice semplice da console.
 
 `curl articoli.dlion.it/howtousecurl/uso1.php`
 
-```json
+{% highlight json %}
 {
     "method":"GET",
     "uri":"\/howtousecurl\/uso1.php",
@@ -26,14 +26,14 @@ Vediamo come effettuare una richiesta semplice semplice da console.
     "ip":"152.53.218.150",
     "powered-by":"http:\/\/dlion.it"
 }
-```
+{% endhighlight %}
 
 Come potete vedere avete appena effettuato una vera e propria richiesta alla pagina che ho appositamente creato che vi restituirà un responso in JSON, in oltre diciamo che di default le curl utilizzano come metodo il metodo GET.
 
 Per cambiare il metodo usato nella richiesta potete usare l’opzione -X in questo modo   
 `curl -X POST articoli.dlion.it/howtousecurl/uso1.php` ricevendo come responso
 
-```json
+{% highlight json %}
 {
     "method":"POST",
     "uri":"\/howtousecurl\/uso1.php",
@@ -46,7 +46,7 @@ Per cambiare il metodo usato nella richiesta potete usare l’opzione -X in ques
     "ip":"152.53.218.150",
     "powered-by":"http:\/\/dlion.it"
 }
-```
+{% endhighlight %}
 
 Come potete notare abbiamo appena effettuato una richiesta POST alla stessa pagina.   
 Potete usare più metodi come PUT, GET, DELETE,etc.
@@ -56,7 +56,7 @@ Per esempio, abbiamo questo semplice form e vogliamo accedere senza avere il bis
 Benissimo, dalla shell per "dire" quali sono i parametri basta usare l'opzione `-d` specificando il parametro da inviare.   
 `curl articoli.dlion.it/howtousecurl/uso2.php` Ricevendo come responso
 
-```html
+{% highlight html %}
 <html>
     <head>
         <title>Curl POST Form Data</title>
@@ -71,7 +71,7 @@ Benissimo, dalla shell per "dire" quali sono i parametri basta usare l'opzione `
         </form>
     </body>
 </html>
-```
+{% endhighlight %}
 
 Come potete notare il form una volta "compilato" invierà 1 richiesta POST inviando i 2 parametri name e pass.   
 Per accedere vi basterà mettere come user "dlion" e come password "curl".   
@@ -86,7 +86,7 @@ Vi basta guardare la [man page](http://www.linuxmanpages.com/man1/curl.1.php) de
 
 Per non parlare che sono disponibili praticamente per ogni linguaggio conosciuto, volete effettuare una richiesta POST con il php ?   
 Niente di più semplice
-```php
+{% highlight php linenos %}
 <?php
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://articoli.dlion.it/howtousecurl/uso2.php");
@@ -100,7 +100,7 @@ $output = curl_exec($ch);
 curl_close($ch);
 echo $output;
 ?>
-```
+{% endhighlight %}
 
 No davvero, le curl sono davvero **ESSENZIALI** in certe cose, uno strumento tanto potente quanto semplice.   
 Nei futuri articoli farò largamente uso di tale tool, vi renderete conto da soli di quanto sia fenomenale.

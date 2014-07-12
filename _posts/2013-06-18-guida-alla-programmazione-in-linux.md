@@ -29,11 +29,11 @@ Il link al progetto è il seguente: [GaPiL](http://gapil.gnulinux.it/)
 Per esempio, voglio usare in un mio programma la funzione kill per terminare un dato processo, ecco uno spezzone del capitolo dedicato a questa funzione:
 > quando si vuole inviare un segnale generico ad un processo occorre utilizzare la apposita system call, questa può essere chiamata attraverso la funzione kill, il cui prototipo è:   
 
-```c
+{% highlight c %}
 #include <sys/types.h>    
 #include <signal.h>   
 int kill(pid_t pid, int sig)
-```
+{% endhighlight %}
 
 > Invia il segnale sig al processo specificato con pid.   
 La funzione restituisce 0 in caso di successo e -1 in caso di errore nel qual caso errno assumerà uno dei valori:   

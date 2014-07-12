@@ -98,6 +98,7 @@ Il pin 6 è il ground, la messa a terra, ci servirà per chiudere il circuito. (
 Il pin 11 e il pin 12 sono i pin che controlleranno i LED inviando un segnale opportuno per farli accendere o spegnere.   
 
 ## **Attenzione**   
+
 ### **usate il pin 1, cioè quello più a sinistra perché quello a destra è il pin 2, cioè quello che genera 5V e il pin 3 in entrata non può gestire 5V friggendovi il mondo.**
 
 Nulla di difficile, no ? Ora non vi resta che collegare la board in questo modo:
