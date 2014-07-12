@@ -101,6 +101,11 @@ a {
     margin: -10px;
 }
 
+
+@media only screen and (min-width: 40em) and (max-width: 80em) {
+
+}
+
 /* Large, XLarge */
 @media only screen and (min-width: 64.063em) and (max-width: 120em) {
     
@@ -166,7 +171,6 @@ a {
     
     .iconsFooter {
         margin-top: 35px;
-        margin-right: -110px;
     }
     
     .iconsFooter .fi-mail,
