@@ -10,12 +10,12 @@ Una idea mi balenava in mente; vedevo il contatore dei follower salire e scender
 
 A quel punto cercando in rete ho scoperto parecchi servizi che permettevano di capire chi ci defollowava.   
 Essendo  un amante della shell mi sono chiesto se non esisteva qualcosa di simile anche per i linuxiani come me.   
-A quel punto notai su github un piccolo script in bash scritto da [Toshidex] (http://toshidex.org/2012/05/22/script-defollownotify-te-li-notifico-io-i-defollow/) che permetteva di capire chi ci defollowava e in caso rispondere al defollow con una trollface.
+A quel punto notai su github un piccolo script in bash scritto da [Toshidex](http://toshidex.org/2012/05/22/script-defollownotify-te-li-notifico-io-i-defollow/) che permetteva di capire chi ci defollowava e in caso rispondere al defollow con una trollface.
 
 Incuriosito cominciai ad usare tale script che mi piacque.   
 Presto lo forkai e cominciai ad implementarlo per aggiungergli nuove funzionalità e renderlo più idoneo alle mie esigenze permettendogli di inviare una menzione ad uno specifico utente, permettendo di catalogare chi ci followa/defollowa e tanto altro.
 
-Potete trovarlo sul mio profilo GitHub, precisamente a questo link: [https://github.com/dlion/DefollowNotify] (https://github.com/dlion/DefollowNotify)
+Potete trovarlo sul mio profilo GitHub, precisamente a questo link: [https://github.com/dlion/DefollowNotify](https://github.com/dlion/DefollowNotify)
 
 Dopo averlo installato ed aver inserito il codice di conferma dell’app vi basterà richiamarlo più volte per sapere se qualcuno vi ha followato/defollowato.
 
@@ -29,7 +29,7 @@ Semplice ed efficace!
 
 Vi posto anche il sorgente, così per fare brodo e farvi vedere direttamente ciò che davvero vi interessa ma **ricordate che per funzionare vi conviene andare a prendere tutto il repository su GitHub**.
 
-{% highlight sh linenos %}
+~~~ sh
 #!/bin/bash
  
 ###############################################################################
@@ -306,7 +306,7 @@ download_ids_list
 notify_me
  
 exit 0
-{% endhighlight %}
+~~~
 
 Ecco uno screenshot   
 ![Screenshot]({{site.image_url}}/defollownotify.jpg)
