@@ -210,6 +210,8 @@ Il nunchuck utilizza il protocollo [l²C](http://it.wikipedia.org/wiki/I%C2%B2C)
 
 In output riceveremo le informazioni che ci servivano qui: Posizione X/Y dell'analogico; se abbiamo premuto i pulsanti C/Z e le coordinate degli assi X/Y/Z dell'accelerometro.
 
+<script type="text/javascript" src="https://asciinema.org/a/8812.js" id="asciicast-8812" async ></script>
+
 Questa potrebbe essere solo la punta dell'iceberg, pensate alle enormi possibilità che offre tale device su un qualcosa come la raspi; poter comandare droni, macchinine o qualsiasi altra cosa con il solo movimento del polso o del pollice; le possibilità sono davvero tante.
 
 Spero di avere presto il tempo necessario per continuare la cosa e realizzare qualcosa di simpatico.
