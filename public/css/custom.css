@@ -103,11 +103,36 @@ a {
 
 
 @media only screen and (min-width: 40em) and (max-width: 80em) {
+    
+    .picFooter {
+        margin-top: 20px;
+    }
+    
+    .footer {
+        margin-top: 40px;
+    }
+    
+    .aboutFooter {
+        margin-top: 20px;
+    }
+    
+    .fi-mail,
+    .fi-rss,
+    .fi-social-facebook,
+    .fi-social-github,
+    .fi-social-google-plus,
+    .fi-social-skype,
+    .fi-social-stack-overflow,
+    .fi-social-linkedin,
+    .fi-social-twitter{
+        font-size: 50px;
+        margin-left: 70px;
+    }
 
 }
 
 /* Large, XLarge */
-@media only screen and (min-width: 64.063em) and (max-width: 120em) {
+@media only screen and (min-width: 64.063em) {
     
     html, body {
         font-size: 18px;
