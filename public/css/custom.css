@@ -129,6 +129,44 @@ a {
         margin-left: 70px;
     }
 
+    /*
+     * Categories
+     */
+
+     .contentDataDesktop#Programming {
+         border-top: 5px solid #FF6D00;
+     }
+
+     .contentDataDesktop#Security {
+       border-top: 5px solid #C62828;
+    }
+
+    .contentDataDesktop#Personal {
+       border-top: 5px solid #6399C6;
+    }
+
+    .contentDataDesktop#Raspberry {
+       border-top: 5px solid #F9CE1D;
+    }
+
+    .contentDataDesktop#Linux {
+       border-top: 5px solid #388E3C;
+    }
+
+    .contentDataDesktop {
+        padding-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #share a {
+        margin: 10px 10px;
+    }
+
+    .sharePost .contentAboutMePost a i{
+        padding: 10px;
+        font-size: 45px;
+        margin-left: -160px;
+    }
 }
 
 /* Large, XLarge */
