@@ -354,7 +354,7 @@ a {
     
     .aboutFooter p {
         font-size: 15px;
-        word-spacing: 0.02em;
+        word-spacing: 0.08em;
         margin-top: 18px;
      }
     
@@ -367,27 +367,11 @@ a {
     .iconsFooter .fi-social-google-plus,
     .iconsFooter .fi-mail,
     .iconsFooter .fi-rss {
-        font-size: 117px;
-    }
-    
-    .iconsFooter a {
-        padding-left: 10px;
+        font-size: 45px;
     }
     
     .iconsFooter ul {
         list-style-type: none;
-    }
-    
-    .iconsFooter ul li:first-child {
-        margin-top: 5px;
-    }
-    
-    .iconsFooter ul li {
-        margin-top: -40px;
-    }
-    
-    .iconsFooter ul li a {
-        padding-left: 80px;
     }
     
      /*
