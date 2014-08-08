@@ -4,7 +4,7 @@
     <title>{{site.description_name}} | {{site.description_blog}} | {{page.title}}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="author" href="https://plus.google.com/+DomenicoLeoneLuciani/posts"/>
+    <link rel="author" href="https://plus.google.com/{{site.gplus}}/posts"/>
     <!-- SEO -->
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <!-- Schema.org markup for Google+ -->
@@ -21,11 +21,11 @@
     <meta property="og:image" content="{{site.url}}/public/img/pic.jpg" />
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="summary">
-    <meta name="twitter:site" content="dlion92">
+    <meta name="twitter:site" content="{{site.twitter}}">
     <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}">
     <meta name="twitter:description" content="{{page.description}}">
-    <meta name="twitter:creator" content="dlion92">
-    <meta name="twitter:creator:id" content="dlion92">
+    <meta name="twitter:creator" content="{{site.twitter}}">
+    <meta name="twitter:creator:id" content="{{site.twitter}}">
     <meta name="twitter:image:src" content="{{site.url}}/public/img/pic.jpg">
     <meta name="twitter:domain" content="{{site.url}}{{page.url}}">
     <!-- FINE SEO -->
@@ -49,12 +49,12 @@
         <section class="top-bar-section">
             <ul class="right">
                 <li>
-                    <a href="https://github.com/DLion" target="_blank">
+                    <a href="https://github.com/{{site.github}}" target="_blank">
                         <span class="title-menutopbar element">Github</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/dlion92" target="_blank">
+                    <a href="https://twitter.com/{{site.twitter}}" target="_blank">
                         <span class="title-menutopbar element">Twitter</span>
                     </a>
                 </li>
@@ -95,17 +95,17 @@
             <div class="large-8 small-7 columns">
                 <ul class="large-block-grid-3 small-block-grid-3 contentAboutMePost">
                     <li>
-                        <a href="https://github.com/DLion" target="_blank">
+                        <a href="https://github.com/{{site.github}}" target="_blank">
                             <i class="fi-social-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/dlion92" target="_blank">
+                        <a href="https://twitter.com/{{site.twitter}}" target="_blank">
                             <i class="fi-social-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/dlion" target="_blank">
+                        <a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank">
                             <i class="fi-social-linkedin"></i>
                         </a>
                     </li>
@@ -133,7 +133,7 @@
         </div>
     </div>
     <script type="text/javascript">
-        var disqus_shortname = 'dlion';
+        var disqus_shortname = '{{site.disqus}}';
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

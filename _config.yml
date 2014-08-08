@@ -6,6 +6,11 @@ name: DLion ~ Blog
 description_name: Domenico Luciani
 description_blog: DLion ~ Blog
 url: http://dlion.it
+github: DLion
+twitter: dlion92
+linkedin: dlion
+disqus: dlion
+gplus: +DomenicoLeoneLuciani
 image_url: /public/img/posts
 future: false
 safe: true
