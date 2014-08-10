@@ -135,9 +135,9 @@ int main(int argc,char **argv)
                     }
                 }
                 //Controllo l'immagine pixel per pixel
-                for(i=0; i < binary->height; i++)
+                for(i=0; i < binary->height && trovato != 1; i++)
                 {
-                    for(j=0; j < binary->width; j++)
+                    for(j=0; j < binary->width && trovato != 1; j++)
                     {
                         if(target[i*step+j] == 255)
                         trovato = 1;
