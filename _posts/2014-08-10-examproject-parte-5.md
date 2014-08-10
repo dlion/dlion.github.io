@@ -5,7 +5,7 @@ category: Programming
 layout: post
 ---
 Un altro -ed ultimo- post sul mio progetto d'esame sulla visione artificiale.   
-Questa volta mi parlerò di "Movement", un software in grado di monitorare una determinata zona.   
+Questa volta vi parlerò di "Movement", un software in grado di monitorare una determinata zona.   
 La peculiarità di questo software è che è in grado di registrare SOLO ciò che è davvero importante all'interno dello scenario, quindi solo quando c'è del movimento all'interno della zona da monitorare.   
 
 Esistono due modalità d'uso:
