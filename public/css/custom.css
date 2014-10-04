@@ -102,7 +102,7 @@ a {
 }
 
 
-@media only screen and (min-width: 40em) and (max-width: 80em) {
+@media only screen and (min-width: 40em) and (max-width: 64.062em) {
     
     .picFooter {
         margin-top: 20px;
