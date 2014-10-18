@@ -1,1 +1,78 @@
-File
+==================================================================
+https://keybase.io/dlion
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dlion.it
+  * I am dlion (https://keybase.io/dlion) on keybase.
+  * I have a public key with fingerprint 435E A2EE 8618 785D B2E8  CD58 DF16 7165 54E0 7BA1
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "435ea2ee8618785db2e8cd58df16716554e07ba1",
+            "host": "keybase.io",
+            "key_id": "DF16716554E07BA1",
+            "uid": "a1abe95e8befa400a6e02c7169bdc900",
+            "username": "dlion"
+        },
+        "merkle_root": {
+            "ctime": 1413627075,
+            "hash": "3a01e374c5dec12819c86ab2a01b8d4cfb974bd0ba00401d71310d33c7c2bc3adc13b1c23c13610a29ca3fd088ccbbdbfaa8937cfb72ed008e02b7c9bd6505ba",
+            "seqno": 81024
+        },
+        "service": {
+            "hostname": "dlion.it",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    "prev": "80ee6b69f50d4c941d366f10b4869b925963f7a39fcb0486256e53fe0679e2aa",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkmtMFFcUx5etBbq0QgwYNVhhBLG4Xe68Z0ihYauUSkKs3aKWlnXuzJ1lyrKz
+zC6vImoV3wYwBdpEIkhiaaoWt9VSFcvLV8FGq5TWBoo8TIsN/UDS2CYInSGY4P0y
+d879nf/9n3NuzUvPmcxBw0sLkeNB+cmgvglocthTessxqEplWHI5JroV5PEbO49Q
+gLBkLB+VQcGHbIoa41ElZPvQFzPPWLFipPkU1aNTwMbaCKzCauBGsqx4XEjzaoqh
+hVEkjQQCIY7BOZajJUggTpRoTpJxhsUZmqYQYKGA65J5qs//zK3YnKZTkfTo+vSn
+/AbA2tMMvmjuQMAFiHgacRDJAgWAwCBAiDrKQ0nkATBAH9LmS5LchmndbAHS8t3I
+qanqXMWiXzHOcQonGYIFLK3bEXx5egYpAByRLCXSEhJxgsN5kWMESOhhyEmUKEOe
+paAEoAAABXCJxUkcSCQpsiIBRVKQRJyEuEiQ+pfBgUDwokDKEuA4UYRQgrIgcDzJ
+6josgSQAON0+ZEXdPUMDGgq6fx8q9KhYMocDgqowfrViRUSGbaNlCyuzKcZsvJrq
+V0XVrUfz/H5vslGvv8xrUCUIOufznaeg4pH0YS2cJq6jz/aCJEkrhkq9ioacikHQ
+LMMBfRn3oGJdkwMIMZDhZRro/eApXCIZRsYBpDh9CDxB8wwpswLJyyIEeoygGUST
+MgIMyyNCWFCh3nW/4NIlfYrLI/iLNIRVHDJHLzIFmU3Bz5uN52qyvBDx9A2PDUWY
++sIP7cgLE3tPRNINOyPWbO+497bsE+Nqvmrd0Bp578Hj9b/YLqT8u2T6J9p8bLlz
+8fcN+U0HwqA2m5sirw68f/9sJ5jpnehxbP+tzUJE1O06tj9+d3T4KWLFP5cnv3HE
+3dkb3uluq5ts8p7KXhkaNWVZV9U9m5JWyhbhn6rwOz5r3Uq4JbUzoUW9XtrWEhT7
+ZDgz3fzBK6G/bwwOrYbVZxNG2u80H9+X2lNk6VeD3zhTm594JPzL3j/i3BdNxw9L
+1ukuZ3/JYEdAezN69rOc2vKBtUkHD2yqCsnFQpZHLDZXPoajtwsTzTk3EyqrW37d
+lvQwfpvFkZ28PHa4Z+ZSR1OjxV+D/Shv8dm7d/zwYkxfcyUW6whv915eUTm19EJj
+faQlcIZ8q+XSjJqVcWPTa8XLniy6lXrmo4mhW0tkV0JuuqNWe9gVHXX676ypgWbq
+z49xjxqQotaci997/nHeUevg/sH2ncty4jLjTmy0JiWm375y01J+MHTo6tjoOzX/
++ffFvX7Xfm1ZjWv63UqXbezV9rWHu+1FGa4vqqaD8upOp/0VeFQfkhF25eLmz93Y
++MCenzV7/8jRqE/E8eu7+s/WnwspwDu/Xr2qYUPfnpOT5KPNXeuvwa1Hq1Zljpdn
+RDtvdB0ocp9vvHszUPNt+Ej6y32D8d2tW7NHa6927C65/17C1JS1vndbw/8=
+=SDA8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dlion
+
+==================================================================
