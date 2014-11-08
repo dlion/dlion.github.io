@@ -75,7 +75,7 @@ Come è possibile che ai giorni nostri debbano capitare situazioni del genere su
 
 Io non ho continuato a cercare eventuali bug, che potrebbero essere sfuggiti agli autori della piattaforma, ho fatto il mio dovere da buon "cittadino", cioè segnalare le falle ed aiutare a rendere un sistema così importante un po' più protetto; aiutare che anche i miei dati siano un po' più protetti; fatelo anche voi.
 
-Ovviamente tanto di capello a quei signori che abbastanza velocemente mi hanno ascoltato in parte e che si sono messi a disposizione per riparare al danno, non tutti i mali vengono per nuocere e il mettersi a disposizione è già un primo passo.
+Ovviamente tanto di cappello a quei signori che abbastanza velocemente mi hanno ascoltato in parte e che si sono messi a disposizione per riparare al danno, non tutti i mali vengono per nuocere e il mettersi a disposizione è già un primo passo.
 
 Nei vari siti amministrativi che ho visitato ho sempre notato CARENZA di sicurezza, carenza che agli occhi di un qualsiasi utente possono essere anche non notate o addirittura ignorate; carenze che non passano inosservate a chi invece, ha un po' di cultura in materia. Cosa potrebbe succedere se tali informazioni cadessero in mano a persone che non la pensano esattamente come me ? Quali potrebbero essere le conseguenze ? Perché nessuno se ne preoccupa davvero ?
 
