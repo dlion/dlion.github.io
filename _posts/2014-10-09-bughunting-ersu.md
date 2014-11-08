@@ -9,7 +9,7 @@ E.R.S.U. - Ente Regionale per il Diritto allo Studio Universitario; è questo il
 Le richieste generalmente sono tantissime contando tutti gli studenti dell'università che si ritengono idonei a ricevere la borsa di studio e contengono generalmente una fotocopia della _carta di identità_, _l'isee_, _l'iseu_, _l'ispeu_, _nuclei familiari_ e tante altre informazioni private.
 Cosa pensate possa accadere se tali informazioni potessero essere consultate da **chiunque**?
 
-In particolare oggi parlerò dell'ERSU della città di **Palermo**, dove vivo e dove frequento la facoltà di _Scienze Informatiche_ proprio all'[Università degli studi di Palermo](http://portale.unipa.it/ "UNIPA"); raccontando alcuni aneddoti sulla alquanto discutibile sicurezza usata per gestile determinati enti.
+In particolare oggi parlerò dell'ERSU della città di **Palermo**, dove vivo e dove frequento la facoltà di _Scienze Informatiche_ proprio all'[Università degli studi di Palermo](http://portale.unipa.it/ "UNIPA"); raccontando alcuni aneddoti sulla alquanto discutibile sicurezza usata per gestire determinati enti.
 
 ## Invio del modulo di partecipazione
 
