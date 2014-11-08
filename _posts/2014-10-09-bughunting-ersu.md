@@ -13,7 +13,7 @@ In particolare oggi parlerò dell'ERSU della città di **Palermo**, dove vivo e 
 
 ## Invio del modulo di partecipazione
 
-Ogni studente universitario è obbligato a mandare un file pdf contenente tutti i dati utili per poter effettuare la domanda di partecipazione alla richiesta per la borsa di studio; dati quali fotocopia avanti/dietro della carta di identità, dichiarazione ISEEU, nucleo familiare, ISPEU, Codice Fiscale, Firma più altre eventuali informazioni che potrebbero servire per lo scopo sopra descritto; una vera e propria miniera di informazioni riguardo ad uno studente e al suo nucleo familiare; tale pdf dev'essere grande meno di 2Mb.
+Ogni studente universitario è obbligato a mandare un file pdf contenente tutti i dati utili per poter effettuare la domanda di partecipazione alla richiesta per la borsa di studio; dati quali fotocopia fronte/retro della carta di identità, dichiarazione ISEEU, nucleo familiare, ISPEU, Codice Fiscale, Firma più altre eventuali informazioni che potrebbero servire per lo scopo sopra descritto; una vera e propria miniera di informazioni riguardo ad uno studente e al suo nucleo familiare; tale pdf dev'essere grande meno di 2Mb.
 La procedura in questione funziona egregiamente e BAM, il documento è online!
 
 ## WHAT?
