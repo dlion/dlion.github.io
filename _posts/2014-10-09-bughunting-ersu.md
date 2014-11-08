@@ -68,7 +68,7 @@ Se prima erano in pericolo "solo" i dati di tutti gli studenti che avevano fatto
 
 Ovviamente ho segnalato tutti i problemi riscontrati e ho suggerito persino le possibili soluzioni; non ho mai ricevuto una risposta in proposito ma ora ricontrollando noto che il problema della Blind SQL Inj è stato risolto.
 
-Questo mi fa capire che chiunque abbia creato il portale non si sia minimamente preoccupato di gestire gli input provenienti dall'utente né tanto meno di usare tecnologie adatte ad evitare ciò. (l'uso di ORM come PDO è ormai uno standard nel 2014, eh; usarli aiuta a risolvere l'85% di 'sti problemi)
+Questo mi fa capire che chiunque abbia creato il portale non si sia minimamente preoccupato di gestire gli input provenienti dall'utente né tanto meno di usare tecnologie adatte ad evitare ciò. (l'uso di ORM attraverso engine come PDO è ormai uno standard nel 2014, eh; usarli aiuta a risolvere l'85% di 'sti problemi)
 
 Si tratta di tenere al sicuro milioni di dati sensibili, dati di milioni di studenti e famiglie.   
 Come è possibile che ai giorni nostri debbano capitare situazioni del genere su sistemi tanto sensibili ? Da quanto erano lì i bug ?
