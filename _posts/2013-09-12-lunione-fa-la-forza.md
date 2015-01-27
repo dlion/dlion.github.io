@@ -88,10 +88,10 @@ e per "magia" tutto ciò che si trovava nel ramo sviluppo è stato "unito" al ra
 
 Questa era la cosa dal punto di vista della shell, sicuramente molto utile dal punto di vista didattico ma come già detto non è l'unica via. Esistono parecchi programmi che consentono di usare git attraverso una interfaccia grafica, tra questi ci sono:
 
-* [SmartGit] (http://www.syntevo.com/smartgithg/)
-* [SourceTree] (http://www.sourcetreeapp.com/)
-* [GitHub] (http://github.com/)
-* [Code School] (http://try.github.io/levels/1/challenges/1)
+* [SmartGit](http://www.syntevo.com/smartgithg/)
+* [SourceTree](http://www.sourcetreeapp.com/)
+* [GitHub](http://github.com/)
+* [Code School](http://try.github.io/levels/1/challenges/1)
 
 Davvero molto ben fatti e vale la pena provarli.
 
