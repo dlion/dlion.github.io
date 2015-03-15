@@ -6,7 +6,7 @@ Site: [http://dlion.it](http://dlion.it)
 
 ## License
 
-Copyright 2014 Domenico Luciani aka DLion
+Copyright 2015 Domenico Luciani aka DLion (domenicoleoneluciani[at]gmail[dot]com)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
