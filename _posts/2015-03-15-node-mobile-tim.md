@@ -20,7 +20,7 @@ Uno degli inconvenienti di ciò è proprio quello di dover fare meno operazioni 
 
 ## MobileTIM
 
-Ho sviluppato in node.js un modulo che facesse ciò, una volta connessi con il vostro telefono -non ho sviluppato un sistema di autenticazione perché usando la vostra connessione l'autenticazione è automatica- vi basta eseguirlo per farvi spuntare tutti i vostri dati sulla vostra shell.
+Ho sviluppato in node.js [un modulo](https://github.com/dlion/mobiletim) che facesse ciò, una volta connessi con il vostro telefono -non ho sviluppato un sistema di autenticazione perché usando la vostra connessione l'autenticazione è automatica- vi basta eseguirlo per farvi spuntare tutti i vostri dati sulla vostra shell.
 
 ## Installazione
 
@@ -36,7 +36,7 @@ o se avete clonato il repo vi basterà digitare `node index.js`.
 
 ## Screenshot
 
-![screenshot](http://i.imgur.com/uUP7v4G.png)
+![screenshot](http://i.imgur.com/eUdZb89.jpg)
 
 ## Conclusione
 
