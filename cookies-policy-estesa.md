@@ -65,6 +65,11 @@ Google Fonts è un servizio di visualizzazione di stili di carattere gestito da 
 Dati personali raccolti: Cookie e Dati di utilizzo.   
 Luogo del trattamento : USA – [Privacy Policy](http://www.google.it/intl/en/policies/privacy/)   
 
+#### Imgur (Imgur Inc.)
+Imgur è un servizio di image storing che uso per mostrare le immagini all'interno delle mie pagine.   
+Dati personali raccolti: Cookie e Dati di utilizzo.  
+Luogo del trattamento: USA - [Privacy Policy](http://imgur.com/privacy)
+
 ## Ulteriori informazioni sul trattamento
 
 ### Difesa in giudizio

@@ -19,6 +19,9 @@ layout: post
 * Google Fonts
 * Dati Personali: Cookie e Dati di utilizzo
 
+* Imgur
+* Dati Personali: Cookie e Dati di utilizzo
+
 ### Informazioni di contatto
 * Titolare del trattamento
 * Domenico Luciani - Via Generale Luigi Bertett 146/B - 90121 Palermo (Italia), [domenicoleoneluciani@gmail.com](mailto:domenicoleoneluciani@gmail.com)
