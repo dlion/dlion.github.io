@@ -47,6 +47,29 @@
 
     <script src="/public/js/vendor/modernizr.js"></script>
     <script src="/public/js/cookies-enabler.min.js"></script>
+    <style>
+        .ce-banner{
+            position: fixed;
+            bottom: 1em;
+            left: 1em;
+            right: 1em;
+            background-color: #dedede;
+            padding: 1em;
+            color: #232323;
+            font-size: 1em;
+            font-family: arial;
+        }
+        .ce-banner p{
+           margin-bottom: 1em;
+        }
+        .ce-banner .ce-accept{
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: .6em 1em;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <nav class="top-bar" data-topbar>
@@ -150,7 +173,26 @@
     <script src="public/js/foundation.min.js"></script>
     <script type="text/javascript">
         $(document).foundation();
-        COOKIES_ENABLER.init();
+        COOKIES_ENABLER.init({
+            scriptClass: 'ce-script',
+            iframeClass: 'ce-iframe',
+            acceptClass: 'ce-accept',
+            dismissClass: 'ce-dismiss',
+            bannerClass: 'ce-banner',
+            bannerHTML: '<p>This website uses cookies. '
+                        +'<a href="#" class="ce-accept">'
+                        +'Enable Cookies'
+                        +'</a>'
+                        +'</p>',
+            eventScroll: true,
+            scrollOffset: 200,
+            clickOutside: false,
+            cookie: {
+                name: 'ce-cookie',
+                duration: 365
+            },
+            preventIframes: true
+        });
     </script>
 </body>
 </html>
