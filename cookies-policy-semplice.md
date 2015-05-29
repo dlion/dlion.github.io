@@ -21,6 +21,6 @@ layout: post
 
 ### Informazioni di contatto
 * Titolare del trattamento
-* Domenico Luciani - Via Generale Luigi Bertett 146/B - 90121 Palermo (Italia), domenicoleoneluciani@gmail.com
+* Domenico Luciani - Via Generale Luigi Bertett 146/B - 90121 Palermo (Italia), [domenicoleoneluciani@gmail.com](mailto:domenicoleoneluciani@gmail.com)
 
 ### Per ulteriori informazioni guarda la [Policy Estesa](http://dlion.it/cookies-policy-estesa.html)
