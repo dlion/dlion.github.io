@@ -53,7 +53,7 @@
             background-color: #dedede;
             padding: 1em;
             color: #232323;
-            font-size: 1em;
+            font-size: 14px;
             font-family: arial;
         }
         .ce-banner p{
@@ -65,6 +65,9 @@
             text-decoration: none;
             padding: .6em 1em;
             display: inline-block;
+        }
+        .ce-dismiss {
+            color: #0078a0;
         }
     </style>
 </head>
@@ -103,15 +106,19 @@
     </div>
     <!-- Content -->
     <div class="row contentPost">
+        {% if page.date  %}
         <div class="show-for-small-only small-6 columns contentDataMobile">
             <span class="element">{{page.date | date_to_string}}</span>
         </div>
+    {% endif %}
         <div class="large-11 small-12 small-text-center columns contentTitoloPost" id="{{page.category}}">
             <h1>{{page.title}}</h1>
         </div>
+        {% if page.date  %}
         <div class="large-12 text-right columns contentDataDesktop show-for-medium-up" id="{{page.category}}">
             <span class="element">{{page.date | date_to_string}}</span>
         </div>
+    {% endif %}
         <div class="large-12 small-12 columns contentContentPost">
             {{content}}
         </div>
@@ -190,13 +197,8 @@
             acceptClass: 'ce-accept',
             dismissClass: 'ce-dismiss',
             bannerClass: 'ce-banner',
-            bannerHTML: '<p>This website uses cookies. '
-                        +'<a href="#" class="ce-accept">'
-                        +'Enable Cookies'
-                        +'</a>'
-                        +'</p>',
-            eventScroll: true,
-            scrollOffset: 200,
+            bannerHTML: 'Questo sito utilizza cookie di terze parti. Proseguendo nella navigazione di questo sito acconsenti al loro utilizzo. <a href="#" class="ce-accept">Ok</a> <a href="/cookies-policy-semplice.html" class="ce-dismiss">Cookies Policy</a>',
+            eventScroll: false,
             clickOutside: false,
             cookie: {
                 name: 'ce-cookie',

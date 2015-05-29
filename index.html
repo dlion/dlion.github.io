@@ -56,7 +56,7 @@
             background-color: #dedede;
             padding: 1em;
             color: #232323;
-            font-size: 1em;
+            font-size: 14px;
             font-family: arial;
         }
         .ce-banner p{
@@ -68,6 +68,9 @@
             text-decoration: none;
             padding: .6em 1em;
             display: inline-block;
+        }
+        .ce-dismiss {
+            color: #0078a0;
         }
     </style>
 </head>
@@ -179,13 +182,8 @@
             acceptClass: 'ce-accept',
             dismissClass: 'ce-dismiss',
             bannerClass: 'ce-banner',
-            bannerHTML: '<p>This website uses cookies. '
-                        +'<a href="#" class="ce-accept">'
-                        +'Enable Cookies'
-                        +'</a>'
-                        +'</p>',
-            eventScroll: true,
-            scrollOffset: 200,
+            bannerHTML: 'Questo sito utilizza cookie di terze parti. Proseguendo nella navigazione di questo sito acconsenti al loro utilizzo. <a href="#" class="ce-accept">Ok</a> <a href="/cookies-policy-semplice.html" class="ce-dismiss">Cookies Policy</a>',
+            eventScroll: false,
             clickOutside: false,
             cookie: {
                 name: 'ce-cookie',
