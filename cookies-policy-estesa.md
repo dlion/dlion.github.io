@@ -3,6 +3,7 @@ title: Cookies Policy Estesa
 description: Come usiamo i Cookies
 category: Personal
 layout: post
+disqus: false
 ---
 
 ## Titolare del Trattamento dei Dati

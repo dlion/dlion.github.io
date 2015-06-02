@@ -3,6 +3,7 @@ title: Cookies Policy Semplice
 description: Come usiamo i Cookies
 category: Personal
 layout: post
+disqus: false
 ---
 
 ## Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:
