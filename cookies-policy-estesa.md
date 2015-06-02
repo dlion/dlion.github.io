@@ -6,7 +6,7 @@ layout: post
 ---
 
 ## Titolare del Trattamento dei Dati
-Domenico Luciani - Via Generale Luigi Bertett 146/B - 90121 Palermo (Italia), [domenicoleoneluciani@gmail.com](mailto:domenicoleoneluciani@gmail.com)
+Domenico Luciani, [domenicoleoneluciani@gmail.com](mailto:domenicoleoneluciani@gmail.com)
 
 ## Tipologie di Dati raccolti
 Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: Cookie e Dati di utilizzo.   
