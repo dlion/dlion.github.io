@@ -24,3 +24,5 @@ defaults:
     values:
       layout: "posts"
 
+gems:
+      - jekyll-feed
