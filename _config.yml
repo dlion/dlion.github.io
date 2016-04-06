@@ -1,11 +1,11 @@
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
-production_url: http://dlion.it
+production_url: dlion.it
 name: DLion ~ Blog
 description_name: Domenico Luciani
 description_blog: DLion ~ Blog
-url: http://dlion.it
+url: dlion.it
 github: DLion
 twitter: dlion92
 linkedin: dlion
