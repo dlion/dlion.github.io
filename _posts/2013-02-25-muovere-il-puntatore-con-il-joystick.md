@@ -85,3 +85,7 @@ Se avete domande in proposito basta chiedere, il tutto funziona su qualsiasi joy
 Ovviamente questo è solo un esempio scemo, l’unico limite è la vostra fantasia.
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/past/electronics/programming/2013/02/26/move-cursor-pointer-with-joystick.html)

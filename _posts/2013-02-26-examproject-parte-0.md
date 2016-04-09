@@ -50,3 +50,7 @@ Ovviamente accetto consigli di ogni genere da chiunque abbia voglia di aiutarmi.
 
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/past/programming/computervision/opencv/2013/02/26/exam-project-0.html)

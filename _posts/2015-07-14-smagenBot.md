@@ -47,3 +47,7 @@ Se volete suggerire nuovi plugins, migliorare il codice, segnalare bug, sentitev
 liberi di fare PR ed aprire issues.
 
 Saluti, DLion.
+
+---
+
+[English Version](//domenicoluciani.com/past/programming/node/2015/07/14/smagenbot.html)

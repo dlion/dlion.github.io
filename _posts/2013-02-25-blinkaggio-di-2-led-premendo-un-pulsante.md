@@ -130,3 +130,7 @@ Ecco qui 2 video di scarsa qualità che ho girato tanto per farvi perdere tempo
 Per qualsiasi domanda io sono qui.
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/raspberrypi/past/electronics/programming/2013/02/25/2-leds-blink.html)

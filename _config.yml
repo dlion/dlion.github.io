@@ -1,5 +1,4 @@
 markdown: kramdown
-highlighter: pygments
 permalink: /:title/
 production_url: dlion.it
 name: DLion ~ Blog
@@ -26,4 +25,8 @@ defaults:
       layout: "posts"
 
 gems:
-      - jekyll-feed
+    - jekyll-feed
+    - jemoji
+    - jekyll-mentions
+    - jekyll-redirect-from
+    - jekyll-sitemap

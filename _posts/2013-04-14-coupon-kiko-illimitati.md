@@ -499,3 +499,7 @@ Ovviamente il tutto è perfettamente funzionante perché il codice che viene gen
 Penso possa bastare, qualsiasi domanda, chiarimento, dubbio, etc. io sono sempre qui.
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/past/security/programming/2013/04/14/unlimited-kiko-coupon.html)

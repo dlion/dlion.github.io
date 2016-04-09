@@ -208,3 +208,7 @@ Il tutto lo potete trovare sul mio GitHub: [https://github.com/dlion/OStega](htt
 **Ovviamente** per qualsiasi cosa, io sono qui.
 
 Saluti, DLion.
+
+---
+
+[English Version](//domenicoluciani.com/past/programming/opencv/2013/03/15/ostega-opencv-steganography.html)

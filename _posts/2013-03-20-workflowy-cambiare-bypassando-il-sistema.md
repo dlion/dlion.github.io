@@ -151,3 +151,7 @@ Ecco un esempio lampante di controllo errato delle richieste in entrata, sarebbe
 Non ho messo in pratica tecniche particolari o azionato tool segreti, il bug è principalmente fra la tastiera e la sedia. (come sempre, del resto)
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/past/programming/hacking/security/2013/03/20/how-to-change-theme-workflowy.html)

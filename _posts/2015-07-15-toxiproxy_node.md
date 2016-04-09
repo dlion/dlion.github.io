@@ -21,3 +21,7 @@ Per qualsiasi bug, suggerimento o insulto vi basta aprire una issue sul repo in
 questione.
 
 Saluti, DLion
+
+---
+
+[English Version](//domenicoluciani.com/past/programming/node/2015/07/15/toxiproxy-node.html)
