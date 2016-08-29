@@ -24,4 +24,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/past/programming/node/2015/07/15/toxiproxy-node.html)
+[English Version](https://domenicoluciani.com/2015/07/15/toxiproxy-node.html)

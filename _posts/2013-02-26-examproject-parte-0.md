@@ -53,4 +53,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/past/programming/computervision/opencv/2013/02/26/exam-project-0.html)
+[English Version](https://domenicoluciani.com/2013/02/26/exam-project-0.html)

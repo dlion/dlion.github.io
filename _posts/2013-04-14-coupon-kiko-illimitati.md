@@ -502,4 +502,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/past/security/programming/2013/04/14/unlimited-kiko-coupon.html)
+[English Version](https://domenicoluciani.com/2013/04/14/unlimited-kiko-coupon.html)

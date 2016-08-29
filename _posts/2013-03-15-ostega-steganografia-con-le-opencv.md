@@ -211,4 +211,4 @@ Saluti, DLion.
 
 ---
 
-[English Version](//domenicoluciani.com/past/programming/opencv/2013/03/15/ostega-opencv-steganography.html)
+[English Version](https://domenicoluciani.com/2013/03/15/ostega-opencv-steganography.html)

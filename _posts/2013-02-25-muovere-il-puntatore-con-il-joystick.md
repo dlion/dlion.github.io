@@ -88,4 +88,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/past/electronics/programming/2013/02/26/move-cursor-pointer-with-joystick.html)
+[English Version](https://domenicoluciani.com/2013/02/26/move-cursor-pointer-with-joystick.html)

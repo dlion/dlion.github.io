@@ -217,3 +217,7 @@ Le funzioni potevano essere implementate ancor di più ma dato il semplice proge
 Spero che la prima vera parte di questo progetto vi abbia incuriosito, presto metterò il resto sperando che possa essere utile a qualcuno.
 
 Saluti, DLion
+
+---
+
+[English Version](https://domenicoluciani.com/2013/02/26/exam-project-prelude.html)

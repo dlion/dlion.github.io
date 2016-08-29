@@ -133,4 +133,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/raspberrypi/past/electronics/programming/2013/02/25/2-leds-blink.html)
+[English Version](https://domenicoluciani.com/2013/02/25/2-leds-blink.html)

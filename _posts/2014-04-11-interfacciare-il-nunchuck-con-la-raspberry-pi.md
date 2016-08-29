@@ -217,3 +217,7 @@ Questa potrebbe essere solo la punta dell'iceberg, pensate alle enormi possibili
 Spero di avere presto il tempo necessario per continuare la cosa e realizzare qualcosa di simpatico.
 
 Saluti, DLion
+
+---
+
+[English Version](https://domenicoluciani.com/2014/04/11/how-to-interface-a-nunchuck-with-raspberry-pi.html)

@@ -50,4 +50,4 @@ Saluti, DLion.
 
 ---
 
-[English Version](//domenicoluciani.com/past/programming/node/2015/07/14/smagenbot.html)
+[English Version](https://domenicoluciani.com/2015/07/14/smagenbot.html)

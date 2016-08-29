@@ -154,4 +154,4 @@ Saluti, DLion
 
 ---
 
-[English Version](//domenicoluciani.com/past/programming/hacking/security/2013/03/20/how-to-change-theme-workflowy.html)
+[English Version](https://domenicoluciani.com/2013/03/20/how-to-change-theme-workflowy.html)
