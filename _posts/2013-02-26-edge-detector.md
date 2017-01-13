@@ -9,7 +9,7 @@ Oggi vedremo come **rilevare i contorni** degli oggetti all'interno di una deter
 Per fare ciò usaremo [Canny](http://en.wikipedia.org/wiki/Canny_edge_detector), un particolare filtro che ci permette di mettere in risalto i contorni di un qualcosa all’interno di una determinata immagine.
 
 Prima di tutto vediamo un piccolo sorgente che ci consente di fare ciò:
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 * Rilevatore di bordi con canny
 * Snippet by Domenico Luciani aka DLion
@@ -82,7 +82,8 @@ Vediamo il procedimento esatto:
 15. Dopo di ciò libero tutte le risorse allocate precedentemente terminando il programma.
 
 Questo è il risultato:
-![Canny]({{site.image_url}}/edge-detector.jpg)
+
+![Canny](/images/edge-detector.jpg)
 
 Cambiando i valori di threshold potrete decidere voi se far vedere più contorni o farne vedere meno, io ho scelto di filtrare quasi tutto lasciando solo quello che mi interessava, provateci!
 

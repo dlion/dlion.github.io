@@ -486,7 +486,7 @@ Mostra tranquillamente come è possibile usare il color tracking per interagire 
 La cosa che più conta è che la webcam riesca a **trackare per bene** il colore altrimenti avrà dei problemi a rilevare se tocchiamo o meno le bolle. (come è normale che sia)
 
 Ecco uno screenshot
-![trackcolore]({{site.image_url}}/examproject-parte-2.png)
+![trackcolore](/images/examproject-parte-2.png)
 
 Sì lo so, avrei potuto gestire meglio il tutto, il codice magari è scritto male e ci sono schifezze in giro; mea culpa ma avevo davvero poco tempo.   
 In ogni caso la parte interessante è stata proprio quella di interfacciare i miei movimenti con quelli creati dal computer, assemblare il tutto attraverso il multi-threading e rendere piacevole il "gioco" senza troppe problematiche.

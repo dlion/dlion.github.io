@@ -211,7 +211,7 @@ Il tutto continua a funzionare disegnando a schermo tanti cerchi consecutivi e d
 
 Il programma termina qui, la maggior parte delle funzioni viste le abbiamo [incontrate precedentemente](/examproject-parte-2/). Quindi ho preferito evitare di essere troppo ridondante e di arrivare alla parte viva del programma tralasciando parti già viste.
 
-![Draw](/public/img/posts/examproject-parte-3.jpg)
+![Draw](/images/examproject-parte-3.jpg)
 
 Il sorgente è commentato e si può ben notare che circa l'80% delle cose le abbiamo già viste in precedenza.   
 Per qualsiasi cosa rivedetevi gli articoli precedenti oppure chiedete pure.

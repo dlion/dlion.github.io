@@ -1,214 +1,67 @@
-<!DOCTYPE html>
-<html class="no-js" lang="it">
-<head>
-    <title>{{site.description_name}} | {{site.description_blog}} | {{page.title}}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{site.description_name}} |  {{site.description_blog}}"/>
-    <meta name="keywords" content="programming, security, raspberry, computer vision, dlion, blog"/>
+---
+layout: default
+---
 
-    <link rel="author" href="https://plus.google.com/{{site.gplus}}"/>
-    <link rel="publisher" href="https://plus.google.com/{{site.gplus}}"/>
-    <!-- SEO -->
-    <link rel="canonical" href="//dlion.it/{{page.url}}" />
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}">
-    <meta itemprop="description" content="{{page.description}}">
-    <meta itemprop="image" content="//dlion.it/public/img/pic.jpg">
-    <!-- Open Graph data -->
-    <meta property="og:locale" content="it_IT" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}" />
-    <meta property="og:description" content="{{page.description}}" />
-    <meta property="og:url" content="//dlion.it/{{page.url}}" />
-    <meta property="og:site_name" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}" />
-    <meta property="og:image" content="//dlion.it/public/img/pic.jpg" />
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary">
-    <meta name="twitter:site" content="{{site.twitter}}">
-    <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}} | {{page.title}}">
-    <meta name="twitter:description" content="{{page.description}}">
-    <meta name="twitter:creator" content="{{site.twitter}}">
-    <meta name="twitter:creator:id" content="{{site.twitter}}">
-    <meta name="twitter:image:src" content="//dlion.it/public/img/pic.jpg">
-    <meta name="twitter:image" content="//dlion.it/public/img/pic.jpg">
-    <meta name="twitter:domain" content="//dlion.it/{{page.url}}">
-    <!-- FINE SEO -->
-
-    <!-- FOUNDATION -->
-    <link rel="stylesheet" href="/public/css/foundation.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/public/css/custom.css" />
-    <link rel="stylesheet" href="/public/css/syntax.css" />
-    <link rel="stylesheet" href="/public/foundation-icons/foundation-icons.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.description_name }} | {{ site.description_blog }}" href="//dlion.it/feed/">
-    <link rel="shortcut icon" href="//dlion.it/favicon.ico">
-    <script src="/public/js/vendor/modernizr.js"></script>
-    <script src="/public/js/cookies-enabler.min.js"></script>
-    <style>
-        .ce-banner{
-            position: fixed;
-            bottom: 1em;
-            left: 1em;
-            right: 1em;
-            background-color: #dedede;
-            padding: 1em;
-            color: #232323;
-            font-size: 14px;
-            font-family: arial;
-        }
-        .ce-banner p{
-           margin-bottom: 1em;
-        }
-        .ce-banner .ce-accept{
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            padding: .6em 1em;
-            display: inline-block;
-        }
-        .ce-read {
-            color: #0078a0;
-        }
-    </style>
-</head>
-<body>
-    <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="//dlion.it/"><span class="element">{{site.description_name}}</span> | <span id="titolettoNavbar">{{site.description_blog}}</span></a></h1>
-            </li>
-             <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-        <section class="top-bar-section">
-            <ul class="right">
-                <li>
-                    <a href="https://github.com/{{site.github}}" target="_blank">
-                        <span class="title-menutopbar element">Github</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/{{site.twitter}}" target="_blank">
-                        <span class="title-menutopbar element">Twitter</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </nav>
-    <div class="container">
-        <div class="row text-center titolone">
-            <div class="large-5 large-offset-1 columns" >
-                <h1 id="titoloNome"><a href="//dlion.it/">{{site.description_name}}</a></h1>
-            </div>
-            <div class="large-6 large-centered columns" >
-                <h1 id="titoloDescr" class="large-text-left">{{site.description_blog}}</h1>
-            </div>
-        </div>
-    </div>
-    <!-- Content -->
-    <div class="row contentPost">
-        {% if page.date  %}
-        <div class="show-for-small-only small-6 columns contentDataMobile">
-            <span class="element">{{page.date | date_to_string}}</span>
-        </div>
-    {% endif %}
-        <div class="large-11 small-12 small-text-center columns contentTitoloPost" id="{{page.category}}">
-            <h1>{{page.title}}</h1>
-        </div>
-        {% if page.date  %}
-        <div class="large-12 text-right columns contentDataDesktop show-for-medium-up" id="{{page.category}}">
-            <span class="element">{{page.date | date_to_string}}</span>
-        </div>
-    {% endif %}
-        <div class="large-12 small-12 columns contentContentPost">
-            {{content}}
-        </div>
-    </div>
-    <div class="row sharePost">
-        <div class="large-4 large-text-left columns aboutMeFull">
-            <h4>Author</h4>
-            <div class="large-4 small-5 columns">
-                <img src="//dlion.it/public/img/pic.jpg" width="90px"></img>
-            </div>
-            <div class="large-8 small-7 columns">
-                <ul class="large-block-grid-3 small-block-grid-3 contentAboutMePost">
-                    <li>
-                        <a href="https://github.com/{{site.github}}" target="_blank">
-                            <i class="fi-social-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/{{site.twitter}}" target="_blank">
-                            <i class="fi-social-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank">
-                            <i class="fi-social-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="large-8 large-text-right columns shareThisPostLabel">
-            <h3>Share this post...</h3>
-        </div>
-        <div id="share" class="large-3 large-text-center small-text-center columns">
-            <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{page.url}}&text={{page.title }}&via=dlion92" target="_blank">
-                <i class="fi-social-twitter"></i>
-            </a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=//dlion.it/{{page.url}}" target="_blank">
-                <i class="fi-social-facebook"></i>
-            </a>
-            <a href="https://plus.google.com/share?url=//dlion.it/{{page.url}}" target="_blank">
-                <i class="fi-social-google-plus"></i>
-            </a>
-        </div>
-    </div>
-    {% if page.disqus != false %}
-    <div class="row commentPost">
-        <div class="large-12 small-12 columns">
-            <div id="disqus_thread"></div>
-        </div>
-    </div>
-    <script type="text/plain" class="ce-script">
-        var disqus_shortname = '{{site.disqus}}';
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
 {% endif %}
 
-    <script type="text/plain" class="ce-script">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o)
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-40851910-1', 'dlion.it');
-        ga('send', 'pageview');
-    </script>
+<div class="post-header mb2">
+  <h1>{{ page.title }}</h1>
+  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+  {% if page.update_date %}
+    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
+  {% endif %}
+  <span class="post-meta small">
+  {% if page.minutes %}
+    {{ page.minutes }} {{ site.text.post.minute_read }}
+  {% else %}
+    {{ minutes }} {{ site.text.post.minute_read }}
+  {% endif %}
+  </span>
+</div>
 
-    <script src="/public/js/vendor/jquery.js"></script>
-    <script src="/public/js/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-        COOKIES_ENABLER.init({
-            scriptClass: 'ce-script',
-            iframeClass: 'ce-iframe',
-            acceptClass: 'ce-accept',
-            dismissClass: 'ce-dismiss',
-            bannerClass: 'ce-banner',
-            bannerHTML: 'Questo sito utilizza cookie di terze parti. Proseguendo nella navigazione di questo sito acconsenti al loro utilizzo. <a href="#" class="ce-accept">Ok</a> <a href="/cookies-policy-semplice.html" class="ce-read">Cookies Policy</a>',
-            eventScroll: false,
-            clickOutside: false,
-            cookie: {
-                name: 'ce-cookie',
-                duration: 365
-            },
-            preventIframes: true
-        });
-    </script>
-</body>
-</html>
+<article class="post-content">
+  {{ content }}
+</article>
+
+{% if site.show_sharing_icons %}
+  {% include share_buttons.html %}
+{% endif %}
+
+{% if site.show_post_footers %}
+  {% include post_footer.html %}
+{% endif %}
+
+{% if site.disqus_shortname %}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title      = {{ page.title | jsonify }};
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+{% if site.facebook_comments %}
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
+{% endif %}
+
+{% if site.show_related_posts %}
+  <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
+  {% for post in site.related_posts %}
+    <div class="post ml2">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+        <h4 class="post-title">{{ post.title }}</h4>
+        <p class="post-summary">{{ post.summary }}</p>
+      </a>
+    </div>
+  {% endfor %}
+{% endif %}

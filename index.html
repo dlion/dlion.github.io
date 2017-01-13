@@ -1,196 +1,28 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html class="no-js" lang="it">
-<head>
-    <title>{{site.description_name}} | {{site.description_blog}}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{site.description_name}} |  {{site.description_blog}}"/>
-    <meta name="keywords" content="programming, security, raspberry, computer vision, dlion, blog"/>
+{% assign posts_count = (paginator.posts | size) %}
 
-    <link href="https://plus.google.com/{{site.gplus}}?rel=author"/>
-    <link href="https://plus.google.com/{{site.gplus}}?rel=publisher"/>
-    <!-- SEO -->
-    <link rel="canonical" href="/" />
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="{{site.description_name}} | {{site.description_blog}}">
-    <meta itemprop="description" content="Domenico Luciani's Blog">
-    <meta itemprop="image" content="//dlion.it/public/img/pic.jpg">
-    <!-- Open Graph data -->
-    <meta property="og:locale" content="it_IT" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{site.description_name}} | {{site.description_blog}}" />
-    <meta property="og:description" content="Domenico Luciani's Blog" />
-    <meta property="og:url" content="//dlion.it" />
-    <meta property="og:site_name" content="{{site.description_name}} | {{site.description_blog}}" />
-    <meta property="og:image" content="//dlion.it/public/img/pic.jpg" />
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary">
-    <meta name="twitter:site" content="{{site.twitter}}">
-    <meta name="twitter:title" content="{{site.description_name}} | {{site.description_blog}}">
-    <meta name="twitter:description" content="Domenico Luciani's Blog">
-    <meta name="twitter:creator" content="{{site.twitter}}">
-    <meta name="twitter:creator:id" content="{{site.twitter}}">
-    <meta name="twitter:image" content="//dlion.it/public/img/pic.jpg">
-    <meta name="twitter:image:src" content="//dlion.it/public/img/pic.jpg">
-    <meta name="twitter:domain" content="//dlion.it">
-    <!-- FINE SEO -->
-
-    <!-- FOUNDATION -->
-    <link rel="stylesheet" href="/public/css/foundation.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/public/css/custom.css" />
-    <link rel="stylesheet" href="/public/foundation-icons/foundation-icons.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.description_name }} | {{ site.description_blog }}" href="//dlion.it/feed/">
-    <link rel="shortcut icon" href="//dlion.it/favicon.ico">
-
-    <script src="/public/js/vendor/modernizr.js"></script>
-    <script src="/public/js/cookies-enabler.min.js"></script>
-    <style>
-        .ce-banner{
-            position: fixed;
-            bottom: 1em;
-            left: 1em;
-            right: 1em;
-            background-color: #dedede;
-            padding: 1em;
-            color: #232323;
-            font-size: 14px;
-            font-family: arial;
-        }
-        .ce-banner p{
-           margin-bottom: 1em;
-        }
-        .ce-banner .ce-accept{
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            padding: .6em 1em;
-            display: inline-block;
-        }
-        .ce-read {
-            color: #0078a0;
-        }
-    </style>
-</head>
-<body>
-    <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="//dlion.it"><span class="element">{{site.description_name}}</span> | <span id="titolettoNavbar">{{site.description_blog}}</span></a></h1>
-            </li>
-             <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-        <section class="top-bar-section">
-            <ul class="right">
-                <li>
-                    <a href="https://github.com/{{site.github}}" target="_blank">
-                        <span class="title-menutopbar element">Github</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/{{site.twitter}}" target="_blank">
-                        <span class="title-menutopbar element">Twitter</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </nav>
-    <div class="container">
-        <div class="row text-center titolone">
-            <div class="large-5 large-offset-1 columns" >
-                <h1 id="titoloNome"><a href="//dlion.it/">{{site.description_name}}</a></h1>
-            </div>
-            <div class="large-6 large-centered columns" >
-                <h1 id="titoloDescr" class="large-text-left">{{site.description_blog}}</h1>
-            </div>
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post py3">
+          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <p class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>
         </div>
+      {% endfor %}
     </div>
-{% for post in site.posts %}
-    <div class="row text-center primoPiano">
-        <div class="large-3 columns large-text-right dataPrimoPiano">
-            <h6>{{post.date | date_to_string}}</h6>
-        </div>
-        <div class="large-9 large-text-left columns testoPrimoPiano">
-            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-        </div>
-    </div>
-{% endfor %}
 
-<!--Footer TODO: Da rivedere  -->
-    <div class="footer">
-        <div class="row">
-            <div class="large-6  columns">
-                <div class="row">
-                    <div class="large-3 medium-2 columns picFooter">
-                        <img src="//dlion.it/public/img/pic.jpg" width="90px"></img>
-                    </div>
-                    <div class="large-7 medium-10 columns left aboutFooter">
-                        <p>Geek, developer,compulsive coder and curious coffee addicted.<br>Italian guy and Computer Science student.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="large-6 columns  iconsFooter">
-                <ul class="small-block-grid-5 medium-block-grid-5 large-block-grid-5">
-                    <li>
-                        <a href="https://github.com/{{site.github}}" target="_blank">
-                            <i class="fi-social-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/{{site.twitter}}" target="_blank">
-                            <i class="fi-social-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/{{site.linkedin}}/" target="_blank">
-                            <i class="fi-social-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/u/0/{{site.gplus}}" target="_blank">
-                            <i class="fi-social-google-plus"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:domenicoleoneluciani@gmail.com">
-                            <i class="fi-mail"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    <script type="text/plain" class="ce-script">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o)
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-40851910-1', 'dlion.it');
-        ga('send', 'pageview');
-    </script>
-
-    <script src="public/js/vendor/jquery.js"></script>
-    <script src="public/js/foundation.min.js"></script>
-    <script type="text/javascript">
-        $(document).foundation();
-        COOKIES_ENABLER.init({
-            scriptClass: 'ce-script',
-            iframeClass: 'ce-iframe',
-            acceptClass: 'ce-accept',
-            dismissClass: 'ce-dismiss',
-            bannerClass: 'ce-banner',
-            bannerHTML: 'Questo sito utilizza cookie di terze parti. Proseguendo nella navigazione di questo sito acconsenti al loro utilizzo. <a href="#" class="ce-accept">Ok</a> <a href="/cookies-policy-semplice.html" class="ce-read">Cookies Policy</a>',
-            eventScroll: false,
-            clickOutside: false,
-            cookie: {
-                name: 'ce-cookie',
-                duration: 365
-            },
-            preventIframes: true
-        });
-    </script>
-</body>
-</html>
+    {% include pagination.html %}
+  {% else %}
+    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
+  {% endif %}
+</div>

@@ -15,7 +15,7 @@ Esistono due modalità d'uso:
 
 Ecco il sorgente
 
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

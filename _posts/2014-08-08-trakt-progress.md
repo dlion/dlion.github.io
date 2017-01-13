@@ -10,11 +10,11 @@ Per fare ciò il client si basa sulle informazioni prese dal sito [Trakt.tv](htt
 
 Il client in questione ha una semplice interfaccia visuale che potrete direttamente usare dalla vostra shell, ecco uno screenshot per farvi una idea
 
-![Screenshot](http://i.imgur.com/cqyplL2.jpg)
+![Screenshot](/images/traktprogress1.jpg)
 
 Come potete notare una volta configurato esso prenderà la lista dei vostri anime con puntate in sospeso e ve le mostrerà in una semplice lista che potrete scorrere con le freccette; una volta vista la puntata vi basterà premere **enter** sulla puntata interessata e ripremere enter su **yes** all'interno del messaggio che vi comparirà a video per poter "settare" quella puntata come **vista**.
 
-![Screenshot2](http://i.imgur.com/3sN1FyK.jpg)
+![Screenshot2](/images/traktprogress2.jpg)
 
 
 ## Installazione

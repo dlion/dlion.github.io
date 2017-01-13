@@ -117,7 +117,7 @@ Vediamo in dettaglio la funzione *imgStega*.
 Come detto prima abbiamo l'immagine *img* e la parola *msg*   
 Prendiamo la larghezza dell'immagine inserendola in *wid* e la lunghezza della parola.
 
-###**Attenzione, l’immagine deve essere NECESSARIAMENTE in formato bmp perché tali formati non vengono compressi né pacchettizzati e questo semplice sorgente lavora pixel per pixel senza decomprimere o fare altre operazioni più complesse.**
+### **Attenzione, l’immagine deve essere NECESSARIAMENTE in formato bmp perché tali formati non vengono compressi né pacchettizzati e questo semplice sorgente lavora pixel per pixel senza decomprimere o fare altre operazioni più complesse.**
 
 Se il canale dell'immagine è diversa da 3 (quindi una immagine normale a colori deve essere) ritorna -1 uscendo.   
 Vediamo l’algoritmo che si cela dietro il processo steganografico:

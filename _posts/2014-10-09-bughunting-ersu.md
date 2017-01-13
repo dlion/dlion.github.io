@@ -21,15 +21,16 @@ La procedura in questione funziona egregiamente e BAM, il documento è online!
 Vado a visualizzare il documento in questione e noto che il file in questione è stato rinominato in un formato piuttosto preciso: `<numerodipratica>_ERSU_2014.pdf` all'interno della cartella `2014/Doc/`.   
 A quel punto la curiosità ebbe il sopravvento: **e se cambiassi il numero di pratica?**
 
-![OMG]({{site.image_url}}/bughunting-ersu-1.gif)
+![OMG](/images/bughunting-ersu-1.gif)
 
 Esattamente quello che state pensando, avevo appena aperto un pdf di un altro studente **con dentro tutti i suoi relativi dati PRIVATI**, ciò stava a significare che lo stesso criterio era stato adottato per tutti gli studenti che avevano fatto domanda, ripeto: **TUTTI**.
 
 Per conferma mi sono realizzato un piccolo script in node.js che sfruttava il PoC in questione che chiamai [xaviERSU](https://github.com/DLion/xaviERSU "xaviERSU").
 
-![Xavier]({{site.image_url}}/bughunting-ersu-2.png)
-
-> Trovali, trovali tutti
+<blockquote>
+<p>_<img src="/images/bughunting-ersu-2.png" alt="xavier"/></p>
+<footer><cite title="X-man">Trovali, trovali tutti...</cite></footer>
+</blockquote>
 
 Script che mi permetteva, iterando i numeri di pratica scannerizzando gli url di capire, se un determinato pdf era presente o meno all'interno di quella cartella tramite il messaggio di stato che il server restituiva. (**evitando quindi di scaricare o aprire documenti con dati non miei**, voglio sottolinearlo, eh )
 
@@ -47,7 +48,7 @@ Il mio primo pensiero ovviamente è stato quello di segnalare tale "mancanza" ag
 
 Fiducioso andai a controllare il modulo in questione e notai che il nome era cambiato, `doc2014_<hashMD5>.pdf` all'interno della stessa cartella.
 
-![what]({{site.image_url}}/bughunting-ersu-3.gif)
+![what](/images/bughunting-ersu-3.gif)
 
 Ebbene sì, gli "addetti ai lavori" si sono limitati al cambiare SOLO il nome ai file hashandolo tramite MD5 rendendo univoco il documento (rendendo futile l'iterazione adottata prima), perfetto, ora è più difficile identificare il nome dei file ma non impossibile.
 L'hash sarà sicuramente formato dal numero di pratica -che permette di identificare univocamente il documento- più qualche SALT particolare così da rendere difficile il decrypt di tale stringa che se scoperta (rainbow tables, brute force attack, dictionary attack) farebbe cadere la "protezione" adottata dagli sviluppatori chiamati in causa dall'ente in questione, il danno che ne conseguirebbe sarebbe troppo grande per lasciare come unica protezione il semplicissimo e banalissimo rename dei file usando un algoritmo di hashing ormai praticamente obsoleto.
@@ -59,7 +60,7 @@ uhm...... `ultimaPagina.php?idPratica='`
 
 > You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''''' at line 1
 
-![comeon]({{site.image_url}}/bughunting-ersu-4.gif)
+![comeon](/images/bughunting-ersu-4.gif)
 
 Avete capito bene, è bastato inviare un apice per mettere in ginocchio il sistema in questione rendendo possibile eventuali attacchi [Blind SQL Injection](http://en.wikipedia.org/wiki/SQL_injection) con cui è LETTERALMENTE possibile dumpare tutto il database con le giuste query.   
 Se prima erano in pericolo "solo" i dati di tutti gli studenti che avevano fatto ricorso ora sono in pericolo TUTTI i dati presenti nel loro database, davvero inaccettabile.

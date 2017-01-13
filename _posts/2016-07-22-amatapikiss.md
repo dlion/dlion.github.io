@@ -1,17 +1,12 @@
 ---
-title: amatAPIkiss
+title: amatApiKiss
 description: Un approccio fin troppo KISS per servire API
 category: programming
 layout: post
 ---
+Di recente l'azienda municipalizzata auto trasporti di Palermo (AMAT) ha rilasciato degli open datas con le informazioni sui mezzi, gli orari, le rotte, l'azienda e molto altro così mi sono subito attivato per creare un piccolo tool per mettere a disposizione di chiunque voglia delle API REST per servire tali dati ed effettuare ricerche mirate.
 
-Di recente l'azienda municipalizzata auto trasporti di Palermo (AMAT) ha rilasciato degli open datas con le informazioni sui mezzi, 
-gli orari, le rotte, l'azienda e molto altro così mi sono subito attivato per creare un piccolo tool per mettere a disposizione di
-chiunque voglia delle API REST per servire tali dati ed effettuare ricerche mirate.
-
-Di proposito ho voluto usare un approccio KISS per puro divertimento, ciò significa che il sistema da me proposto non è assolutamente da
-prendere in considerazione per progetti a lungo termine né dovrebbe essere usato per avere una soluzione efficiente al problema.
-L'ho realizzato soprattutto per gioco.
+Di proposito ho voluto usare un approccio KISS per puro divertimento, ciò significa che il sistema da me proposto non è assolutamente da prendere in considerazione per progetti a lungo termine né dovrebbe essere usato per avere una soluzione efficiente al problema. L'ho realizzato soprattutto per gioco.
 
 ## Specifiche
 
@@ -42,9 +37,10 @@ La prima cosa che bisogna fare in un primo uso è convertire gli open datas (org
 usare con lowdb; per fare ciò ho creato all'interno della cartella `db` uno script che sfruttando [csvjson](https://github.com/pradeep-mishra/csvjson)
 permette di convertire i files nella directory `db` in uno schema simile
  
- ```js
+
+{% highlight js lineanchors %}
 { "nomefile": [ { ... }, { ... }, { ... } ] }
- ```
+{% endhighlight %}
 
 ritrovandovi poi dei files *.txt.json (i nostri open datas convertiti).
  
@@ -59,3 +55,4 @@ Ho implementato un semplice sistema di ricerca basato sul sistema chiave/valore 
 all'interno del file shapes tutti gli oggetti con `shape_id` uguale a `1010` ? Vi basterà visitare l'indirizzo
 `127.0.0.1:3000/shapes/shape_id/1010` che darà in output i risultati trovati. In poche parole il tutto si riduce a:
 `127.0.0.1:3000/<db>/<key>/<value>`.
+

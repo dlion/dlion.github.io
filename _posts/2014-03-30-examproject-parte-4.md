@@ -181,6 +181,6 @@ L'utilizzo dei file cascade richiedono parecchi calcoli e parecchio tempo così 
 
 L'utilizzo dei file cascade è molto efficace per quanto riguarda le immagini statiche come le foto di una macchina fotografica digitale, cosa totalmente sconsigliata durante un qualsiasi stream video data la lentezza intrinseca dell'algoritmo.
 
-![face]({{site.image_url}}/examproject-parte-4.png)
+![face](/images/examproject-parte-4.png)
 
 Saluti, DLion

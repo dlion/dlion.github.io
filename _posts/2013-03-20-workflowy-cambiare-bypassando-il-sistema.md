@@ -8,13 +8,13 @@ Mi è stato consigliato da poco un servizio davvero niente male, si tratta di [W
 Tale servizio permette di stilare una fantastica todo list in grado di "seguire" il vostro pensiero stilando gerarchicamente tutti i contenuti.
 
 Ecco alcuni esempi:
-![uno]({{site.image_url}}/workflowy-cambiare-bypassando-il-sistema.jpg)
+![uno](/images/workflowy-cambiare-bypassando-il-sistema.jpg)
 
-![due]({{site.image_url}}/workflowy-cambiare-bypassando-il-sistema-1.jpg)
+![due](/images/workflowy-cambiare-bypassando-il-sistema-1.jpg)
 
 
 Come si può notare ha molte funzionalità e girovagando un po' mi accorgo di alcune impostazioni che posso cambiare
-![impo]({{site.image_url}}/workflowy-cambiare-bypassando-il-sistema-2.jpg)
+![impo](/images/workflowy-cambiare-bypassando-il-sistema-2.jpg)
 
 Figa, posso cambiare il tema e il font, ottimo quel bianco era troppo "Bianco".   
 Quindi mi accinsi a cambiare il tema e vidi che c'era un tema "hacker": nero, verde; abbastanza figo!   
@@ -132,7 +132,7 @@ Come secondo passo ho utilizzato un utile plugin di firefox che mi permette di "
 Il plugin in questione è [Live HTTP Headers](https://addons.mozilla.org/it/firefox/addon/live-http-headers/).
 
 Potevo cambiare solo un misero font nelle impostazioni, provai con quello ed ecco cosa ottenni come risultato:   
-![risult]({{site.image_url}}/workflowy-cambiare-bypassando-il-sistema-3.jpg)
+![risult](/images/workflowy-cambiare-bypassando-il-sistema-3.jpg)
 
 Cioè per settare il font inviava solo un parametro "font" con attributo "serif" alla pagina *change_settings*
 
@@ -142,7 +142,7 @@ Invio come parametro theme=hacker e la pagina mi ritorna per "magia" `{"success"
 
 ####TADAN!
 
-![Success]({{site.image_url}}/workflowy-cambiare-bypassando-il-sistema-4.jpg)
+![Success](/images/workflowy-cambiare-bypassando-il-sistema-4.jpg)
 
 Figo no ?
 

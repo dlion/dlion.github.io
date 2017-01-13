@@ -36,7 +36,7 @@ o se avete clonato il repo vi basterà digitare `node index.js`.
 
 ## Screenshot
 
-![screenshot](http://i.imgur.com/eUdZb89.jpg)
+![screenshot](/images/tim.jpg)
 
 ## Conclusione
 

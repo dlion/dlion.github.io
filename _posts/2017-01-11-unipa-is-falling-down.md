@@ -5,10 +5,9 @@ category: Personal
 layout: post
 ---
 ## Preludio della fine
-
 Unipa, anno 2012, test d'ingresso per la facoltà di scienze informatiche.
 
-Il test prevede oltre alle solite domande di logica, matematica, fisica, etc. anche 15~ domande d'inglese di livello A1 al superamento delle quali Unipa mi avrebbe convalidato la *MATERIA* Inglese da *BEN* e dico *BEN 3CFU*.
+Il test prevede oltre alle solite domande di logica, matematica, fisica, etc. anche 15~ domande d'inglese di livello A1 al superamento delle quali Unipa mi avrebbe convalidato la *MATERIA* Inglese da **BEN** e dico **BEN 3CFU**.
 
 ## Unipa è una uni bella
 
@@ -16,15 +15,15 @@ Direte voi:
 
 >Vabbè è un test d'ingresso, durante la tua carriera universitaria avoja d'inglese che farai, stattebbono!
 
-Unipa, tramite il [CLA](http://www.unipa.it/amministrazione/area1/uoa02) effettua dei corsi pre-iscrizione di livello *A1* così da consentire a tutti di potersi preparare, fantastico, no? Ok è un A1, livello scuola elementare che Masha&Orso levatevi ma è comunque utile, no?
+Unipa, tramite il [CLA](http://www.unipa.it/amministrazione/area1/uoa02) effettua dei corsi pre-iscrizione di livello **A1** così da consentire a tutti di potersi preparare, fantastico, no? Ok è un A1, livello scuola elementare che Masha&Orso levatevi ma è comunque utile, no?
 
 Inoltre, se ho un certificato posso letteralmente skippare tutta la procedura e farmeli convalidare senza passare dal via, fantastico!
 
-##Open your eyes
+## Open your eyes
 
 Avendo esperienza nel settore so bene quanto l'inglese sia fondamentale così prima di subito mi attivo per cercare materie a scelta da poter inserire nel mio pian-ah, mi state dicendo che non posso più inserire materie "Inglese" anche se di livello avanzato nel mio piano di studi? E se volessi comprovare le mie abilità ling-ah, devo prendere un certificato apposito al CLA tramite esame a pagamento che le mie tasse universitarie non coprono. Ho capito. Grazie, buonagiornata!
 
-![what]({{site.image_url}}/what.gif)
+![what](/images/what.gif)
 
 ## Explain your bullshit
 
@@ -38,7 +37,7 @@ L'informatica è nata principalmente in paesi anglofoni; la documentazione prese
 
 >L'informatica è in inglese, fatevene una ragione.
 
-![itcrowd]({{site.image_url}}/itcrowd.gif)
+![itcrowd](/images/itcrowd.gif)
 
 Come può un neolaureato in Science Informatiche uscire dall'università con un inglese comprovato di 3CFU di livello A1 ed essere pronto per lavorare in un mondo nella quale l'inglese è un buon 80% del lavoro? (Provateci voi a cercare di risolvere un bug senza saper leggere i suggerimenti su stackoverflow) Per quanto assurdo possa sembrare semplicemente: non può.
 
@@ -46,7 +45,7 @@ Come può una università, nel 2016, lasciare un corso di soli 3CFU in un corso 
 
 ## Centro Linguistico d'Ateneo
 
-Semestralmente il CLA attiva dei corsi *GRATUITI* di livello crescente (lo scorso anno il livello più alto era il B2-C1) fatto con professori madrelingua anche molto bravi, peccato che il tutto non è pubblicizzato come dovrebbe. Non avrete certificati davvero spendibili nel mondo del lavoro, nessuno testerà le vostre conoscenze per comprovare che siete davvero un livello C1 né tantomeno saprete parlare un inglese fluente alla fine del corso -per quello ci vuole pratica e dedizione- ma quantomeno non starete fermi al livello A1 che l'Università degli Studi di Palermo vi obbliga ad avere nel vostro piano di studi. 
+Semestralmente il CLA attiva dei corsi **GRATUITI** di livello crescente (lo scorso anno il livello più alto era il B2-C1) fatto con professori madrelingua anche molto bravi, peccato che il tutto non è pubblicizzato come dovrebbe. Non avrete certificati davvero spendibili nel mondo del lavoro, nessuno testerà le vostre conoscenze per comprovare che siete davvero un livello C1 né tantomeno saprete parlare un inglese fluente alla fine del corso -per quello ci vuole pratica e dedizione- ma quantomeno non starete fermi al livello A1 che l'Università degli Studi di Palermo vi obbliga ad avere nel vostro piano di studi. 
 
 ## Move your ass!
 

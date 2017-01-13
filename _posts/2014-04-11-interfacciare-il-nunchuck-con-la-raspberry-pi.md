@@ -16,7 +16,7 @@ Girovagando per la città sono incappato in un nunchuck a basso costo, una volta
 # Modello di nunchuck
 
 Il modello da me acquistato non è quello originale Nintendo ma bensì una "copia" chiamata funchuck che viene a costare anche meno di 5€ ormai.   
-![funchuck]({{site.image_url}}/nunchuck-chinese.jpg)
+![funchuck](/images/nunchuck-chinese.jpg)
 
 ## Qual è la differenza fra i due ?
 
@@ -43,7 +43,7 @@ Quello originale ne avrà uno in più chiamato `PRESENZA` che è pressocché inu
 
 ## Schema di collegamento
 
-![schema]({{site.image_url}}/nunchuck-sketch-raspberry.jpg)
+![schema](/images/nunchuck-sketch-raspberry.jpg)
 
 Come potete notare il tutto è collegato direttamente quindi non avrete bisogno di connettori particolari, saldare fili o altre cose più "pratiche".
 
