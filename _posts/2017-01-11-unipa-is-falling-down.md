@@ -4,13 +4,13 @@ description: Considerazioni sulla materia Inglese di Unipa
 category: Personal
 layout: post
 ---
-#Preludio della fine
+## Preludio della fine
 
 Unipa, anno 2012, test d'ingresso per la facoltà di scienze informatiche.
 
 Il test prevede oltre alle solite domande di logica, matematica, fisica, etc. anche 15~ domande d'inglese di livello A1 al superamento delle quali Unipa mi avrebbe convalidato la *MATERIA* Inglese da *BEN* e dico *BEN 3CFU*.
 
-#Unipa è una uni bella
+## Unipa è una uni bella
 
 Direte voi:
 
@@ -20,13 +20,13 @@ Unipa, tramite il [CLA](http://www.unipa.it/amministrazione/area1/uoa02) effettu
 
 Inoltre, se ho un certificato posso letteralmente skippare tutta la procedura e farmeli convalidare senza passare dal via, fantastico!
 
-#Open your eyes
+##Open your eyes
 
 Avendo esperienza nel settore so bene quanto l'inglese sia fondamentale così prima di subito mi attivo per cercare materie a scelta da poter inserire nel mio pian-ah, mi state dicendo che non posso più inserire materie "Inglese" anche se di livello avanzato nel mio piano di studi? E se volessi comprovare le mie abilità ling-ah, devo prendere un certificato apposito al CLA tramite esame a pagamento che le mie tasse universitarie non coprono. Ho capito. Grazie, buonagiornata!
 
 ![what]({{site.image_url}}/what.gif)
 
-#Explain your bullshit
+## Explain your bullshit
 
 Avete capito bene, la formazione linguistica comprovata dall'Unipa per quanto riguarda gli studenti che studiano informatica è di un inglese dal peso di 3CFU di livello A1.
 
@@ -44,11 +44,11 @@ Come può un neolaureato in Science Informatiche uscire dall'università con un 
 
 Come può una università, nel 2016, lasciare un corso di soli 3CFU in un corso d'informatica mettendo materie come "Storia della chimica" a 6CFU? (Nulla da togliere a questa materia ma professionalmente parlando, da informatico è più importante conoscere l'inglese piuttosto che la storia della chimica, che Lavoisier mi perdoni)
 
-#Centro Linguistico d'Ateneo
+## Centro Linguistico d'Ateneo
 
 Semestralmente il CLA attiva dei corsi *GRATUITI* di livello crescente (lo scorso anno il livello più alto era il B2-C1) fatto con professori madrelingua anche molto bravi, peccato che il tutto non è pubblicizzato come dovrebbe. Non avrete certificati davvero spendibili nel mondo del lavoro, nessuno testerà le vostre conoscenze per comprovare che siete davvero un livello C1 né tantomeno saprete parlare un inglese fluente alla fine del corso -per quello ci vuole pratica e dedizione- ma quantomeno non starete fermi al livello A1 che l'Università degli Studi di Palermo vi obbliga ad avere nel vostro piano di studi. 
 
-#Move your ass!
+## Move your ass!
 
 Un consiglio che posso dare a tutti è quello di non aspettare di laurearvi né tanto meno di dover cercare un lavoro all'estero o di dover studiare su dei libri per superare una materia la quale materiale è solo presente in inglese perché l'informatica è in inglese e finisce sempre così (ricorsione) per studiare l'inglese. Leggete fumetti in inglese, seguite blog in inglese, scrivete in inglese, guardate film eng sub-eng, ascoltate musica in inglese e cercate di capire le parole (o leggetevi le lyrics), in poche parole, studiate per conto vostro. Nessuno vi vieta di seguire da esterni Inglese di altre facoltà, nessuno vi vieta di seguire corsi privati.
 
