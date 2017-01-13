@@ -59,6 +59,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+    <meta property="og:image" content="{{ site.url }}/images/me.jpeg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
@@ -67,6 +68,7 @@
     {% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:image" content="{{ site.url }}/images/me.jpeg">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
     {% if site.google_analytics %}
