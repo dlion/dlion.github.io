@@ -1,7 +1,7 @@
 ---
 title: Trakt Progress
-description: Client da linea di comando per tenere aggiornati i miei progressi su trakt.tv
-category: Programming
+summary: Client da linea di comando per tenere aggiornati i miei progressi su trakt.tv
+categories: Programming
 layout: post
 ---
 Recentemente ho rilasciato sotto licenza MIT un client scritto in Node.js a me molto utile, mi permette di tenere aggiornati i miei progressi su una determinata serie tv o anime; il client in questione mi dice qual è la puntata successiva che dovrò vedere, la percentuale di puntate viste fin'ora e cosa più importante, quando uscirà la prossima puntata.

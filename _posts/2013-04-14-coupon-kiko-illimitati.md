@@ -1,7 +1,7 @@
 ---
 title: Coupon Kiko illimitati
-description: Diario di un bypassaggio, ottenere infiniti coupon kiko.
-category: Security
+summary: Diario di un bypassaggio, ottenere infiniti coupon kiko.
+categories: Security
 layout: post
 ---
 Tranquilli, questo articolo non tratterà né di make-up né di make-down.   
@@ -21,7 +21,7 @@ Noto che l'immagine in questione ha un indirizzo del genere: `http://www.fbappde
 Trovo una pagina web con l'immagine principale dell'app, null'altro.   
 Come è giusto che sia controllo il codice html e noto che c'è parecchia roba in javascript allora con il mio fedele [firebug](http://getfirebug.com/) comincio a debuggarmi il codice trovato studiandone il funzionamento notando questo:
 
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 FB.getLoginStatus(function(response) {
     //console.log('getLoginStatus');
     if (response.status === 'connected') {
@@ -55,7 +55,7 @@ Per ulteriori informazioni date una occhiata alla [documentazione ufficiale di f
 Continuo a controllare il codice e noto che sono presenti diverse slide, cioè il sito in questione è formato da slides fatte in jQuery che venivano visualizzate di volta in volta per poi arrivare ad un form che inviava una richiesta ad una determinata pagina php.   
 Scorrendo il sorgente noto qualcosa d'interessante, è la parte più importante di tutte 'sto spezzone di sorgente quindi state molto attenti.
 
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 $('#step4').click(function() {
   if(slider==null) { slider = $('div#formslider').data('jslide') };
   //Qui invia la news letter?
@@ -134,7 +134,7 @@ Continuo a ringraziare gli sviluppatori della Kiko per queste chicche *molto esp
 Cioè quel *jsonParameters* conterrà dei parametri che sicuramente verranno utilizzati per inviare i dati alla pagina php che dovrà elaborarli; teniamola in mente, ci torneremo subito dopo.
 
 Continuiamo  a leggere il codice fino a
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 $.ajax({
     url: "request.php?method=save",
     type: "POST",
@@ -148,7 +148,7 @@ $.ajax({
 Questo è ciò che cercavo, una richiesta [AJAX](https://it.wikipedia.org/wiki/AJAX) alla pagina request.php passando come parametro method=save e come parametri della richiesta POST il contenuto della variabile *jsonParameters* creata con la funzione *creaJson()*.
 
 Se va in errore ritorna un alert altrimenti
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 success: function(data, textStatus, jqXHR) {
     $('#wait').fadeOut();
     //console.log('reponse');
@@ -191,7 +191,7 @@ Se il campo *js_invio* della variabile *jsonParameters* è uguale ad "email" vie
 
 La funzione *getCoupon* ? Quindi c'è una funzione dedicata alla generazione dei coupon ? Uhm,  ma prima direi di riprendere la funzione *creaJson()* così da capire come vengono "sistemati" i dati che vengono inviati.   
 Cerco nel codice e la trovo, vediamola:
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 function creaJson() {
   var datiJson = {};
   datiJson.js_nome = $('#nome').val();
@@ -251,7 +251,7 @@ Quindi senza di quello ogni tentativo di effettuare una richiesta sarà vana ed 
 Bene, abbiamo capito come vengono e quali dati vengono presi per poi spedirli in formato JSON alla pagina php per poi ricevere come risposta (in caso di successo) un codice X che dovremo passare alla funzione *getCoupon*.
 
 Detto ciò andiamo a vedere come si comporta la funzione getCoupon in merito ai parametri che le vengono passati
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 function getCoupon(codice, mezzo) {
   var myV= $('#my_voucher');
   //Costruisci url...
@@ -327,7 +327,7 @@ Non somigliano molto all'indirizzo dell'immagine che ci era stata data all'inizi
 Abbiamo scoperto cosa restituisce la funzione *getCoupon*, ottimo; analizziamo altre funzioni utili a capire il comportamento di tale "app".
 
 Scorrendo ancora troviamo
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 function loadQuests(force) {
   //console.log('check quests:'+fb_uid + ", page: "+ kikoPage + 'my Token: ' + fb_at);
   //Verifica se l'utente ha già fatto il form...
@@ -399,7 +399,7 @@ function loadQuests(force) {
 {% endhighlight %}   
 Questa funzione viene richiamata dall'app per verificare se un determinato utente ha già effettuato in passato delle richieste (sempre tramite f_uid,etc.) vediamola in dettaglio.   
 La parte che più ci interessa è sicuramente la richiesta asincrona inviata
-{% highlight js linenos %}
+{% highlight js lineanchors %}
  $.ajax({
     url: "request.php?method=check",
     type: "POST",
@@ -414,7 +414,7 @@ La parte che più ci interessa è sicuramente la richiesta asincrona inviata
 Come possiamo vedere la richiesta [POST](https://en.wikipedia.org/wiki/POST_%28HTTP%29) viene inviata alla pagina *request.php* passando come parametro *method=check* inviando come dati l'*fb_uid* e "ok".
 
 Se viene ricevuta una risposta di successo accade questo
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 if((data.response)=='EXISTS' && data.code.length>0) {
         //Vari al pannello 4 ..con il coupon caricato!
         //console.log('codice esista...vado alla fine');
@@ -455,7 +455,7 @@ Bene, abbiamo capito come funziona quest'app, vediamo di mettere in pratica ciò
 Nel precedente articolo abbiamo visto il funzionamento delle [curl]({{site.url}}/richieste-http-dalla-linea-di-comando/), oggi le metteremo in pratica per effettuare una richiesta alla pagina specificata, vediamo come.
 
 Ricordate com'erano i dati e quali erano ? Non ci resta che inviargli manualmente ciò che l'app si prendeva in automatico
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 curl --data "js_nome=NomeFalso&\
             js_cognome=CognomeInventato&\
             js_email=indirizzo_falso%40gmail.com&\
@@ -474,7 +474,7 @@ curl --data "js_nome=NomeFalso&\
 {% endhighlight %}
 
 Come responso riceveremo questo:
-{% highlight json linenos %}
+{% highlight json lineanchors %}
 {
     "response":"OK",
     "method":"send",

@@ -1,7 +1,8 @@
 ---
 title: Riparare le glibc su Slackware
-description: Riparare in modo sicuro le glibc
-category: Linux
+date: 2012-08-26 10:00:00
+summary: Riparare in modo sicuro le glibc
+categories: linux
 layout: post
 ---
 Su Linux esistono tante librerie/pacchetti importanti che permettono il corretto funzionamento del sistema, alcune fra queste sono le glibc.   
@@ -31,7 +32,7 @@ Abbiamo alterato la nostra radice che punterà alla radice della nostra partizio
 
 ## Ripariamo
 Adesso inizia la parte più delicata, la sostituzione dei pacchetti danneggiati, digitate:
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 upgradepkg --reinstall --install-new cdrom/slackware64/a/glibc-solibs-*.txz
 upgradepkg --reinstall --install-new cdrom/slackware64/a/glibc-zoneinfo-*.txz
 upgradepkg --reinstall --install-new cdrom/slackware64/l/glibc-*.txz

@@ -1,7 +1,7 @@
 ---
 title: Richieste HTTP dalla linea di comando
-description: introduzione alle cURL
-category: Programming
+summary: introduzione alle cURL
+categories: Programming
 layout: post
 ---
 Mi è capitato molte volte di dover creare delle richieste [HTTP](http://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol) ad-hoc da inviare a determinate pagine web e/o applicazioni, richieste che posso gestire in modo manuale (ma non troppo) così da avere il pieno controllo di ciò che invio; il tutto fatto dalla mia amata linea di comando...
@@ -86,7 +86,7 @@ Vi basta guardare la [man page](http://www.linuxmanpages.com/man1/curl.1.php) de
 
 Per non parlare che sono disponibili praticamente per ogni linguaggio conosciuto, volete effettuare una richiesta POST con il php ?   
 Niente di più semplice
-{% highlight php linenos %}
+{% highlight php lineanchors %}
 <?php
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://articoli.dlion.it/howtousecurl/uso2.php");

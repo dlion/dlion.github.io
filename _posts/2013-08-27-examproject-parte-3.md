@@ -1,14 +1,14 @@
 ---
 title: ExamProject - Parte 3
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Dopo una breve pausa estiva riprendo a parlare del mio progetto d'esame sulla visione artificiale.   
 Oggi andrò a descrivere il funzionamento del programma "Draw", chi non ha mai desiderato di poter **colorare** sullo schermo del proprio computer?
 
 Vediamo il codice così da capire direttamente come funziona il tutto:
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

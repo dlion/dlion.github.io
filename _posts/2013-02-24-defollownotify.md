@@ -1,7 +1,7 @@
 ---
 title: DefollowNotify
-description: Chi non ti segue, sulla tua shell
-category: Programming
+summary: Chi non ti segue, sulla tua shell
+categories: Programming
 layout: post
 ---
 Come primo articolo ho pensato di non fare cose abnormi (anche perché vista l’ora non ne sarei in grado) quindi vi mostrerò qualcosa che a mio dire è utile ed interessante.   
@@ -29,7 +29,7 @@ Semplice ed efficace!
 
 Vi posto anche il sorgente, così per fare brodo e farvi vedere direttamente ciò che davvero vi interessa ma **ricordate che per funzionare vi conviene andare a prendere tutto il repository su GitHub**.
 
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 #!/bin/bash
  
 ###############################################################################

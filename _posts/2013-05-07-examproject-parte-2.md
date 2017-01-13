@@ -1,7 +1,7 @@
 ---
 title: ExamProject parte 2
-description: Il mio progetto d'esame sulla visione artificiale.
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale.
+categories: Programming
 layout: post
 ---
 Alcuni articoli fa vi descrissi la parte 1 del mio progetto d'esame, oggi volevo continuare illustrandovi in modo più o meno dettagliato la seconda parte di tale progetto.   
@@ -12,7 +12,7 @@ Il "gioco" in questione è totalmente sviluppato usando il C e le librerie OpenC
 Incominciamo con il premettere che il tutto è stato fatto durante il mio progetto d’esame (sì lo so, sono ridondante ma è giusto ripeterlo) ergo non aspettatevi cose mirabolanti anche perché il tempo scarseggiava e il caffè stava per finire.
 
 Vediamo il codice
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

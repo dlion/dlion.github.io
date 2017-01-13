@@ -1,7 +1,7 @@
 ---
 title: Ostega, steganografia con le OpenCV
-description: Nascondere del testo all'interno di una immagine con le opencv
-category: Programming
+summary: Nascondere del testo all'interno di una immagine con le opencv
+categories: Programming
 layout: post
 ---
 Dopo il lavoro avevo 10 minuti liberi e volero riprendere a far roba idiota con il C e le OpenCV.   
@@ -14,7 +14,7 @@ Quindi armato di buona volontà mi misi a leggere alcuni articoli su tale tecnic
 Le OpenCV permettono l'**interazione diretta con i pixel di una immagine** quindi il risultato non fu poi così complesso così nacque **OStega**, un piccolo e banale progettino realizzato con le OpenCV e il C che mi permetteva di usare una qualsiasi immagine bitmap come "copertura" per nascondere una determinata parola che fornivo in input per poi ritrovarla dando in pasto al mio decripter la stessa immagine, vediamolo in dettaglio il progetto.
 
 Il sorgente della libreria *OStega.h* contenente i prototipi delle 2 funzioni (cripta/decripta) è questo:
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 A simple libraries to use steganography with OpenCV
 Thinking and created by Domenico Luciani aka DLion
@@ -42,7 +42,7 @@ Come potete vedere le funzioni sono 2:
 * La seconda funzione accetta come parametro l'immagine contenete la parola criptografata e ritornerà lo stesso decriptato.
 
 Ora vediamo il sorgente delle 2 funzioni in questione:
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /* Functions to OStega project.
 * thinking and created by Domenico Luciani aka DLion
 */
@@ -134,7 +134,7 @@ Come abbiamo detto basta fornire l'immagine con la parola criptografata e lei do
 
 Semplice, no ?   
 Ora vediamo come usare il tutto:
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 #include <highgui.h>
 #include <cv.h>
 #include <string.h>

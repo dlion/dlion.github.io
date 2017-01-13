@@ -1,7 +1,7 @@
 ---
 title: Node Mobile TIM
-description: Modulo per visualizzare i dati della propria promozione TIM direttamente da shell
-category: Programming
+summary: Modulo per visualizzare i dati della propria promozione TIM direttamente da shell
+categories: Programming
 layout: post
 ---
 

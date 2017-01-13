@@ -1,7 +1,7 @@
 ---
 title: L'unione fa la forza
-description: Introduzione a Git
-category: Programming
+summary: Introduzione a Git
+categories: Programming
 layout: post
 ---
 Mi ero ripromesso di non fare i soliti HowTo, le solite guide o le solite cose che si possono trovare praticamente ovunque ma oggi farò uno strappo a questa regola.   

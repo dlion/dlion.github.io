@@ -1,7 +1,7 @@
 ---
 title: BugHunting ERSU, quanto sono al sicuro i nostri dati?
-description: Bug Hunting sul portale dell'ERSU, quanto sono sicuri i nostri dati? Resoconto di una caccia spietata al bug.
-category: Security
+summary: Bug Hunting sul portale dell'ERSU, quanto sono sicuri i nostri dati? Resoconto di una caccia spietata al bug.
+categories: Security
 layout: post
 ---
 E.R.S.U. - Ente Regionale per il Diritto allo Studio Universitario; è questo il nome dell'ente che si occupa di ricevere le richieste da parte degli studenti riguardo alle borse di studio che dovranno essere erogate ai suddetti vincitori fornendo agevolazioni importanti agli studenti meritevoli.

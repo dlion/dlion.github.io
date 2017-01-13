@@ -1,7 +1,7 @@
 ---
 title: Workflowy, cambiare bypassando il sistema
-description: Diario di un bypassamento
-category: Security
+summary: Diario di un bypassamento
+categories: Security
 layout: post
 ---
 Mi è stato consigliato da poco un servizio davvero niente male, si tratta di [WorkFlowy](https://workflowy.com/).   
@@ -31,7 +31,7 @@ quindi tentai una scemenza e cambiai "default" in "hacker".
 
 Funzionò, mi spuntò il css del tema che volevo e con firebug o con lo strumento "ispeziona" di firefox cambiai la stringa e il tema in questione cambiò diventando *super pr0 l337 h4x0r*.   
 Ma tutto ciò funzionava solo in locale, se io avessi cambiato o aggiornato la pagina il tutto sarebbe tornato normale, non mi andava affatto così continuai a guardare il sorgente e notai questo:
-{% highlight js linenos %}
+{% highlight js lineanchors %}
 var THEME_OPTIONS = [{
   "pretty_name": "Default",
   "font": "default",

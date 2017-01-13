@@ -1,7 +1,7 @@
 ---
 title: ToxiProxy-Node
-description: Nodejs client per toxiproxy
-category: programming
+summary: Nodejs client per toxiproxy
+categories: programming
 layout: post
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ExamProject parte ½
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Nell'articolo precedente vi ho introdotto il mio progetto d'esame sulla visione artificiale.   
@@ -14,7 +14,7 @@ Vi consiglio di clonare il repository in locale e compilarlo lì piuttosto che p
 La libreria si trova nella directory *lib* dentro la quale potrete trovare l'header con i prototipi delle funzioni e il sorgente delle stesse.
 
 - Header File
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #
@@ -77,7 +77,7 @@ void inserisci(IplImage*,IplImage*,int,int);
 {% endhighlight %}
 
 - C File
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

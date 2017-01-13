@@ -1,7 +1,7 @@
 ---
 title: ExamProject Parte 0
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Oggi vi voglio descrivere il mio progetto d’esame per la maturità che ho sostenuto lo scorso anno sulla visione artificiale.   

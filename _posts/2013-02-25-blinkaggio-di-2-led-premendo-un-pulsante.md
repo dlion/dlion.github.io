@@ -1,7 +1,7 @@
 ---
 title: Blinkaggio di 2 led premendo un pulsante
-description: Far blinkare 2 led grazie alla RaspBerry
-category: Raspberry
+summary: Far blinkare 2 led grazie alla RaspBerry
+categories: Raspberry
 layout: post
 ---
 Come vi avevo accennato dato che possiedo una Raspi passo quel poco tempo libero a farci cavolate per incrementare la mia conoscenza di elettronica e della raspi stessa.  
@@ -23,7 +23,7 @@ Prima di cominciare vi dico cosa ho usato:
 Questa era la parte “hardware”, ora vediamo quella software, cioè quel programmino che una volta avviato prenderà il segnale dal pulsantino ed invierà il segnale verso i led.   
 In poche parole sarà lui a “comandare” i led quando effettueremo una determinata azione.
 
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
   Blink 2 Led with push button
   By Domenico Luciani aka DLion
@@ -120,7 +120,7 @@ Come avete potuto notare dal sorgente prima postato all’interno di esso non de
 Ma devo usare lo standard di wiringPi quindi 8 per la lettura, 0 ed 1 per la scrittura.
 
 Dopo di ciò non vi resta che compilare il sorgente C ed avviarlo   
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 gcc nomesorgente.c -o blink -lwiringPi
 sudo ./blink
 {% endhighlight %}

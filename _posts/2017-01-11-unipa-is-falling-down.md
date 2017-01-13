@@ -1,7 +1,7 @@
 ---
 title: Unipa is falling down falling down falling down...
-description: Considerazioni sulla materia Inglese di Unipa
-category: Personal
+summary: Considerazioni sulla materia Inglese di Unipa
+categories: Personal
 layout: post
 ---
 ## Preludio della fine

@@ -1,7 +1,7 @@
 ---
 title: Interfacciare il nunchuck con la raspberry pi
-description: Come interfacciare il nunchuck della wii con la raspberry pi attraverso le porte GPIO
-category: Raspberry
+summary: Come interfacciare il nunchuck della wii con la raspberry pi attraverso le porte GPIO
+categories: Raspberry
 layout: post
 ---
 Girovagando per la città sono incappato in un nunchuck a basso costo, una volta portato a casa l'ho connesso alla mia raspberry interfacciandomi con esso attraverso le porte GPIO della stessa.
@@ -76,7 +76,7 @@ Il `52` in basso è l'elemento cruciale, sta ad indicare che il nostro device vi
 
 A quel punto ho realizzato un sorgente in C compilabile tranquillamente con `gcc <source.c> -o <binary>` per poi eseguirlo con `sudo ./<binary>`, lo trovate [qui](https://github.com/dlion/Raspi/blob/master/nunchuck.c)
 
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
  * The MIT License (MIT)
  * Copyright (c) 2014 Domenico Luciani http://dlion.it domenicoleoneluciani@gmail.com

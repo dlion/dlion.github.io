@@ -1,7 +1,7 @@
 ---
 title: ExamProject - Parte 4
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Continuano gli articoli sul mio progetto d'esame sulla visione artificiale.   
@@ -10,7 +10,7 @@ Il software in questione è "Head", in grado per l'appunto di effettuare il trac
 Il software utilizza gli [HaarCascade files](http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html) per identificare un particolare volto; di solito questo tipo di software viene usato nelle fotocamere digitali per riconoscere i volti presenti nella foto appena scattata.
 Si basa su dei tipi di file che contengono dei particolari dati per riconoscere un volto, ricavati grazie a uno speciale procedimento che consiste nell'analizzare centinaia di foto di volti (positivi) e tanti background (negativi) per poi ricavare il file che più o meno bene permetterà il tracciamento di un qualsiasi volto; vediamo il sorgente:
 
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

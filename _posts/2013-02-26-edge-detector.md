@@ -1,7 +1,7 @@
 ---
 title: Edge Detector
-description: Rilevare i contorni di una immagine utilizzando le opencv
-category: Programming
+summary: Rilevare i contorni di una immagine utilizzando le opencv
+categories: Programming
 layout: post
 ---
 Parliamo ancora delle OpenCV, uno strumento utile ed immenso che ci permette di fare cose impressionanti.   
@@ -88,7 +88,7 @@ Questo è il risultato:
 Cambiando i valori di threshold potrete decidere voi se far vedere più contorni o farne vedere meno, io ho scelto di filtrare quasi tutto lasciando solo quello che mi interessava, provateci!
 
 Per compilare il sorgente vi basta aver installato le OpenCV e digitare sulla vostra shell:
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 g++ `pkg-config --cflags --libs opencv` source.c -o source
 {% endhighlight %}
 

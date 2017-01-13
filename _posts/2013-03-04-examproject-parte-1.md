@@ -1,7 +1,7 @@
 ---
 title: ExamProject parte 1
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Torniamo a parlare del mio progetto d’esame per la maturità.   
@@ -9,7 +9,7 @@ Nella parte precedente abbiamo visto una piccola libreria home-made per semplifi
 Quest'oggi parleremo del software che ci permetterà di **trackare un qualsiasi colore** e allo stesso tempo di dire agli altri software quale colore abbiamo scelto.
 
 Il programma in questione si trova dentro la cartella config, cioè il *calibra.c*
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*
 # This file is part of Computer Vision Exam Project
 #

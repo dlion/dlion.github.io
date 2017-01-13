@@ -1,7 +1,7 @@
 ---
 title: ExamProject - Parte 5
-description: Il mio progetto d'esame sulla visione artificiale
-category: Programming
+summary: Il mio progetto d'esame sulla visione artificiale
+categories: Programming
 layout: post
 ---
 Un altro -ed ultimo- post sul mio progetto d'esame sulla visione artificiale.   

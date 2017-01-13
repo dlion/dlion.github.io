@@ -1,7 +1,7 @@
 ---
 title: La mia Raspberry Pi mi parla
-description: Come far parlare la nostra raspberry pi
-category: Raspberry
+summary: Come far parlare la nostra raspberry pi
+categories: Raspberry
 layout: post
 ---
 Avete presente la feature figa di Google Translate che permette di pronunciare le parole che vogliamo tradurre ?   
@@ -9,7 +9,7 @@ Ecco, ho fatto un piccolo script in bash che data una frase viene mandata a goog
 
 In poche parole come fare parlare la nostra raspberry.   
 Lo script è questo:
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 #!/bin/bash
 #By Domenico Luciani aka DLion
 # http://dlion.it
@@ -24,7 +24,7 @@ say $*
 
 L’unica dipendenza è mplayer ed ovviamente una connessione ad internet.   
 Una volta salvato come *say.sh* vi basterà digitare qualcosa come:
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 pi@raspberrypi ~ $ chmod +x ./say.sh
 pi@raspberrypi ~ $ ./say.sh DLion e il suo blog, sono fighi.
 {% endhighlight %}

@@ -1,7 +1,7 @@
 ---
 title: amatApiKiss
-description: Un approccio fin troppo KISS per servire API
-category: programming
+summary: Un approccio fin troppo KISS per servire API
+categories: programming
 layout: post
 ---
 Di recente l'azienda municipalizzata auto trasporti di Palermo (AMAT) ha rilasciato degli open datas con le informazioni sui mezzi, gli orari, le rotte, l'azienda e molto altro così mi sono subito attivato per creare un piccolo tool per mettere a disposizione di chiunque voglia delle API REST per servire tali dati ed effettuare ricerche mirate.

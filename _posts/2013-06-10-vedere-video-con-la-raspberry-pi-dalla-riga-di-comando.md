@@ -1,7 +1,7 @@
 ---
 title: Vedere video con la Raspberry pi dalla riga di comando
-description: Come vedere video con la vostra Raspberry comodamente seduti sul divano
-category: Raspberry
+summary: Come vedere video con la vostra Raspberry comodamente seduti sul divano
+categories: Raspberry
 layout: post
 ---
 Stasera mi piacerebbe vedere un bel film in tv, uhm, non fanno nulla d’interessante.   

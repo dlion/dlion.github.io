@@ -1,7 +1,7 @@
 ---
 title: Guida alla programmazione in Linux
-description: GaPiL, Linux and beyond
-category: Linux
+summary: GaPiL, Linux and beyond
+categories: Linux
 layout: post
 ---
 Io uso giornalmente Linux e molto spesso essendo un programmatore ho bisogno di interagire con quest'ultimo ad un livello più "basso", un livello che i normali utenti vedono solo con il binocolo tramite [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) sbrilluccicose o animazioni flashose.

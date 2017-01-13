@@ -1,7 +1,7 @@
 ---
 title: SmagenBot
-description: Bot che sfrutta le API di telegram scritto in Nodejs
-category: Programming
+summary: Bot che sfrutta le API di telegram scritto in Nodejs
+categories: Programming
 layout: post
 ---
 

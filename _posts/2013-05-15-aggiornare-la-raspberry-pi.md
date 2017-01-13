@@ -1,7 +1,7 @@
 ---
 title: Aggiornare la Raspberry Pi
-description: Aggiornare la vostra Raspberry Pi
-category: Raspberry
+summary: Aggiornare la vostra Raspberry Pi
+categories: Raspberry
 layout: post
 ---
 Ok un post sulla raspberry pi ci voleva dopo tutto 'sto tempo.   

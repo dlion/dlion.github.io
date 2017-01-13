@@ -1,7 +1,7 @@
 ---
 title: Muovere il puntatore con il joystick
-description: Il joystick, il tuo secondo mouse
-category: Programming
+summary: Il joystick, il tuo secondo mouse
+categories: Programming
 layout: post
 ---
 Cercando un po’ in rete ho trovato una libreria piuttosto cool che mi permetteva di interfacciare un qualsiasi joystick usb che avevo in casa con il pc ricevendo tutti i segnali inviati da esso; quindi se premevo un pulsante, se ruotavo l’analogico, se andavo su o giù e così via.   
@@ -10,7 +10,7 @@ Allora mi son chiesto se era possibile spostare il puntatore del mouse semplicem
 La libreria di cui parlo è la PLib, una volta installata sarà una passeggiata utilizzarla.   
 Ovviamente ho fatto tutto su Linux, ecco il sorgente:
 
-{% highlight c linenos %}
+{% highlight c lineanchors %}
 /*###############################################################################
 *# @Author : Domenico Luciani aka DLion
 *# @Description: Simple snippet for move the pointer on the screen using a joystick
@@ -76,7 +76,7 @@ int main()
 Per potervi interfacciare con il joystick vi basterà includere la libreria *plib/js.h* e per muovere il puntatore vi basterà includere le altre tre librerie di X.   
 Il sorgente è piuttosto semplice, inizializzo il tutto, rilevo il joystick, prendo le coordinate e le setto al puntatore mostrando il tutto a schermo.   
 Per compilare il tutto vi basta questo comando:
-{% highlight sh linenos %}
+{% highlight sh lineanchors %}
 g++ joystick.cpp -o joystick -lplibjs -lplibsl -lplibsm -lplibul -lm -lX11
 ./joystick
 {% endhighlight %}
