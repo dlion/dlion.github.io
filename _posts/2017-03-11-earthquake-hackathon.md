@@ -51,6 +51,12 @@ La linea guida dataci era più o meno questa:
 
 Il sistema in questione quindi doveva prevedere il raccoglimento dei dati dai sensori per poi mandarli in cloud e calcolare (grazie all'aiuto dei geologi dal punto di vista teorico e di AWS dal punto di vista computazionale) in anticipo le onde del sisma.
 
+![earthquakehackathon6](/images/earthquakehackathon_6.jpg)
+
+![earthquakehackathon7](/images/earthquakehackathon_7.jpg)
+
+![earthquakehackathon8](/images/earthquakehackathon_8.jpg)
+
 ## Verso la fine
 
 I teams dopo un primo step di competizione son finiti per collaborare fra di loro, unendo le idee cercando di venire a capo alle problematiche sorte durante la giornata, come interfacciarsi ai dispositivi, quali soluzioni adottare per avere un sistema il più possibile realtime così da permettere di allertare in tempo tutte le persone coinvolte e i servizi da usare per calcolare il tutto.
@@ -64,5 +70,9 @@ Purtroppo al giorno d'oggi ci è impossibile prevedere i terremoti, se si riusci
 Una esperienza davvero positiva sotto ogni punto di vista, l'evento ha permesso ha diversi professionisti e non di collaborare e imparare l'uno dall'altro, chi era esperto di cloud e AWS ma a secco di IoT ha avuto modo di vedere come usare le porte GPIO della Raspberry, al contrario chi era pratico di IoT ha potuto vedere come configurare e mettere online servizi AWS e per l'invio dei dati.
 
 ![earthquakehackathon4](/images/earthquakehackathon_4.jpg)
+
+In premio i teams hanno ricevuto dei Kindle e le Raspberry Pi su cui hanno lavorato durante l'evento
+
+![raspberrypi](/images/earthquakehackathon_5.jpg)
 
 Ovviamente vi invito a consultare il sito ufficiale per [ulteriori info](http://www.earthquakehackathon.it/), a presto!
