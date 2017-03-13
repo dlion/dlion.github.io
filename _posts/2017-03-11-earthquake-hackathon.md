@@ -67,7 +67,7 @@ Purtroppo al giorno d'oggi ci è impossibile prevedere i terremoti, se si riusci
 
 ## Conclusioni
 
-Una esperienza davvero positiva sotto ogni punto di vista, l'evento ha permesso ha diversi professionisti e non di collaborare e imparare l'uno dall'altro, chi era esperto di cloud e AWS ma a secco di IoT ha avuto modo di vedere come usare le porte GPIO della Raspberry, al contrario chi era pratico di IoT ha potuto vedere come configurare e mettere online servizi AWS e per l'invio dei dati.
+Una esperienza davvero positiva sotto ogni punto di vista, l'evento ha permesso a diversi professionisti e non di collaborare e imparare l'uno dall'altro, chi era esperto di cloud e AWS ma a secco di IoT ha avuto modo di vedere come usare le porte GPIO della Raspberry, al contrario chi era pratico di IoT ha potuto vedere come configurare e mettere online servizi AWS e per l'invio dei dati.
 
 ![earthquakehackathon4](/images/earthquakehackathon_4.jpg)
 
