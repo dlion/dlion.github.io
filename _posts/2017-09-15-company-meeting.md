@@ -17,7 +17,7 @@ Il viaggio comincia da Milano fino a Verona, lì facciamo un giro veloce in cent
 
 ![Verona](/images/verona.jpg)
 
-Da Verona si riprende il treno per poi arrivare a Trento
+Da Verona si riprende il treno per poi arrivare a Trento, la nostra agognata meta
 
 ![Trento](/images/trento.jpg)
 
@@ -39,17 +39,26 @@ Le giornate sono passate quindi parlando di tutti gli argomenti ci venissero in 
 
 ![Talk1](/images/talk1.jpg)
 
+Personalmente ho proposto dei talk riguardante un confronto fra Jekyll e Wordpress, sicurezza, la possibilità di fare dei corsi di inglese interni e sul modo di fare onboarding partecipando a svariati talk di mio interesse
+
 ![Talk2](/images/talk2.jpg)
 
 Durante queste giornate abbiamo avuto la possibilità di conoscerci, di scambiarci idee e conoscenze, di assistere a dei talk interessanti non solo dal punto di vista tecnico ma anche personale e aziendale. Giornate passate fra persone con in comune la voglia di imparare e contribuire per una realtà migliore, una realtà formata principalmente da persone con ideali, sogni ed obiettivi.
 
 ![Varie](/images/meeting1.jpg)
 
+Non sono ovviamente mancati i momenti di svago
+
 ![Varie](/images/meeting2.jpg)
+
+Tornei fra sedi? Forse
 
 ![Varie](/images/meeting3.jpg)
 
 Che dire, è stata una esperienza davvero piacevole, ci ha dato modo di conoscere i colleghi con cui giornalmente facciamo pair da remoto e di associare una faccia dietro quella notifica su Slack.
+
+Sono entrato in XPeppers da pochi mesi e non è passato un giorno che non sia felice di ciò, una realtà dinamica ed innovativa composta principalmente da persone in gamba.   
+Nel corso di questi mesi cercherò di tanto in tanto di riportare tramite brevi journal la mia esperienza sia dal punto di vista tecnologico che personale.
 
 Tutto questo in [XPeppers](https://xpeppers.com), al prossimo anno!
 
