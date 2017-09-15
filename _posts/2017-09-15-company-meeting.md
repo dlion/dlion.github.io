@@ -43,11 +43,11 @@ Le giornate sono passate quindi parlando di tutti gli argomenti ci venissero in 
 
 Durante queste giornate abbiamo avuto la possibilità di conoscerci, di scambiarci idee e conoscenze, di assistere a dei talk interessanti non solo dal punto di vista tecnico ma anche personale e aziendale. Giornate passate fra persone con in comune la voglia di imparare e contribuire per una realtà migliore, una realtà formata principalmente da persone con ideali, sogni ed obiettivi.
 
-![Varie](/image/meeting1.jpg)
+![Varie](/images/meeting1.jpg)
 
-![Varie](/image/meeting2.jpg)
+![Varie](/images/meeting2.jpg)
 
-![Varie](/image/meeting3.jpg)
+![Varie](/images/meeting3.jpg)
 
 Che dire, è stata una esperienza davvero piacevole, ci ha dato modo di conoscere i colleghi con cui giornalmente facciamo pair da remoto e di associare una faccia dietro quella notifica su Slack.
 
