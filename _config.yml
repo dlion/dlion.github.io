@@ -4,7 +4,7 @@ email:       domenicoleoneluciani@gmail.com
 author:      Domenico Luciani
 description: "Domenico Luciani |  DLion ~ Blog"
 baseurl:     ""
-url:         "https://dlion.it"
+url:         "https://dlion.github.io"
 date_format: "%-d %b, %Y"
 
 # Google services
